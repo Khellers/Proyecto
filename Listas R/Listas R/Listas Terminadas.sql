@@ -1581,3 +1581,6 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('119710476','Ronald','Ulate','Montero',5,'64815958','D'),
 ('119650250','Tatiana','Vega','Cháves',5,'72044620','D'),
 ('305660535','Dixon','Zúñiga','Mora',5,'72040877','D'); 
+
+
+--Krhyslers y GARITA trabajando
