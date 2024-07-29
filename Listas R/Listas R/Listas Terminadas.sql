@@ -47,7 +47,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305960647','NALEMY','SALAZAR','ZAMORA',null,'87104408','D'),
 ('121150759','ARIELA','SANABRIA','BARRIENTOS',null,'84388215','D'),
 ('120960960','ISAAC','SÁNCHEZ','RIVERA',null,'61644709','D'),
-('305970791','ISAI','VILLALOBOS','ROJAS',null,'87973182','D'),
+('305970791','ISAÍ','VILLALOBOS','ROJAS',null,'87973182','D'),
 ('121140503','ALLAN','VILLANUEVA','BARRIOS',null,'70091048','D'),
 ('305950694','AARON','ZUÑIGA','ROJAS',null,'88213477','D'),
 ('305980999','OSCAR','ZÚÑIGA','CALDERÓN',null,'83977760','D'),
