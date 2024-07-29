@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject\\xpproject\\xpproject\\xpproject\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|solutionrelative:xpproject\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\xpproject\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|solutionrelative:xpproject\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\xpproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|solutionrelative:xpproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject\\xpproject\\xpproject\\xpproject\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|solutionrelative:xpproject\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\xpproject\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\xpproject\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|solutionrelative:xpproject\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\xpproject\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|solutionrelative:xpproject\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05D1213C-FEF4-4A8F-B37C-136C576CBB0D}|XPPROJECT\\XPPROJECT.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\xpproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Inicio.cshtml",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Views\\Home\\Inicio.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT\\Views\\Home\\Inicio.cshtml",
               "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Views\\Home\\Inicio.cshtml",
               "RelativeToolTip": "XPPROJECT\\Views\\Home\\Inicio.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBUAAADnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-24T20:46:09.936Z",
               "IsPinned": true,
@@ -56,15 +56,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "XPPROJECT\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "XPPROJECT\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwGMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T21:33:29.087Z"
+              "WhenOpened": "2024-07-24T21:33:29.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT\\Views\\Home\\Contact.cshtml",
@@ -88,11 +89,12 @@
               "RelativeToolTip": "XPPROJECT\\Views\\Home\\Contact.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T19:20:00.141Z"
+              "WhenOpened": "2024-07-24T19:20:00.141Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT\\Views\\Home\\About.cshtml",
@@ -100,7 +102,8 @@
               "RelativeToolTip": "XPPROJECT\\Views\\Home\\About.cshtml",
               "ViewState": "AQIAAJMAAAAAAAAAAAAwwLkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T19:19:59.028Z"
+              "WhenOpened": "2024-07-24T19:19:59.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -116,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT\\XPPROJECT\\XPPROJECT\\XPPROJECT\\Content\\bootstrap.css",
               "RelativeDocumentMoniker": "XPPROJECT\\Content\\bootstrap.css",
