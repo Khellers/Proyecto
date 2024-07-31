@@ -1,0 +1,185 @@
+﻿@{
+    ViewBag.Title = "Listas";
+}
+<main aria-labelledby="title">
+    <table class="ui celled structured table">
+        <thead>
+            <tr>
+                <th rowspan="2">Nombre</th>
+                <th rowspan="2">Primer Apellido</th>
+                <th rowspan="2">Segundo Apellido</th>
+                <th rowspan="3">Cédula</th>
+            </tr>
+            <tr>
+                <th>Presente</th>
+                <th>Ausente</th>
+                <th>Fuga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alpha Team</td>
+                <td>Project 1</td>
+                <td class="right aligned">2</td>
+                <td></td>
+                <td class="center aligned">
+
+                    <style>
+                        .dropdown {
+                            position: relative;
+                            display: inline-block;
+                        }
+
+                        .dropdown-content {
+                            display: none;
+                            position: absolute;
+                            background-color: #f9f9f9;
+                            min-width: 160px;
+                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                            padding: 12px 16px;
+                            z-index: 1;
+                        }
+
+                        .dropdown:hover .dropdown-content {
+                            display: block;
+                        }
+                    </style>
+
+                    <div class="dropdown">
+                        <span>
+                            <label class="container">
+                                <input type="checkbox" />
+                                <div class="checkmark"></div>
+                            </label>
+                        </span>
+                        <div class="dropdown-content">
+                            <p>
+                                Escriba el número de lecciones
+                                <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
+                                <button type="submit" class="btn btn-success">Enviar</button>
+                                <script>
+                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                        var keyCode = e.which || e.keyCode;
+                                        if (keyCode < 48 || keyCode > 57) {
+                                            e.preventDefault();
+                                        }
+                                    });
+                                </script>
+                            </p>
+                        </div>
+                    </div>
+
+                </td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Beta Team</td>
+                <td>Project 1</td>
+                <td class="right aligned">52</td>
+                <td>
+                </td>
+                <td class="center aligned">
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Project 2</td>
+                <td class="right aligned">12</td>
+                <td><asp:TextBox runat="server"></asp:TextBox></td>
+                <td></td>
+
+                <td class="center aligned">
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+
+                </td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Project 3</td>
+                <td class="right aligned">21</td>
+                <td></td>
+                <td></td>
+
+                <td class="center aligned">
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+                <td>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </td>
+            </tr>
+
+            @* ctrl+k+c *@
+        </tbody>
+
+    </table>
+    <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Anuncio</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button type="button" class="btn btn-success" onclick="hideOffcanvas()">No mostrar de nuevo</button>
+        </div>
+        <div class="offcanvas-body">
+            Recuerda escribir las lecciones presentes, ausentes o en fuga de cada estudiante.
+        </div>
+    </div>
+
+    <script>
+        function hideOffcanvas() {
+            document.getElementById("offcanvas").classList.remove("show");
+            document.getElementById("offcanvas").setAttribute("aria-hidden", "true");
+        }
+    </script>
+
