@@ -1,21 +1,29 @@
 create database Listas1
 use Listas1
 
+CREATE TABLE estudiantes (
+    cedula VARCHAR(15) PRIMARY KEY,
+    nombre VARCHAR(20),
+    primer_apellido VARCHAR(25),
+    segundo_apellido VARCHAR(25),
+    especialidad INT NULL,
+    CelularE VARCHAR(8),
+    CorreoE VARCHAR(100),
+    Nombre_Encargado VARCHAR(20),
+    Apellido_Encargado VARCHAR(25),
+    Apellido2_Encargado VARCHAR(25),
+    Numero_Encargado VARCHAR(8),
+    Correo_Encargado VARCHAR(100),
+    tipoEstudiante VARCHAR(1)
+);
 
-create table estudiantes(
-cedula varchar(15) primary key,
-nombre varchar (20),
-primer_apellido varchar (25),
-segundo_apellido varchar (25),
-especialidad int null,
-CelularE varchar(8),
-CorreoE varchar(100),
-Nombre_Encargado varchar(20),
-Apellido_Encargado varchar (25),
-Apellido2_Encargado varchar(25),
-Numero_Encargado varchar(8),
-Correo_Encargado varchar (100),
-tipoEstudiante varchar(1)
+CREATE TABLE Asistencia (
+    IdAsistencia INT PRIMARY KEY,
+    EstudianteCedula VARCHAR(15),
+    MaterialD INT,
+    Fecha DATE,
+    Estado VARCHAR(2),
+    CONSTRAINT FKEstudiantesCedula FOREIGN KEY (EstudianteCedula) REFERENCES estudiantes (cedula)
 );
 ---7-1
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
@@ -47,7 +55,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305960647','NALEMY','SALAZAR','ZAMORA',null,'87104408','D'),
 ('121150759','ARIELA','SANABRIA','BARRIENTOS',null,'84388215','D'),
 ('120960960','ISAAC','SÁNCHEZ','RIVERA',null,'61644709','D'),
-('305970791','ISAÍ','VILLALOBOS','ROJAS',null,'87973182','D'),
+('305970791','ISAI','VILLALOBOS','ROJAS',null,'87973182','D'),
 ('121140503','ALLAN','VILLANUEVA','BARRIOS',null,'70091048','D'),
 ('305950694','AARON','ZUÑIGA','ROJAS',null,'88213477','D'),
 ('305980999','OSCAR','ZÚÑIGA','CALDERÓN',null,'83977760','D'),
@@ -1581,6 +1589,3 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('119710476','Ronald','Ulate','Montero',5,'64815958','D'),
 ('119650250','Tatiana','Vega','Cháves',5,'72044620','D'),
 ('305660535','Dixon','Zúñiga','Mora',5,'72040877','D'); 
-
-
---Krhyslers y GARITA trabajando
