@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,19 +51,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Global.asax.cs",
+              "RelativeDocumentMoniker": "XPPROJECT2\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Global.asax.cs",
+              "RelativeToolTip": "XPPROJECT2\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:53:25.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\bootstrap.css",
               "RelativeDocumentMoniker": "XPPROJECT2\\Content\\bootstrap.css",
               "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\bootstrap.css",
               "RelativeToolTip": "XPPROJECT2\\Content\\bootstrap.css",
-              "ViewState": "AQIAAC4uAAAAAAAAAAAIwHExAAApAAAA",
+              "ViewState": "AQIAAC4uAAAAAAAAAAAIwHExAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-01T01:07:02.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\Index.cshtml",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "XPPROJECT2\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAKcBAAAAAAAAAAAowNABAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T21:52:35.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T21:52:35.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\Contact.cshtml",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Inicio.cshtml",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Inicio.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\Inicio.cshtml",
@@ -96,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
@@ -104,12 +120,11 @@
               "RelativeToolTip": "XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAiwBMAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T21:57:35.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T21:57:35.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "XPPROJECT2\\Controllers\\HomeController.cs",
@@ -121,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\About.cshtml",
@@ -133,13 +148,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Web.config",
               "RelativeDocumentMoniker": "XPPROJECT2\\Web.config",
               "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Web.config",
               "RelativeToolTip": "XPPROJECT2\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-07-29T21:51:54.418Z",
               "EditorCaption": ""
