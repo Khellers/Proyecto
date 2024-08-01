@@ -35,5 +35,13 @@ namespace XPPROJECT.Controllers
 
             return View();
         }
+
+        public ActionResult Estudiates()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
     }
 }
