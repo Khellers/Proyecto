@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JavaScript.js",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\JavaScript.js",
               "RelativeDocumentMoniker": "XPPROJECT2\\Content\\JavaScript.js",
@@ -62,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\bootstrap.css",
               "RelativeDocumentMoniker": "XPPROJECT2\\Content\\bootstrap.css",
               "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\bootstrap.css",
               "RelativeToolTip": "XPPROJECT2\\Content\\bootstrap.css",
-              "ViewState": "AQIAAJUAAAAAAAAAAADwv7MAAAABAAAA",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAcwKcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-01T01:07:02.611Z",
               "EditorCaption": ""
@@ -111,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Web.config",
               "RelativeDocumentMoniker": "XPPROJECT2\\Web.config",
