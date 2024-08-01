@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -106,8 +106,7 @@
               "RelativeToolTip": "XPPROJECT2\\Views\\Home\\Inicio.cshtml",
               "ViewState": "AQIAABMAAAAAAAAAAAAqwB8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-29T21:55:38.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T21:55:38.324Z"
             },
             {
               "$type": "Document",
@@ -153,7 +152,7 @@
               "RelativeDocumentMoniker": "XPPROJECT2\\Web.config",
               "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Web.config",
               "RelativeToolTip": "XPPROJECT2\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-07-29T21:51:54.418Z",
               "EditorCaption": ""
