@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - CTP MQS</title>
@@ -8,8 +10,17 @@
     <link rel="icon" href="\Scripts\Image\descargar-removebg-preview.png" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
+
 </head>
 <body>
+     @*<div class="loader" id="loader">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>*@ 
+
+
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark" style="background-color:seagreen">
         <div class="container">
             @Html.ActionLink(" ", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
@@ -27,6 +38,14 @@
                 </ul>
             </div>
         </div>
+        <system.web>
+            <authentication mode="Forms">
+                <forms loginUrl="~/Account/Login" timeout="2880" />
+            </authentication>
+            <authorization>
+                <deny users="?" />
+            </authorization>
+        </system.web>
     </nav>
     <div class="container body-content">
         @RenderBody()
@@ -39,6 +58,10 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    @*@Scripts.Render("~/Scripts/loader.js")*@
+
+
 
 </body>
+
 </html>
