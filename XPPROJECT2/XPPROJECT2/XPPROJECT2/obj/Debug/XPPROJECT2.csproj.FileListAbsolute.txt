@@ -322,3 +322,7 @@ C:\Users\CTPMQS\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\D
 C:\Users\CTPMQS\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\Debug\XPPROJECT2.csproj.Up2Date
 C:\Users\CTPMQS\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\Debug\XPPROJECT2.dll
 C:\Users\CTPMQS\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\Debug\XPPROJECT2.pdb
+C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\Debug\XPPROJECT2.csproj.AssemblyReference.cache
+C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\Debug\XPPROJECT2.csproj.CoreCompileInputs.cache
+C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\Debug\XPPROJECT2.dll
+C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT2\XPPROJECT2\XPPROJECT2\obj\Debug\XPPROJECT2.pdb
