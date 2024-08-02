@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -112,20 +112,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-02T02:23:42.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "XPPROJECT2\\Controllers\\HomeController.cs",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Web.config",
               "RelativeDocumentMoniker": "XPPROJECT2\\Web.config",
