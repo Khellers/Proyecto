@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\fam. l\u00F3pez quesada\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\fam. l\u00F3pez quesada\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,20 +35,16 @@
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\fam. l\u00F3pez quesada\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|c:\\users\\fam. l\u00F3pez quesada\\documents\\github\\proyecto\\xpproject2\\xpproject2\\xpproject2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\content\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\content\\javascript.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\xpproject2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88A44E83-FFC7-45A3-8FCA-C8E9DC68DA09}|XPPROJECT2\\XPPROJECT2.csproj|solutionrelative:xpproject2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,20 +58,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "XPPROJECT2\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T19:35:55.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Account\\Login.cshtml",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "XPPROJECT2\\Views\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-03T17:44:38.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "JavaScript.js",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\JavaScript.js",
               "RelativeDocumentMoniker": "XPPROJECT2\\Content\\JavaScript.js",
@@ -79,98 +96,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\bootstrap.css",
               "RelativeDocumentMoniker": "XPPROJECT2\\Content\\bootstrap.css",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Content\\bootstrap.css",
               "RelativeToolTip": "XPPROJECT2\\Content\\bootstrap.css",
-              "ViewState": "AQIAAJsAAAAAAAAAAADwv7UAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH0qAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-02T02:23:41.689Z"
+              "WhenOpened": "2024-08-02T02:23:41.689Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "XPPROJECT2\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKQBAAAAAAAAAAAAwNABAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-02T02:23:42.841Z"
+              "WhenOpened": "2024-08-02T02:23:42.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\Contact.cshtml",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "XPPROJECT2\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-08-02T02:23:42.855Z"
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T02:23:42.855Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Inicio.cshtml",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Inicio.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\Inicio.cshtml",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\Inicio.cshtml",
               "RelativeToolTip": "XPPROJECT2\\Views\\Home\\Inicio.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-08-02T02:23:42.859Z"
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAACsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T02:23:42.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "XPPROJECT2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAgwEAAAAAAAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-02T02:23:42.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "XPPROJECT2\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "XPPROJECT2\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T02:23:42.87Z"
+              "WhenOpened": "2024-08-02T02:23:42.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT2\\Views\\Home\\About.cshtml",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "XPPROJECT2\\Views\\Home\\About.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
-              "WhenOpened": "2024-08-02T02:23:42.873Z"
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-02T02:23:42.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Web.config",
               "RelativeDocumentMoniker": "XPPROJECT2\\Web.config",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT2\\XPPROJECT2\\XPPROJECT2\\Web.config",
               "RelativeToolTip": "XPPROJECT2\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-08-02T02:23:42.876Z",
               "EditorCaption": ""
