@@ -1206,7 +1206,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
 -------------------------------- 11-6a -------------------------------
-('120010941',	'Max'	,'Alvarez',	'Rodríguez',4,	'84712538','D'),
+('120010941',	'Max'	,'Alvarez',	'Rodríguez' ,4,	'84712538','D'),
 ('305720923'	,'Amanda Yuliana',	'Araya',4,	'Pineda',	'86250566','D'),
 ('305680502'	,'Brian',	'Betanco',	'Blandon',4,	'87652852','D'),
 ('119760312'	,'Dixiany'	,'Carpio'	,'Valenzuela',4	,'71579898' ,'D'),
