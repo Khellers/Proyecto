@@ -31,5 +31,11 @@ namespace XPPROJECT3.Controllers
 
             return View();
         }
+        public ActionResult ListaEst()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
