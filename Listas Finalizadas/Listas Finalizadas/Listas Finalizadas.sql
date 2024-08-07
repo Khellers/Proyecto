@@ -1525,7 +1525,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305620513','María','Rivera','Rojas',15,'72835246','D'),
 ('305670380','Sheilyn','Sánchez','Rodríguez',15,'87425720','D'),
 ('119390215','Diana','Valverde','Barrientos',15,'88212477','D'),
-('305630527','Mari Darisha','Watson','Castro',15,'60706893','D')];
+('305630527','Mari Darisha','Watson','Castro',15,'60706893','D');
 
 --12-6 B 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
