@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Listas1Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Asistencia">
+          <Key>
+            <PropertyRef Name="IdAsistencia" />
+          </Key>
+          <Property Name="IdAsistencia" Type="int" Nullable="false" />
+          <Property Name="EstudianteCedula" Type="varchar" MaxLength="15" />
+          <Property Name="MaterialD" Type="int" />
+          <Property Name="Fecha" Type="date" />
+          <Property Name="Estado" Type="varchar" MaxLength="2" />
+        </EntityType>
+        <EntityType Name="estudiantes">
+          <Key>
+            <PropertyRef Name="cedula" />
+          </Key>
+          <Property Name="cedula" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="20" />
+          <Property Name="primer_apellido" Type="varchar" MaxLength="25" />
+          <Property Name="segundo_apellido" Type="varchar" MaxLength="25" />
+          <Property Name="especialidad" Type="int" />
+          <Property Name="CelularE" Type="varchar" MaxLength="8" />
+          <Property Name="CorreoE" Type="varchar" MaxLength="100" />
+          <Property Name="Nombre_Encargado" Type="varchar" MaxLength="20" />
+          <Property Name="Apellido_Encargado" Type="varchar" MaxLength="25" />
+          <Property Name="Apellido2_Encargado" Type="varchar" MaxLength="25" />
+          <Property Name="Numero_Encargado" Type="varchar" MaxLength="8" />
+          <Property Name="Correo_Encargado" Type="varchar" MaxLength="100" />
+          <Property Name="tipoEstudiante" Type="varchar" MaxLength="1" />
+        </EntityType>
+        <Association Name="FKEstudiantesCedula">
+          <End Role="estudiantes" Type="Self.estudiantes" Multiplicity="0..1" />
+          <End Role="Asistencia" Type="Self.Asistencia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estudiantes">
+              <PropertyRef Name="cedula" />
+            </Principal>
+            <Dependent Role="Asistencia">
+              <PropertyRef Name="EstudianteCedula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Listas1ModelStoreContainer">
+          <EntitySet Name="Asistencia" EntityType="Self.Asistencia" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="estudiantes" EntityType="Self.estudiantes" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FKEstudiantesCedula" Association="Self.FKEstudiantesCedula">
+            <End Role="estudiantes" EntitySet="estudiantes" />
+            <End Role="Asistencia" EntitySet="Asistencia" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Listas1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Asistencia">
+          <Key>
+            <PropertyRef Name="IdAsistencia" />
+          </Key>
+          <Property Name="IdAsistencia" Type="Int32" Nullable="false" />
+          <Property Name="EstudianteCedula" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="MaterialD" Type="Int32" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+          <Property Name="Estado" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="estudiantes" Relationship="Self.FKEstudiantesCedula" FromRole="Asistencia" ToRole="estudiantes" />
+        </EntityType>
+        <EntityType Name="estudiantes">
+          <Key>
+            <PropertyRef Name="cedula" />
+          </Key>
+          <Property Name="cedula" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="primer_apellido" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="segundo_apellido" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="especialidad" Type="Int32" />
+          <Property Name="CelularE" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="CorreoE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Nombre_Encargado" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Apellido_Encargado" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="Apellido2_Encargado" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="Numero_Encargado" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+          <Property Name="Correo_Encargado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="tipoEstudiante" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Asistencia" Relationship="Self.FKEstudiantesCedula" FromRole="estudiantes" ToRole="Asistencia" />
+        </EntityType>
+        <Association Name="FKEstudiantesCedula">
+          <End Role="estudiantes" Type="Self.estudiantes" Multiplicity="0..1" />
+          <End Role="Asistencia" Type="Self.Asistencia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="estudiantes">
+              <PropertyRef Name="cedula" />
+            </Principal>
+            <Dependent Role="Asistencia">
+              <PropertyRef Name="EstudianteCedula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Listas1Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Asistencia" EntityType="Self.Asistencia" />
+          <EntitySet Name="estudiantes" EntityType="Self.estudiantes" />
+          <AssociationSet Name="FKEstudiantesCedula" Association="Self.FKEstudiantesCedula">
+            <End Role="estudiantes" EntitySet="estudiantes" />
+            <End Role="Asistencia" EntitySet="Asistencia" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Listas1ModelStoreContainer" CdmEntityContainer="Listas1Entities">
+          <EntitySetMapping Name="Asistencia">
+            <EntityTypeMapping TypeName="Listas1Model.Asistencia">
+              <MappingFragment StoreEntitySet="Asistencia">
+                <ScalarProperty Name="IdAsistencia" ColumnName="IdAsistencia" />
+                <ScalarProperty Name="EstudianteCedula" ColumnName="EstudianteCedula" />
+                <ScalarProperty Name="MaterialD" ColumnName="MaterialD" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="estudiantes">
+            <EntityTypeMapping TypeName="Listas1Model.estudiantes">
+              <MappingFragment StoreEntitySet="estudiantes">
+                <ScalarProperty Name="cedula" ColumnName="cedula" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="primer_apellido" ColumnName="primer_apellido" />
+                <ScalarProperty Name="segundo_apellido" ColumnName="segundo_apellido" />
+                <ScalarProperty Name="especialidad" ColumnName="especialidad" />
+                <ScalarProperty Name="CelularE" ColumnName="CelularE" />
+                <ScalarProperty Name="CorreoE" ColumnName="CorreoE" />
+                <ScalarProperty Name="Nombre_Encargado" ColumnName="Nombre_Encargado" />
+                <ScalarProperty Name="Apellido_Encargado" ColumnName="Apellido_Encargado" />
+                <ScalarProperty Name="Apellido2_Encargado" ColumnName="Apellido2_Encargado" />
+                <ScalarProperty Name="Numero_Encargado" ColumnName="Numero_Encargado" />
+                <ScalarProperty Name="Correo_Encargado" ColumnName="Correo_Encargado" />
+                <ScalarProperty Name="tipoEstudiante" ColumnName="tipoEstudiante" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
