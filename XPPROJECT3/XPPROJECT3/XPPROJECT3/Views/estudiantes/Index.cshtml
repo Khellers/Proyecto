@@ -13,7 +13,8 @@
 
 <!-- Campo de búsqueda -->
 <div>
-    <input type="text" id="searchInput" onkeyup="filterStudents()" placeholder="Buscar por nombre, primer apellido o segundo apellido" />
+    <input type="text" id="searchInput" placeholder="Buscar por nombre, primer apellido o segundo apellido" />
+    <button onclick="filterStudents()">Buscar</button>
 </div>
 
 <table class="table" id="studentsTable">
@@ -131,12 +132,12 @@
                                     <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
                                     <button type="submit" class="btn btn-success">Enviar</button>
                                     <script>
-                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
-                                        var keyCode = e.which || e.keyCode;
-                                        if (keyCode < 48 || keyCode > 57) {
-                                            e.preventDefault();
-                                        }
-                                    });
+                                        document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                            var keyCode = e.which || e.keyCode;
+                                            if (keyCode < 48 || keyCode > 57) {
+                                                e.preventDefault();
+                                            }
+                                        });
                                     </script>
                                 </p>
                             </div>
@@ -177,12 +178,12 @@
                                         <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
                                         <button type="submit" class="btn btn-success">Enviar</button>
                                         <script>
-                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
-                                        var keyCode = e.which || e.keyCode;
-                                        if (keyCode < 48 || keyCode > 57) {
-                                            e.preventDefault();
-                                        }
-                                    });
+                                            document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                                var keyCode = e.which || e.keyCode;
+                                                if (keyCode < 48 || keyCode > 57) {
+                                                    e.preventDefault();
+                                                }
+                                            });
                                         </script>
                                     </p>
                                 </div>
@@ -223,12 +224,12 @@
                                             <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
                                             <button type="submit" class="btn btn-success">Enviar</button>
                                             <script>
-                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
-                                        var keyCode = e.which || e.keyCode;
-                                        if (keyCode < 48 || keyCode > 57) {
-                                            e.preventDefault();
-                                        }
-                                    });
+                                                document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                                    var keyCode = e.which || e.keyCode;
+                                                    if (keyCode < 48 || keyCode > 57) {
+                                                        e.preventDefault();
+                                                    }
+                                                });
                                             </script>
                                         </p>
                                     </div>
@@ -238,8 +239,6 @@
         }
     </tbody>
 </table>
-
-
 
 <script>
     function hideOffcanvas() {
@@ -269,5 +268,3 @@
         }
     }
 </script>
-
-
