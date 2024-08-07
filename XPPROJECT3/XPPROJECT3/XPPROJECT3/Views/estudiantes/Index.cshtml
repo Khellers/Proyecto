@@ -10,7 +10,13 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+
+<!-- Campo de búsqueda -->
+<div>
+    <input type="text" id="searchInput" onkeyup="filterStudents()" placeholder="Buscar por nombre, primer apellido o segundo apellido" />
+</div>
+
+<table class="table" id="studentsTable">
     <thead>
         <tr>
             <th>
@@ -91,78 +97,177 @@
                 <td colspan="13">
                     <div>
                         <label>Presente</label>
-                        <input type="checkbox" />
-                        <div class="dropdown-content">
-                            <p>
-                                Escriba el número de lecciones
-                                <textarea rows="2" cols="20" style="color:seagreen"></textarea>
-                                <button type="submit" class="btn btn-success">Enviar</button>
-                            </p>
+                        <style>
+                            .dropdown {
+                                position: relative;
+                                display: inline-block;
+                            }
+
+                            .dropdown-content {
+                                display: none;
+                                position: absolute;
+                                background-color: #f9f9f9;
+                                min-width: 160px;
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                padding: 12px 16px;
+                                z-index: 1;
+                            }
+
+                            .dropdown:hover .dropdown-content {
+                                display: block;
+                            }
+                        </style>
+
+                        <div class="dropdown">
+                            <span>
+                                <label class="container">
+                                    <input type="checkbox" />
+                                    <div class="checkmark"></div>
+                                </label>
+                            </span>
+                            <div class="dropdown-content">
+                                <p>
+                                    Escriba el número de lecciones
+                                    <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
+                                    <button type="submit" class="btn btn-success">Enviar</button>
+                                    <script>
+                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                        var keyCode = e.which || e.keyCode;
+                                        if (keyCode < 48 || keyCode > 57) {
+                                            e.preventDefault();
+                                        }
+                                    });
+                                    </script>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <label>Ausente</label>
-                        <input type="checkbox" />
-                        <div class="dropdown-content">
-                            <p>
-                                Escriba el número de lecciones
-                                <textarea rows="2" cols="20" style="color:seagreen"></textarea>
-                                <button type="submit" class="btn btn-success">Enviar</button>
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <label>Fugas</label>
-                        <input type="checkbox" />
-                        <div class="dropdown-content">
-                            <p>
-                                Escriba el número de lecciones
-                                <textarea rows="2" cols="20" style="color:seagreen"></textarea>
-                                <button type="submit" class="btn btn-success">Enviar</button>
-                            </p>
-                        </div>
-                    </div>
+                        <div>
+                            <label>Ausente</label>
+                            <style>
+                                .dropdown {
+                                    position: relative;
+                                    display: inline-block;
+                                }
+
+                                .dropdown-content {
+                                    display: none;
+                                    position: absolute;
+                                    background-color: #f9f9f9;
+                                    min-width: 160px;
+                                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                    padding: 12px 16px;
+                                    z-index: 1;
+                                }
+
+                                .dropdown:hover .dropdown-content {
+                                    display: block;
+                                }
+                            </style>
+
+                            <div class="dropdown">
+                                <span>
+                                    <label class="container">
+                                        <input type="checkbox" />
+                                        <div class="checkmark"></div>
+                                    </label>
+                                </span>
+                                <div class="dropdown-content">
+                                    <p>
+                                        Escriba el número de lecciones
+                                        <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
+                                        <button type="submit" class="btn btn-success">Enviar</button>
+                                        <script>
+                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                        var keyCode = e.which || e.keyCode;
+                                        if (keyCode < 48 || keyCode > 57) {
+                                            e.preventDefault();
+                                        }
+                                    });
+                                        </script>
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <label>Fugas</label>
+                                <style>
+                                    .dropdown {
+                                        position: relative;
+                                        display: inline-block;
+                                    }
+
+                                    .dropdown-content {
+                                        display: none;
+                                        position: absolute;
+                                        background-color: #f9f9f9;
+                                        min-width: 160px;
+                                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                        padding: 12px 16px;
+                                        z-index: 1;
+                                    }
+
+                                    .dropdown:hover .dropdown-content {
+                                        display: block;
+                                    }
+                                </style>
+
+                                <div class="dropdown">
+                                    <span>
+                                        <label class="container">
+                                            <input type="checkbox" />
+                                            <div class="checkmark"></div>
+                                        </label>
+                                    </span>
+                                    <div class="dropdown-content">
+                                        <p>
+                                            Escriba el número de lecciones
+                                            <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
+                                            <button type="submit" class="btn btn-success">Enviar</button>
+                                            <script>
+                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                        var keyCode = e.which || e.keyCode;
+                                        if (keyCode < 48 || keyCode > 57) {
+                                            e.preventDefault();
+                                        }
+                                    });
+                                            </script>
+                                        </p>
+                                    </div>
+                                </div>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
-    <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasLabel">Anuncio</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        <button type="button" class="btn btn-success" onclick="hideOffcanvas()">No mostrar de nuevo</button>
-    </div>
-    <div class="offcanvas-body">
-        Recuerda escribir las lecciones presentes, ausentes o en fuga de cada estudiante.
-    </div>
-</div>
+
 
 <script>
     function hideOffcanvas() {
         document.getElementById("offcanvas").classList.remove("show");
         document.getElementById("offcanvas").setAttribute("aria-hidden", "true");
     }
+
+    function filterStudents() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("studentsTable");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 1; i < tr.length; i++) {
+            tr[i].style.display = "none";
+            td = tr[i].getElementsByTagName("td");
+            for (var j = 0; j < td.length; j++) {
+                if (td[j]) {
+                    txtValue = td[j].textContent || td[j].innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                        break;
+                    }
+                }
+            }
+        }
+    }
 </script>
 
-<style>
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
 
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
-        z-index: 1;
-    }
-
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-</style>
