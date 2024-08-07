@@ -48,7 +48,9 @@
         <th>
             @Html.DisplayNameFor(model => model.tipoEstudiante)
         </th>
-        <th></th>
+        <th>
+
+        </th>
     </tr>
 
 @foreach (var item in Model) {
@@ -90,9 +92,102 @@
             @Html.DisplayFor(modelItem => item.tipoEstudiante)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.cedula }) |
-            @Html.ActionLink("Details", "Details", new { id=item.cedula }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.cedula })
+            @Html.ActionLink("Edit", "Edit", new { id = item.cedula }) |
+            @Html.ActionLink("Details", "Details", new { id = item.cedula }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.cedula })
+        </td>
+        <td>
+            <style>
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    padding: 12px 16px;
+                    z-index: 1;
+                }
+
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+            </style>
+
+            <div class="dropdown">
+                <span>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </span>
+                <div class="dropdown-content">
+                    <p>
+                        Escriba el número de lecciones
+                        <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                        <script>
+                            document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                var keyCode = e.which || e.keyCode;
+                                if (keyCode < 48 || keyCode > 57) {
+                                    e.preventDefault();
+                                }
+                            });
+                        </script>
+                    </p>
+                </div>
+            </div>
+
+        </td>
+        <td>
+            <style>
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    padding: 12px 16px;
+                    z-index: 1;
+                }
+
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+            </style>
+
+            <div class="dropdown">
+                <span>
+                    <label class="container">
+                        <input type="checkbox" />
+                        <div class="checkmark"></div>
+                    </label>
+                </span>
+                <div class="dropdown-content">
+                    <p>
+                        Escriba el número de lecciones
+                        <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
+                        <button type="submit" class="btn btn-success">Enviar</button>
+                        <script>
+                            document.getElementById("TextArea").addEventListener("keypress", function (e) {
+                                var keyCode = e.which || e.keyCode;
+                                if (keyCode < 48 || keyCode > 57) {
+                                    e.preventDefault();
+                                }
+                            });
+                        </script>
+                    </p>
+                </div>
+            </div>
         </td>
     </tr>
 }
