@@ -12,7 +12,22 @@ namespace XPPROJECT3.Controllers
 {
     public class estudiantesController : Controller
     {
-        private Listas1Entities db = new Listas1Entities();
+        private Listas1Entities1 db = new Listas1Entities1();
+
+        [HttpPost]
+        public ActionResult SubmitAttendance(FormCollection collection)
+        {
+            foreach (var key in collection.AllKeys)
+            {
+                // Procesa cada clave (name) en el FormCollection
+                string value = collection[key];
+                // Lógica para guardar los datos recibidos
+            }
+
+            // Redirigir a la vista de índice o donde prefieras
+            return RedirectToAction("Index");
+        }
+
 
         // GET: estudiantes
         public ActionResult Index()
@@ -42,8 +57,8 @@ namespace XPPROJECT3.Controllers
         }
 
         // POST: estudiantes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
+        // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "cedula,nombre,primer_apellido,segundo_apellido,especialidad,CelularE,CorreoE,Nombre_Encargado,Apellido_Encargado,Apellido2_Encargado,Numero_Encargado,Correo_Encargado,tipoEstudiante")] estudiantes estudiantes)
@@ -74,8 +89,8 @@ namespace XPPROJECT3.Controllers
         }
 
         // POST: estudiantes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que quiere enlazarse. Para obtener 
+        // más detalles, vea https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "cedula,nombre,primer_apellido,segundo_apellido,especialidad,CelularE,CorreoE,Nombre_Encargado,Apellido_Encargado,Apellido2_Encargado,Numero_Encargado,Correo_Encargado,tipoEstudiante")] estudiantes estudiantes)
@@ -124,4 +139,6 @@ namespace XPPROJECT3.Controllers
             base.Dispose(disposing);
         }
     }
+ 
+
 }

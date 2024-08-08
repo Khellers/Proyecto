@@ -171,30 +171,30 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Asistencia.cs">
-      <DependentUpon>Estudiantes.tt</DependentUpon>
+      <DependentUpon>estudiantes.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\estudiantesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HorarioController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Estudiantes.Context.cs">
+    <Compile Include="estudiantes.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Estudiantes.Context.tt</DependentUpon>
+      <DependentUpon>estudiantes.Context.tt</DependentUpon>
     </Compile>
     <Compile Include="estudiantes.cs">
-      <DependentUpon>Estudiantes.tt</DependentUpon>
+      <DependentUpon>estudiantes.tt</DependentUpon>
     </Compile>
-    <Compile Include="Estudiantes.Designer.cs">
+    <Compile Include="estudiantes.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Estudiantes.edmx</DependentUpon>
+      <DependentUpon>estudiantes.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Estudiantes1.cs">
+    <Compile Include="estudiantes1.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Estudiantes.tt</DependentUpon>
+      <DependentUpon>estudiantes.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -223,15 +223,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="Estudiantes.Context.tt">
+    <Content Include="estudiantes.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Estudiantes.edmx</DependentUpon>
-      <LastGenOutput>Estudiantes.Context.cs</LastGenOutput>
+      <DependentUpon>estudiantes.edmx</DependentUpon>
+      <LastGenOutput>estudiantes.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Estudiantes.tt">
+    <Content Include="estudiantes.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Estudiantes.edmx</DependentUpon>
-      <LastGenOutput>Estudiantes1.cs</LastGenOutput>
+      <DependentUpon>estudiantes.edmx</DependentUpon>
+      <LastGenOutput>estudiantes1.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -247,12 +247,12 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Estudiantes.edmx">
+    <EntityDeploy Include="estudiantes.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Estudiantes.Designer.cs</LastGenOutput>
+      <LastGenOutput>estudiantes.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Estudiantes.edmx.diagram">
-      <DependentUpon>Estudiantes.edmx</DependentUpon>
+    <Content Include="estudiantes.edmx.diagram">
+      <DependentUpon>estudiantes.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\Image\descargar-removebg-preview.png" />
@@ -302,12 +302,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Inicio.cshtml" />
+    <Content Include="Views\Home\ListaEst.cshtml" />
     <Content Include="Views\estudiantes\Create.cshtml" />
     <Content Include="Views\estudiantes\Delete.cshtml" />
     <Content Include="Views\estudiantes\Details.cshtml" />
     <Content Include="Views\estudiantes\Edit.cshtml" />
     <Content Include="Views\estudiantes\Index.cshtml" />
-    <Content Include="Views\Home\ListaEst.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

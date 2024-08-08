@@ -100,7 +100,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="Listas1Entities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Listas1Entities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Asistencia" EntityType="Self.Asistencia" />
           <EntitySet Name="estudiantes" EntityType="Self.estudiantes" />
           <AssociationSet Name="FKEstudiantesCedula" Association="Self.FKEstudiantesCedula">
@@ -113,7 +113,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Listas1ModelStoreContainer" CdmEntityContainer="Listas1Entities">
+        <EntityContainerMapping StorageEntityContainer="Listas1ModelStoreContainer" CdmEntityContainer="Listas1Entities1">
           <EntitySetMapping Name="Asistencia">
             <EntityTypeMapping TypeName="Listas1Model.Asistencia">
               <MappingFragment StoreEntitySet="Asistencia">
@@ -161,7 +161,7 @@
         <DesignerProperty Name="EnablePluralization" Value="false" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="false" />
-        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->
