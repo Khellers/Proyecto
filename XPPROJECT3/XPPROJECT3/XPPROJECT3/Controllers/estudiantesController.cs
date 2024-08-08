@@ -10,11 +10,13 @@ using XPPROJECT3;
 
 namespace XPPROJECT3.Controllers
 {
+
     public class estudiantesController : Controller
     {
         private Listas1Entities1 db = new Listas1Entities1();
 
         [HttpPost]
+
         public ActionResult SubmitAttendance(FormCollection collection)
         {
             foreach (var key in collection.AllKeys)
@@ -139,6 +141,7 @@ namespace XPPROJECT3.Controllers
             base.Dispose(disposing);
         }
     }
- 
+
+
 
 }

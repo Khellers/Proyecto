@@ -5,14 +5,24 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Listas de Clase</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a href="@Url.Action("Create", "Estudiantes")" title="Añadir Estudiante">
+        <img src="~/Scripts/Image/add.png" alt="Añadir Estudiante" style="width:24px; height:24px;" />
+        
+    </a>
 </p>
 
-<form method="post" action="@Url.Action("SubmitAttendance", "estudiantes")">
-    <table class="table">
+
+<!-- Campo de búsqueda -->
+<div>
+    <input type="text" id="searchInput" placeholder="Buscar por nombre, apellido, cédula, etc." onkeyup="filterTable()" />
+    <button class="btn btn-primary">Buscar</button>
+</div>
+
+<form method="post" action="@Url.Action("SubmitAttendance", "Estudiantes")">
+    <table class="table" id="studentsTable">
         <thead>
             <tr>
                 <th>@Html.DisplayNameFor(model => model.cedula)</th>
@@ -38,7 +48,6 @@
                     <td>@Html.DisplayFor(modelItem => item.Numero_Encargado)</td>
                     <td>@Html.DisplayFor(modelItem => item.tipoEstudiante)</td>
 
-                    <!-- Checkbox para Presente -->
                     <td>
                         <label>
                             <input type="checkbox" name="presente_@item.cedula" /> Presente
@@ -46,7 +55,6 @@
                         <input type="text" name="lecciones_presente_@item.cedula" placeholder="Lecciones" style="width: 50px;" />
                     </td>
 
-                    <!-- Checkbox para Ausente -->
                     <td>
                         <label>
                             <input type="checkbox" name="ausente_@item.cedula" /> Ausente
@@ -54,7 +62,6 @@
                         <input type="text" name="lecciones_ausente_@item.cedula" placeholder="Lecciones" style="width: 50px;" />
                     </td>
 
-                    <!-- Checkbox para Fuga -->
                     <td>
                         <label>
                             <input type="checkbox" name="fuga_@item.cedula" /> Fuga
@@ -62,17 +69,48 @@
                         <input type="text" name="lecciones_fuga_@item.cedula" placeholder="Lecciones" style="width: 50px;" />
                     </td>
 
-                    <!-- Acciones de edición, detalles y eliminación -->
                     <td>
-                        @Html.ActionLink("Edit", "Edit", new { id = item.cedula }) |
-                        @Html.ActionLink("Details", "Details", new { id = item.cedula }) |
-                        @Html.ActionLink("Delete", "Delete", new { id = item.cedula })
+                        <a href="@Url.Action("Edit", "Estudiantes", new { id = item.cedula })" title="Editar">
+                            <img src="~/Scripts/Image/edit.png" alt="Editar" style="width:20px; height:20px;" />
+                        </a>
+
+                        <a href="@Url.Action("Details", "Estudiantes", new { id = item.cedula })" title="Detalles">
+                            <img src="~/Scripts/Image/info.png" alt="Detalles" style="width:20px; height:20px;" />
+                        </a>
+
+                        <a href="@Url.Action("Delete", "Estudiantes", new { id = item.cedula })" title="Eliminar">
+                            <img src="~/Scripts/Image/delete.png" alt="Eliminar" style="width:20px; height:20px;" />
+
+                        </a>
                     </td>
+
                 </tr>
             }
         </tbody>
     </table>
 
-    <!-- Botón para enviar el formulario -->
     <button type="submit" class="btn btn-primary">Enviar Resultados</button>
 </form>
+
+<script>
+    function filterTable() {
+        var input, filter, table, tr, td, i, j, txtValue;
+        input = document.getElementById("searchInput");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("studentsTable");
+        tr = table.getElementsByTagName("tr");
+
+        for (i = 1; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td");
+            for (j = 0; j < td.length; j++) {
+                if (td[j]) {
+                    txtValue = td[j].textContent || td[j].innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";  
+                        break;
+                    }
+                }
+            }
+        }
+    }
+</script>
