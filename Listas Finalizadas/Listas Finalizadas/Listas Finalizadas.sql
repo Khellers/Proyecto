@@ -65,6 +65,8 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305920082','ANDRÉ','VARGAS','AGUILAR',null,'83474986','D');
 
 
+
+
 --7-2---
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
@@ -103,6 +105,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('209470010','ZOE','QUIROS'	,'ESTRADA',NULL,'88187584','D'),
 ('121050470','JUAN JOSÉ','ESPINOZA','OBANDO',NULL,'72242407','D'),
 ('121180428','NOELIA','CONEJO',	'FERNANDEZ',NULL,'83090467','D');
+
 
 --7-3---
 
@@ -1207,7 +1210,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
 -------------------------------- 11-6a -------------------------------
 ('120010941',	'Max'	,'Alvarez',	'Rodríguez' ,4,	'84712538','D'),
-('305720923'	,'Amanda Yuliana',	'Araya',4,	'Pineda',	'86250566','D'),
+('305720923'	,'Amanda Yuliana',	'Araya', 'Pineda',4,'86250566','D'),
 ('305680502'	,'Brian',	'Betanco',	'Blandon',4,	'87652852','D'),
 ('119760312'	,'Dixiany'	,'Carpio'	,'Valenzuela',4	,'71579898' ,'D'),
 ('119960727'	,'Paris Michelle',	'Castrillo'	,'Pastran',4,	'87057295','D'),
@@ -1552,7 +1555,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('119460205','Alayne','Vílchez','Rojas',7,'83552662','D'); 
 
 --12-7 A
-Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
+Insert into estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
 
 ('119740443','Cristopher','Alvarado','Peña',9,'87079207','D'),
 ('305660902','Byron Josué','Benavides','Álvarez',9,'89151662','D'),
@@ -1571,7 +1574,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('119730177','Marlon','Vanhorm','Ramírez',9,'85411044','D'); 
 
 --12-7 B 
-Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
+Insert into estudiantes(cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
 
 ('119590093','Bayron','Castillo','Solano',5,'70618837','D'),
 ('208700239','Verónica','Chacón','Fonseca',5,'72814818','D'),
