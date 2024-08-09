@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<XPPROJECT3.estudiantes>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Listas de clase";
     Layout = "~/Views/Shared/_Layout.cshtml";
     var searchQuery = Request.QueryString["searchQuery"];
     var filteredModel = string.IsNullOrEmpty(searchQuery) ? Model : Model.Where(e =>
@@ -13,7 +13,7 @@
     );
 }
 
-<h2>Index</h2>
+<h2>Listas de clase</h2>
 
 <a href="@Url.Action("Create", "Estudiantes")" title="Añadir Estudiante">
     <img src="~/Scripts/Image/add.png" alt="Añadir Estudiante" style="width:24px; height:24px;" />
@@ -25,7 +25,7 @@
 
 <form method="get">
     <input type="text" name="searchQuery" value="@searchQuery" placeholder="Buscar estudiantes..." />
-    <button type="submit" class="btn btn-info">Buscar</button>
+    <button type="submit" class="btn" style="background-color: #8abbc8; color: white">Buscar</button>
 </form>
 
 <form method="post">
@@ -103,5 +103,5 @@
             </tr>
         }
     </table>
-    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <button type="submit" class="btn" style="background-color: #8abbc8; color: white">Guardar Cambios</button>
 </form>
