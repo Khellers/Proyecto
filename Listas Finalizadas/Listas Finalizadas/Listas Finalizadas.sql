@@ -40,7 +40,7 @@ CREATE TABLE Seccion (
 --Secciones 
 --7-1
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(71,'121160700'),
+(71,'121160700','Andres Segura Araya','2024'),
 
 
 ---7-1
