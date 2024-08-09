@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\",
+  "WorkspaceRootPath": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|c:\\users\\pc-101\\documents\\github\\proyecto\\horarios\\horarios\\views\\clases\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|solutionrelative:horarios\\views\\clases\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|c:\\users\\pc-07\\documents\\github\\proyecto\\horarios\\horarios\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|solutionrelative:horarios\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|solutionrelative:horarios\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|c:\\users\\pc-07\\documents\\github\\proyecto\\horarios\\horarios\\views\\clases\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|solutionrelative:horarios\\views\\clases\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|solutionrelative:horarios\\content\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{13E05099-9604-4956-A48A-28FBD98628F4}|horarios\\horarios.csproj|solutionrelative:horarios\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -26,23 +30,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Web.config",
+              "RelativeDocumentMoniker": "horarios\\Web.config",
+              "ToolTip": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Web.config*",
+              "RelativeToolTip": "horarios\\Web.config*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-09T13:24:04.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "bootstrap.css",
-              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Content\\bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Content\\bootstrap.css",
               "RelativeDocumentMoniker": "horarios\\Content\\bootstrap.css",
-              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Content\\bootstrap.css",
+              "ToolTip": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Content\\bootstrap.css",
               "RelativeToolTip": "horarios\\Content\\bootstrap.css",
               "ViewState": "AQIAAGoqAAAAAAAAAAAAAHwqAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -50,11 +59,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Views\\clases\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Views\\clases\\Index.cshtml",
               "RelativeDocumentMoniker": "horarios\\Views\\clases\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Views\\clases\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Views\\clases\\Index.cshtml",
               "RelativeToolTip": "horarios\\Views\\clases\\Index.cshtml",
               "ViewState": "AQIAAH4AAAAAAAAAAAAcwIUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -65,19 +74,20 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "clasesController.cs",
-              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Controllers\\clasesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Controllers\\clasesController.cs",
               "RelativeDocumentMoniker": "horarios\\Controllers\\clasesController.cs",
-              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Controllers\\clasesController.cs",
+              "ToolTip": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Controllers\\clasesController.cs",
               "RelativeToolTip": "horarios\\Controllers\\clasesController.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAI0AAAABAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T21:37:17.816Z"
+              "WhenOpened": "2024-08-08T21:37:17.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Modelo.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Modelo.edmx",
+              "DocumentMoniker": "C:\\Users\\PC-07\\Documents\\GitHub\\Proyecto\\horarios\\horarios\\Modelo.edmx",
               "RelativeDocumentMoniker": "horarios\\Modelo.edmx",
               "ToolTip": "C:\\Users\\AMD\\Desktop\\proyecto\\horarios\\horarios\\Modelo.edmx [Diagram1]",
               "RelativeToolTip": "..\\..\\..\\..\\..\\AMD\\Desktop\\proyecto\\horarios\\horarios\\Modelo.edmx [Diagram1]",
