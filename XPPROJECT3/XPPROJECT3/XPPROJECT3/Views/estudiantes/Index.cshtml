@@ -15,13 +15,17 @@
 
 <h2>Index</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+<a href="@Url.Action("Create", "Estudiantes")" title="Añadir Estudiante">
+    <img src="~/Scripts/Image/add.png" alt="Añadir Estudiante" style="width:24px; height:24px;" />
+
+</a>
+
+<br />
+<br />
 
 <form method="get">
     <input type="text" name="searchQuery" value="@searchQuery" placeholder="Buscar estudiantes..." />
-    <button type="submit" class="btn btn-secondary">Buscar</button>
+    <button type="submit" class="btn btn-info">Buscar</button>
 </form>
 
 <form method="post">
@@ -69,10 +73,33 @@
                 </td>
 
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.cedula }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.cedula }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.cedula })
+                    <a href="@Url.Action("Edit", new { id = item.cedula })" class="edit-link" title="Editar">
+                        <img src="~/Scripts/Image/edit.png" alt="Edit" />
+                    </a>
+                    |
+                    <a href="@Url.Action("Details", new { id = item.cedula })" class="details-link" title="Detalles">
+                        <img src="~/Scripts/Image/info.png" alt="Details" />
+                    </a>
+                    |
+                    <a href="@Url.Action("Delete", new { id = item.cedula })" class="delete-link" title="Eliminar">
+                        <img src="~/Scripts/Image/delete.png" alt="Delete" />
+                    </a>
                 </td>
+
+                <style>
+                    .edit-link img,
+                    .details-link img,
+                    .delete-link img {
+                        width: 16px;
+                        height: 16px;
+                        vertical-align: middle;
+                        margin-right: 5px;
+                    }
+
+                    .edit-link, .details-link, .delete-link {
+                        text-decoration: none;
+                    }
+                </style>
             </tr>
         }
     </table>
