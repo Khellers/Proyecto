@@ -37,6 +37,11 @@ CREATE TABLE Seccion (
     CONSTRAINT FKSeccioncedula FOREIGN KEY (cedula) REFERENCES estudiantes (cedula)
 );
 
+--Secciones 
+--7-1
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(71,'121160700'),
+
 
 ---7-1
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
