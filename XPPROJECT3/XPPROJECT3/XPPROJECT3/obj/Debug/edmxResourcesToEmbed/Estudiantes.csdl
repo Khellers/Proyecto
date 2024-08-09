@@ -42,7 +42,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="Listas1Entities1" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="Listas1Entities2" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Asistencia" EntityType="Self.Asistencia" />
     <EntitySet Name="estudiantes" EntityType="Self.estudiantes" />
     <AssociationSet Name="FKEstudiantesCedula" Association="Self.FKEstudiantesCedula">

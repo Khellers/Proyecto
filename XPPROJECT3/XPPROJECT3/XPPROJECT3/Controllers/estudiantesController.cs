@@ -13,7 +13,7 @@ namespace XPPROJECT3.Controllers
 
     public class estudiantesController : Controller
     {
-        private Listas1Entities1 db = new Listas1Entities1();
+        private Listas1Entities2 db = new Listas1Entities2();
 
         [HttpPost]
 
@@ -145,3 +145,5 @@ namespace XPPROJECT3.Controllers
 
 
 }
+
+
