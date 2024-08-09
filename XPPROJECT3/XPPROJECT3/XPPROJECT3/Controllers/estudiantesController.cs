@@ -17,6 +17,7 @@ namespace XPPROJECT3.Controllers
 
         [HttpPost]
 
+
         public ActionResult SubmitAttendance(FormCollection collection)
         {
             foreach (var key in collection.AllKeys)
@@ -145,5 +146,3 @@ namespace XPPROJECT3.Controllers
 
 
 }
-
-

@@ -1,61 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
+  "WorkspaceRootPath": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\estudiantes.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiantes.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\estudiantes.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiantes.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\estudiantes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiantes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\estudiantes.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiantes.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\listaest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\listaest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc 09\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc -19\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\listaest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\listaest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -71,126 +47,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "estudiantes.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.edmx",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Estudiantes.edmx",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.edmx [Diagram1]",
-              "RelativeToolTip": "XPPROJECT3\\Estudiantes.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-08-09T13:38:39.963Z",
-              "EditorCaption": " [Diagram1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "estudiantes.edmx.diagram",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.edmx.diagram",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Estudiantes.edmx.diagram",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.edmx.diagram",
-              "RelativeToolTip": "XPPROJECT3\\Estudiantes.edmx.diagram",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-08-09T13:35:42.467Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml*",
+              "RelativeToolTip": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T16:08:18.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "estudiantes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.Designer.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Estudiantes.Designer.cs",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.Designer.cs",
-              "RelativeToolTip": "XPPROJECT3\\Estudiantes.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T13:35:40.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "estudiantes.Context.tt",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.Context.tt",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Estudiantes.Context.tt",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.Context.tt",
-              "RelativeToolTip": "XPPROJECT3\\Estudiantes.Context.tt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-08-09T13:35:38.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Startup.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Startup.cs",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Startup.cs",
-              "RelativeToolTip": "XPPROJECT3\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T13:35:27.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Web.config",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Web.config",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Web.config",
-              "RelativeToolTip": "XPPROJECT3\\Web.config",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-09T13:29:03.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAiwFAAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-09T13:21:02.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "estudiantesController.cs",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
               "RelativeToolTip": "XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAIwCUAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T13:20:37.092Z",
+              "WhenOpened": "2024-08-09T16:07:41.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-08T22:27:23.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ListaEst.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -199,11 +98,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Inicio.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Inicio.cshtml",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\Inicio.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -212,39 +111,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 7,
               "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\Contact.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T22:27:22.791Z"
+              "WhenOpened": "2024-08-08T22:27:22.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\About.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T22:27:17.354Z"
+              "WhenOpened": "2024-08-08T22:27:17.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\PC 09\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\PC -19\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
               "RelativeToolTip": "XPPROJECT3\\Estudiante.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T22:26:38.405Z"
+              "WhenOpened": "2024-08-08T22:26:38.405Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -3,6 +3,14 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var searchQuery = Request.QueryString["searchQuery"];
+    var filteredModel = string.IsNullOrEmpty(searchQuery) ? Model : Model.Where(e =>
+        e.nombre.Contains(searchQuery) ||
+        e.primer_apellido.Contains(searchQuery) ||
+        e.segundo_apellido.Contains(searchQuery) ||
+        e.cedula.ToString().Contains(searchQuery) ||
+        e.cedula.ToString().Contains(searchQuery)
+    );
 }
 
 <h2>Index</h2>
@@ -10,91 +18,63 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.nombre)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.primer_apellido)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.segundo_apellido)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.especialidad)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CelularE)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CorreoE)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Nombre_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Apellido_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Apellido2_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Numero_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Correo_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.tipoEstudiante)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.primer_apellido)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.segundo_apellido)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.especialidad)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CelularE)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CorreoE)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nombre_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Apellido_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Apellido2_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Numero_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Correo_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.tipoEstudiante)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.cedula }) |
-            @Html.ActionLink("Details", "Details", new { id=item.cedula }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.cedula })
-        </td>
-    </tr>
-}
+<form method="get">
+    <input type="text" name="searchQuery" value="@searchQuery" placeholder="Buscar estudiantes..." />
+    <button type="submit" class="btn btn-secondary">Buscar</button>
+</form>
 
-</table>
+<form method="post">
+    <table class="table">
+        <tr>
+            <th> @Html.DisplayNameFor(model => model.nombre) </th>
+            <th> @Html.DisplayNameFor(model => model.primer_apellido) </th>
+            <th> @Html.DisplayNameFor(model => model.segundo_apellido) </th>
+            <th> @Html.DisplayNameFor(model => model.especialidad) </th>
+            <th> @Html.DisplayNameFor(model => model.cedula) </th>
+            <th> @Html.DisplayNameFor(model => model.Numero_Encargado) </th>
+            <th> @Html.DisplayNameFor(model => model.tipoEstudiante) </th>
+            <th> Asistencia y Lecciones </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in filteredModel)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre)
+                    <div>
+                        <!-- Radio Buttons for Attendance -->
+                        <label>
+                            <input type="radio" name="attendance[@item.cedula].estado" value="Presente" /> Presente
+                        </label><br />
+                        <label>
+                            <input type="radio" name="attendance[@item.cedula].estado" value="Ausente" /> Ausente
+                        </label><br />
+                        <label>
+                            <input type="radio" name="attendance[@item.cedula].estado" value="Fuga" /> Fuga
+                        </label>
+                    </div>
+                </td>
+                <td> @Html.DisplayFor(modelItem => item.primer_apellido) </td>
+                <td> @Html.DisplayFor(modelItem => item.segundo_apellido) </td>
+                <td> @Html.DisplayFor(modelItem => item.especialidad) </td>
+                <td> @Html.DisplayFor(modelItem => item.cedula) </td>
+                <td> @Html.DisplayFor(modelItem => item.Numero_Encargado) </td>
+                <td> @Html.DisplayFor(modelItem => item.tipoEstudiante) </td>
+
+                <!-- Textbox for Number of Lessons -->
+                <td>
+                    <input type="number" name="attendance[@item.cedula].numeroLecciones" min="0" max="12" placeholder="Número de lecciones" />
+                </td>
+
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.cedula }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.cedula }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.cedula })
+                </td>
+            </tr>
+        }
+    </table>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
