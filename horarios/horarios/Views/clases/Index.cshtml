@@ -1,0 +1,156 @@
+﻿@model Dictionary<string, List<horarios.clases>>
+
+@{
+    ViewBag.Title = "Horarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    /* General Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    h2, h3 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #343a40;
+    }
+
+    /* Table Styles */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 30px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    thead {
+        background-color: #343a40;
+        color: #ffffff;
+    }
+
+        thead th {
+            padding: 10px;
+            text-align: center;
+        }
+
+    tbody td {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #dee2e6;
+    }
+
+    /* Row Coloring */
+    tbody tr:nth-child(odd) {
+        background-color: #e9ecef;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+    /* Highlight specific rows (like current class) */
+    .highlight-row {
+        background-color: #ffd966;
+    }
+
+    /* Responsive Table */
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+        .table-responsive table {
+            min-width: 600px;
+        }
+
+    /* Button Styles */
+    .btn {
+        border: none;
+        padding: 5px 10px;
+        border-radius: 4px;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+        color: white;
+    }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+        }
+
+    .btn-info {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+        .btn-info:hover {
+            background-color: #138496;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+ 
+</style>
+
+<h2>Horarios</h2>
+
+@foreach (var seccion in Model.Keys)
+{
+    <h3>Sección @seccion</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var hora in ViewBag.Horas)
+            {
+                <tr>
+                    <td>@hora</td>
+                    @foreach (var dia in ViewBag.Dias)
+                    {
+                        var horaInicio = TimeSpan.Parse(hora.Split('-')[0].Trim());
+                        var clase = Model[seccion].FirstOrDefault(c => c.dia == dia && c.hora_inicio == horaInicio);
+                        <td>
+                            @if (clase != null)
+                            {
+                                @clase.asignatura
+                                <br />
+                                @clase.aula
+                            }
+                            else
+                            {
+                                @:--
+                            }
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<p>
+    @Html.ActionLink("Crear Nueva Clase", "Create") |
+    @Html.ActionLink("Editar Horario", "Edit", new { /* id=0 */ }) |
+    @Html.ActionLink("Eliminar Clase", "Delete", new { /* id=0 */ })
+</p>
