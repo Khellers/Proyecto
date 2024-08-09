@@ -5,7 +5,7 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="f9b34d65eca54ed7a1ac6ace62818f67" Name="Diagram1">
-        <EntityTypeShape EntityType="Listas1Model.Asistencia" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Listas1Model.Asistencia" Width="1.5" PointX="4.875" PointY="2.25" IsExpanded="true" />
         <EntityTypeShape EntityType="Listas1Model.estudiantes" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="Listas1Model.FKEstudiantesCedula" ManuallyRouted="false" />
       </Diagram>
