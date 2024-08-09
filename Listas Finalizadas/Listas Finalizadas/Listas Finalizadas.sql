@@ -14,7 +14,8 @@ CREATE TABLE estudiantes (
     Apellido2_Encargado VARCHAR(25),
     Numero_Encargado VARCHAR(8),
     Correo_Encargado VARCHAR(100),
-    tipoEstudiante VARCHAR(1)
+    tipoEstudiante VARCHAR(1),
+
 );
 
 CREATE TABLE Asistencia (
@@ -25,6 +26,18 @@ CREATE TABLE Asistencia (
     Estado VARCHAR(2),
     CONSTRAINT FKEstudiantesCedula FOREIGN KEY (EstudianteCedula) REFERENCES estudiantes (cedula)
 );
+
+CREATE TABLE Seccion (
+
+    IdSeccion INT,
+	cedula varchar(15),
+    ProfesorGuia VARCHAR(15),
+	año varchar(4),
+	primary key (IdSeccion,cedula,ProfesorGuia,año),
+    CONSTRAINT FKSeccioncedula FOREIGN KEY (cedula) REFERENCES estudiantes (cedula)
+);
+
+
 ---7-1
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
 ('121160700', 'COLETTE' ,'ABRAHAMS','MARIN',null,'83063126','D'),
