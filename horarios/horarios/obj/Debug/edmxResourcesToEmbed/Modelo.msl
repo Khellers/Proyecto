@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="horario_escolarModelStoreContainer" CdmEntityContainer="horario_escolarEntities">
+    <EntitySetMapping Name="clases">
+      <EntityTypeMapping TypeName="horario_escolarModel.clases">
+        <MappingFragment StoreEntitySet="clases">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dia" ColumnName="dia" />
+          <ScalarProperty Name="hora_inicio" ColumnName="hora_inicio" />
+          <ScalarProperty Name="hora_fin" ColumnName="hora_fin" />
+          <ScalarProperty Name="asignatura" ColumnName="asignatura" />
+          <ScalarProperty Name="aula" ColumnName="aula" />
+          <ScalarProperty Name="profesor" ColumnName="profesor" />
+          <ScalarProperty Name="seccion" ColumnName="seccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="profesoress">
+      <EntityTypeMapping TypeName="horario_escolarModel.profesoress">
+        <MappingFragment StoreEntitySet="profesoress">
+          <ScalarProperty Name="id_profesor" ColumnName="id_profesor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

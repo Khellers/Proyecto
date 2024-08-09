@@ -5,263 +5,108 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Listas de Clase</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    <a href="@Url.Action("Create", "Estudiantes")" title="Añadir Estudiante">
+        <img src="~/Scripts/Image/add.png" alt="Añadir Estudiante" style="width:24px; height:24px;" />
+        
+    </a>
 </p>
+
 
 <!-- Campo de búsqueda -->
 <div>
-    <input type="text" id="searchInput" onkeyup="filterStudents()" placeholder="Buscar por nombre, primer apellido o segundo apellido" />
+    <input type="text" id="searchInput" placeholder="Buscar por nombre, apellido, cédula, etc." onkeyup="filterTable()" />
+    <button class="btn btn-primary">Buscar</button>
 </div>
 
-<table class="table" id="studentsTable">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.primer_apellido)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.segundo_apellido)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.especialidad)
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Numero_Encargado)
-            </th>
-            <th>
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.tipoEstudiante)
-            </th>
-            <th>
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+<form method="post" action="@Url.Action("SubmitAttendance", "Estudiantes")">
+    <table class="table" id="studentsTable">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.nombre)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.primer_apellido)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.segundo_apellido)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.especialidad)
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Numero_Encargado)
-                </td>
-                <td>
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.tipoEstudiante)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.cedula }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.cedula }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.cedula })
-                </td>
+                <th>@Html.DisplayNameFor(model => model.cedula)</th>
+                <th>@Html.DisplayNameFor(model => model.nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.primer_apellido)</th>
+                <th>@Html.DisplayNameFor(model => model.segundo_apellido)</th>
+                <th>@Html.DisplayNameFor(model => model.Numero_Encargado)</th>
+                <th>@Html.DisplayNameFor(model => model.tipoEstudiante)</th>
+                <th>Presente</th>
+                <th>Ausente</th>
+                <th>Fuga</th>
+                <th>Acciones</th>
             </tr>
-            <tr>
-                <td colspan="13">
-                    <div>
-                        <label>Presente</label>
-                        <style>
-                            .dropdown {
-                                position: relative;
-                                display: inline-block;
-                            }
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.cedula)</td>
+                    <td>@Html.DisplayFor(modelItem => item.nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.primer_apellido)</td>
+                    <td>@Html.DisplayFor(modelItem => item.segundo_apellido)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Numero_Encargado)</td>
+                    <td>@Html.DisplayFor(modelItem => item.tipoEstudiante)</td>
 
-                            .dropdown-content {
-                                display: none;
-                                position: absolute;
-                                background-color: #f9f9f9;
-                                min-width: 160px;
-                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                                padding: 12px 16px;
-                                z-index: 1;
-                            }
+                    <td>
+                        <label>
+                            <input type="checkbox" name="presente_@item.cedula" /> Presente
+                        </label>
+                        <input type="text" name="lecciones_presente_@item.cedula" placeholder="Lecciones" style="width: 50px;" />
+                    </td>
 
-                            .dropdown:hover .dropdown-content {
-                                display: block;
-                            }
-                        </style>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="ausente_@item.cedula" /> Ausente
+                        </label>
+                        <input type="text" name="lecciones_ausente_@item.cedula" placeholder="Lecciones" style="width: 50px;" />
+                    </td>
 
-                        <div class="dropdown">
-                            <span>
-                                <label class="container">
-                                    <input type="checkbox" />
-                                    <div class="checkmark"></div>
-                                </label>
-                            </span>
-                            <div class="dropdown-content">
-                                <p>
-                                    Escriba el número de lecciones
-                                    <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
-                                    <button type="submit" class="btn btn-success">Enviar</button>
-                                    <script>
-                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
-                                        var keyCode = e.which || e.keyCode;
-                                        if (keyCode < 48 || keyCode > 57) {
-                                            e.preventDefault();
-                                        }
-                                    });
-                                    </script>
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <label>Ausente</label>
-                            <style>
-                                .dropdown {
-                                    position: relative;
-                                    display: inline-block;
-                                }
+                    <td>
+                        <label>
+                            <input type="checkbox" name="fuga_@item.cedula" /> Fuga
+                        </label>
+                        <input type="text" name="lecciones_fuga_@item.cedula" placeholder="Lecciones" style="width: 50px;" />
+                    </td>
 
-                                .dropdown-content {
-                                    display: none;
-                                    position: absolute;
-                                    background-color: #f9f9f9;
-                                    min-width: 160px;
-                                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                                    padding: 12px 16px;
-                                    z-index: 1;
-                                }
+                    <td>
+                        <a href="@Url.Action("Edit", "Estudiantes", new { id = item.cedula })" title="Editar">
+                            <img src="~/Scripts/Image/edit.png" alt="Editar" style="width:20px; height:20px;" />
+                        </a>
 
-                                .dropdown:hover .dropdown-content {
-                                    display: block;
-                                }
-                            </style>
+                        <a href="@Url.Action("Details", "Estudiantes", new { id = item.cedula })" title="Detalles">
+                            <img src="~/Scripts/Image/info.png" alt="Detalles" style="width:20px; height:20px;" />
+                        </a>
 
-                            <div class="dropdown">
-                                <span>
-                                    <label class="container">
-                                        <input type="checkbox" />
-                                        <div class="checkmark"></div>
-                                    </label>
-                                </span>
-                                <div class="dropdown-content">
-                                    <p>
-                                        Escriba el número de lecciones
-                                        <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
-                                        <button type="submit" class="btn btn-success">Enviar</button>
-                                        <script>
-                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
-                                        var keyCode = e.which || e.keyCode;
-                                        if (keyCode < 48 || keyCode > 57) {
-                                            e.preventDefault();
-                                        }
-                                    });
-                                        </script>
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <label>Fugas</label>
-                                <style>
-                                    .dropdown {
-                                        position: relative;
-                                        display: inline-block;
-                                    }
+                        <a href="@Url.Action("Delete", "Estudiantes", new { id = item.cedula })" title="Eliminar">
+                            <img src="~/Scripts/Image/delete.png" alt="Eliminar" style="width:20px; height:20px;" />
 
-                                    .dropdown-content {
-                                        display: none;
-                                        position: absolute;
-                                        background-color: #f9f9f9;
-                                        min-width: 160px;
-                                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                                        padding: 12px 16px;
-                                        z-index: 1;
-                                    }
+                        </a>
+                    </td>
 
-                                    .dropdown:hover .dropdown-content {
-                                        display: block;
-                                    }
-                                </style>
+                </tr>
+            }
+        </tbody>
+    </table>
 
-                                <div class="dropdown">
-                                    <span>
-                                        <label class="container">
-                                            <input type="checkbox" />
-                                            <div class="checkmark"></div>
-                                        </label>
-                                    </span>
-                                    <div class="dropdown-content">
-                                        <p>
-                                            Escriba el número de lecciones
-                                            <textarea id="TextArea" rows="2" cols="20" style="color:seagreen"></textarea>
-                                            <button type="submit" class="btn btn-success">Enviar</button>
-                                            <script>
-                                    document.getElementById("TextArea").addEventListener("keypress", function (e) {
-                                        var keyCode = e.which || e.keyCode;
-                                        if (keyCode < 48 || keyCode > 57) {
-                                            e.preventDefault();
-                                        }
-                                    });
-                                            </script>
-                                        </p>
-                                    </div>
-                                </div>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-
+    <button type="submit" class="btn btn-primary">Enviar Resultados</button>
+</form>
 
 <script>
-    function hideOffcanvas() {
-        document.getElementById("offcanvas").classList.remove("show");
-        document.getElementById("offcanvas").setAttribute("aria-hidden", "true");
-    }
-
-    function filterStudents() {
-        var input, filter, table, tr, td, i, txtValue;
+    function filterTable() {
+        var input, filter, table, tr, td, i, j, txtValue;
         input = document.getElementById("searchInput");
         filter = input.value.toUpperCase();
         table = document.getElementById("studentsTable");
         tr = table.getElementsByTagName("tr");
 
         for (i = 1; i < tr.length; i++) {
-            tr[i].style.display = "none";
             td = tr[i].getElementsByTagName("td");
-            for (var j = 0; j < td.length; j++) {
+            for (j = 0; j < td.length; j++) {
                 if (td[j]) {
                     txtValue = td[j].textContent || td[j].innerText;
                     if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                        tr[i].style.display = "";
+                        tr[i].style.display = "";  
                         break;
                     }
                 }
@@ -269,5 +114,3 @@
         }
     }
 </script>
-
-

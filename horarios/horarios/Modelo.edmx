@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="horario_escolarModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="clases">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="seccion" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="dia" Type="varchar" MaxLength="10" />
+          <Property Name="hora_inicio" Type="time" Precision="7" />
+          <Property Name="hora_fin" Type="time" Precision="7" />
+          <Property Name="asignatura" Type="int" />
+          <Property Name="aula" Type="varchar" MaxLength="10" />
+          <Property Name="profesor" Type="int" />
+          <Property Name="seccion" Type="varchar" MaxLength="6" Nullable="false" />
+        </EntityType>
+        <EntityType Name="profesoress">
+          <Key>
+            <PropertyRef Name="id_profesor" />
+          </Key>
+          <Property Name="id_profesor" Type="int" Nullable="false" />
+          <Property Name="nombre" Type="varchar" MaxLength="35" />
+        </EntityType>
+        <Association Name="FK_profesor">
+          <End Role="profesoress" Type="Self.profesoress" Multiplicity="0..1" />
+          <End Role="clases" Type="Self.clases" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="profesoress">
+              <PropertyRef Name="id_profesor" />
+            </Principal>
+            <Dependent Role="clases">
+              <PropertyRef Name="profesor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="horario_escolarModelStoreContainer">
+          <EntitySet Name="clases" EntityType="Self.clases" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="profesoress" EntityType="Self.profesoress" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_profesor" Association="Self.FK_profesor">
+            <End Role="profesoress" EntitySet="profesoress" />
+            <End Role="clases" EntitySet="clases" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="horario_escolarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="clases">
+          <Key>
+            <PropertyRef Name="id" />
+            <PropertyRef Name="seccion" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="dia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="hora_inicio" Type="Time" Precision="7" />
+          <Property Name="hora_fin" Type="Time" Precision="7" />
+          <Property Name="asignatura" Type="Int32" />
+          <Property Name="aula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="profesor" Type="Int32" />
+          <Property Name="seccion" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="profesoress" Relationship="Self.FK_profesor" FromRole="clases" ToRole="profesoress" />
+        </EntityType>
+        <EntityType Name="profesoress">
+          <Key>
+            <PropertyRef Name="id_profesor" />
+          </Key>
+          <Property Name="id_profesor" Type="Int32" Nullable="false" />
+          <Property Name="nombre" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="clases" Relationship="Self.FK_profesor" FromRole="profesoress" ToRole="clases" />
+        </EntityType>
+        <Association Name="FK_profesor">
+          <End Role="profesoress" Type="Self.profesoress" Multiplicity="0..1" />
+          <End Role="clases" Type="Self.clases" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="profesoress">
+              <PropertyRef Name="id_profesor" />
+            </Principal>
+            <Dependent Role="clases">
+              <PropertyRef Name="profesor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="horario_escolarEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="clases" EntityType="Self.clases" />
+          <EntitySet Name="profesoress" EntityType="Self.profesoress" />
+          <AssociationSet Name="FK_profesor" Association="Self.FK_profesor">
+            <End Role="profesoress" EntitySet="profesoress" />
+            <End Role="clases" EntitySet="clases" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="horario_escolarModelStoreContainer" CdmEntityContainer="horario_escolarEntities">
+          <EntitySetMapping Name="clases">
+            <EntityTypeMapping TypeName="horario_escolarModel.clases">
+              <MappingFragment StoreEntitySet="clases">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="dia" ColumnName="dia" />
+                <ScalarProperty Name="hora_inicio" ColumnName="hora_inicio" />
+                <ScalarProperty Name="hora_fin" ColumnName="hora_fin" />
+                <ScalarProperty Name="asignatura" ColumnName="asignatura" />
+                <ScalarProperty Name="aula" ColumnName="aula" />
+                <ScalarProperty Name="profesor" ColumnName="profesor" />
+                <ScalarProperty Name="seccion" ColumnName="seccion" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="profesoress">
+            <EntityTypeMapping TypeName="horario_escolarModel.profesoress">
+              <MappingFragment StoreEntitySet="profesoress">
+                <ScalarProperty Name="id_profesor" ColumnName="id_profesor" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
