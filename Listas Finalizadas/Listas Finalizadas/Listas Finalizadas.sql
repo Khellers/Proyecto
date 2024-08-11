@@ -62,6 +62,235 @@ INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 (111,'119840882','Karina Fonseca Miller','2024'),
 (111,'119840232','Karina Fonseca Miller','2024'),
 (111,'119870269','Karina Fonseca Miller','2024');
+--11-2
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+(112,'305750217','Ilena Fernandez Montero','2024'),
+(112,'119680392','Ilena Fernandez Montero','2024'),
+(112,'703350982','Ilena Fernandez Montero','2024'),
+(112,'119890675','Ilena Fernandez Montero','2024'),
+(112,'155850445032','Ilena Fernandez Montero','2024'),
+(112,'504700813','Ilena Fernandez Montero','2024'),
+(112,'120030336','Ilena Fernandez Montero','2024'),
+(112,'119940863','Ilena Fernandez Montero','2024'),
+(112,'119840422','Ilena Fernandez Montero','2024'),
+(112,'305630383','Ilena Fernandez Montero','2024'),
+(112,'119870387','Ilena Fernandez Montero','2024'),
+(112,'120020940','Ilena Fernandez Montero','2024'),
+(112,'120010785','Ilena Fernandez Montero','2024'),
+(112,'402750170','Ilena Fernandez Montero','2024'),
+(112,'305750213','Ilena Fernandez Montero','2024'),
+(112,'305720039','Ilena Fernandez Montero','2024'),
+(112,'119980749','Ilena Fernandez Montero','2024'),
+(112,'119880516','Ilena Fernandez Montero','2024'),
+(112,'120090993','Ilena Fernandez Montero','2024'),
+(112,'119980840','Ilena Fernandez Montero','2024');
+--11-3
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+(113,'305690906','Alejandro Jimenes Monje','2024'),
+(113,'120080395','Alejandro Jimenes Monje','2024'),
+(113,'305750152','Alejandro Jimenes Monje','2024'),
+(113,'120020541','Alejandro Jimenes Monje','2024'),
+(113,'120020079','Alejandro Jimenes Monje','2024'),
+(113,'305750246','Alejandro Jimenes Monje','2024'),
+(113,'119680992','Alejandro Jimenes Monje','2024'),
+(113,'1199101490','Alejandro Jimenes Monje','2024'),
+(113,'120060196','Alejandro Jimenes Monje','2024'),
+(113,'119840891','Alejandro Jimenes Monje','2024'),
+(113,'119830113','Alejandro Jimenes Monje','2024'),
+(113,'120050813','Alejandro Jimenes Monje','2024'),
+(113,'119940247','Alejandro Jimenes Monje','2024'),
+(113,'120080338','Alejandro Jimenes Monje','2024'),
+(113,'120020862','Alejandro Jimenes Monje','2024'),
+(113,'120030549','Alejandro Jimenes Monje','2024'),
+(113,'119970897','Alejandro Jimenes Monje','2024'),
+(113,'305720536','Alejandro Jimenes Monje','2024'),
+(113,'305710443','Alejandro Jimenes Monje','2024');
+--11-4
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+(114,'305630752','Olga Flores Unfried','2024'),
+(114,'119740098','Olga Flores Unfried','2024'),
+(114,'120060025','Olga Flores Unfried','2024'),
+(114,'305640538','Olga Flores Unfried','2024'),
+(114,'119520928','Olga Flores Unfried','2024'),
+(114,'119600209','Olga Flores Unfried','2024'),
+(114,'119810192','Olga Flores Unfried','2024'),
+(114,'120040931','Olga Flores Unfried','2024'),
+(114,'901210404','Olga Flores Unfried','2024'),
+(114,'305730664','Olga Flores Unfried','2024'),
+(114,'305700925','Olga Flores Unfried','2024'),
+(114,'305630275','Olga Flores Unfried','2024'),
+(114,'119830101','Olga Flores Unfried','2024');
+--11-5
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+------------------------------11-5A------------------------------
+(115,'119920843','Karina Fonseca Miller','2024'),
+(115,'119840415','Karina Fonseca Miller','2024'),
+(115,'119930311','Karina Fonseca Miller','2024'),
+(115,'305710817','Karina Fonseca Miller','2024'),
+(115,'305720204','Karina Fonseca Miller','2024'),
+(115,'120050389','Karina Fonseca Miller','2024'),
+(115,'119830089','Karina Fonseca Miller','2024'),
+(115,'119920083','Karina Fonseca Miller','2024'),
+(115,'208730865','Karina Fonseca Miller','2024'),
+(115,'120050006','Karina Fonseca Miller','2024'),
+(115,'119930274','Karina Fonseca Miller','2024'),
+
+------------------------------11-5B------------------------------
+(115,'305720592','Karina Fonseca Miller','2024'),
+(115,'305730315' ,'Karina Fonseca Miller','2024'),
+(115,'119840365','Karina Fonseca Miller','2024'),
+(115,'305690476','Karina Fonseca Miller','2024'),
+(115,'119960280','Karina Fonseca Miller','2024'),
+(115,'119940871','Karina Fonseca Miller','2024'),
+(115,'305680443','Karina Fonseca Miller','2024'),
+(115,'120080356','Karina Fonseca Miller','2024'),
+(115,'120080475','Karina Fonseca Miller','2024'),
+(115,'305710299','Karina Fonseca Miller','2024'),
+(115,'119830690','Karina Fonseca Miller','2024'),
+(115,'120050573','Karina Fonseca Miller','2024'),
+(115,'119820028','Karina Fonseca Miller','2024'),
+(115,'119850230','Karina Fonseca Miller','2024'),
+(115,'119980722','Karina Fonseca Miller','2024'),
+(115,'119930234','Karina Fonseca Miller','2024');
+--11-6
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+-------------------------------- 11-6a -------------------------------
+(116,'120010941','Astrid Carolina Quiros Granados','2024'),
+(116,'305720923','Astrid Carolina Quiros Granados','2024'),
+(116,'305680502','Astrid Carolina Quiros Granados','2024'),
+(116,'119760312','Astrid Carolina Quiros Granados','2024'),
+(116,'119960727','Astrid Carolina Quiros Granados','2024'),
+(116,'186201318936','Astrid Carolina Quiros Granados','2024'),
+(116,'305710824','Astrid Carolina Quiros Granados','2024'),
+(116,'119920460','Astrid Carolina Quiros Granados','2024'),
+(116,'119950757','Astrid Carolina Quiros Granados','2024'),
+(116,'119880919','Astrid Carolina Quiros Granados','2024'),
+(116,'305620446','Astrid Carolina Quiros Granados','2024'),
+(116,'120040025','Astrid Carolina Quiros Granados','2024'),
+(116,'801440564','Astrid Carolina Quiros Granados','2024'),
+(116,'120020532','Astrid Carolina Quiros Granados','2024'),
+(116,'119820644','Astrid Carolina Quiros Granados','2024'),
+(116,'305720609','Astrid Carolina Quiros Granados','2024'),
+------------------------------  11-6b -------------------------------------------
+(116,'119990159','Astrid Carolina Quiros Granados','2024'),
+(116,'119830371','Astrid Carolina Quiros Granados','2024'),
+(116,'119830685','Astrid Carolina Quiros Granados','2024'),
+(116,'120040512','Astrid Carolina Quiros Granados','2024'),
+(116,'119950681','Astrid Carolina Quiros Granados','2024'),
+(116,'305660145','Astrid Carolina Quiros Granados','2024'),
+(116,'305710275','Astrid Carolina Quiros Granados','2024'),
+(116,'119540137','Astrid Carolina Quiros Granados','2024'),
+(116,'120060426','Astrid Carolina Quiros Granados','2024'),
+(116,'119940250','Astrid Carolina Quiros Granados','2024'),
+(116,'305730299','Astrid Carolina Quiros Granados','2024'),
+(116,'305700721','Astrid Carolina Quiros Granados','2024'),
+(116,'155832378033','Astrid Carolina Quiros Granados','2024'),
+(116,'119970152','Astrid Carolina Quiros Granados','2024');
+--11-7
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+---------------------------------11-7 A-----------------------------------------------
+(117,'1119520333','Jeilen Morales Perez','2024'),
+(117,'305720823','Jeilen Morales Perez','2024'),
+(117,'119970093','Jeilen Morales Perez','2024'),
+(117,'119830430','Jeilen Morales Perez','2024'),
+(117,'305750559','Jeilen Morales Perez','2024'),
+(117,'119620526','Jeilen Morales Perez','2024'),
+(117,'305620103','Jeilen Morales Perez','2024'),
+(117,'305720063','Jeilen Morales Perez','2024'),
+(117,'305650531','Jeilen Morales Perez','2024'),
+(117,'119990247','Jeilen Morales Perez','2024'),
+(117,'305740422','Jeilen Morales Perez','2024'),
+(117,'119840924','Jeilen Morales Perez','2024'),
+(117,'119870281','Jeilen Morales Perez','2024'),
+(117,'119910356','Jeilen Morales Perez','2024'),
+(117,'119960934','Jeilen Morales Perez','2024'),
+(117,'305720043','Jeilen Morales Perez','2024'),
+(117,'119980682','Jeilen Morales Perez','2024'),
+(117,'119920036','Jeilen Morales Perez','2024'), 
+
+---------------------------------11-7 B---------------------------------------------------------
+(117,'305700279','Jeilen Morales Perez','2024'),
+(117,'120070600','Jeilen Morales Perez','2024'),
+(117,'119900157','Jeilen Morales Perez','2024'),
+(117,'402760832','Jeilen Morales Perez','2024'),
+(117,'119930137','Jeilen Morales Perez','2024'),
+(117,'305710873','Jeilen Morales Perez','2024'),
+(117,'120020470','Jeilen Morales Perez','2024'),
+(117,'119900435','Jeilen Morales Perez','2024'),
+(117,'801260786','Jeilen Morales Perez','2024'),
+(117,'119840919','Jeilen Morales Perez','2024'),
+(117,'305720588','Jeilen Morales Perez','2024');
+--11-8
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+---------------------------------11-8 A----------------------------------------------------------
+('305740074'),
+('119970467'),
+('119900057'),
+('305700711'),
+('119870169'),
+('305730467'),
+('120080446'),
+
+('120000178'),
+('119930694'),
+('305750228'),
+('305710686'),
+('305720953'),
+('119880392'),
+
+-----------------------------------11-8 B---------------------------------------------------
+('119570521'),
+('119930115'),
+('305620393'),
+('119830075'),
+('305640158','Jimena','Hernández','Serrano',5,'87550644','D'),
+('119700376','Johan','Hernández','López',5,'89575328','D'),
+('120010831','Jason Daniel','Mena','Vasquez',5,'72943685','D'),
+('120000390','Ezequiel','Monge','Badilla',5,'71607864','D'),
+('305670072','Christopher Gabriel','Mora','Sánchez',5,'70142625','D'),
+('120020387','Anthony José','Ramírez','Zeledón',5,'87396406','D'),
+('119360121','Anthony Josué','Salazar','Corrales',5,'89604869','D'),
+('119990617','Milena','Vilchez','Rojas',5,'83552662','D'),
+('120060189','Allison','Zelaya','Mendiola',5,'61744645','D'),
+('119650883','Jocksan','Zeledon','Montero',5,'71963927','D');
+
+--11-9
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+-------------------------------11-9 A-----------------------------------------------------------
+('119430437','Andrey','Calderon','Alvarez',7,'84012153','D'),
+('305730352','Dayan','Delgado','Salas',7,'72561567','D'),
+('119830685','Emily','Fernández','Cordero',7,'87194189','D'),
+('305740070','Kristel Michelle','Martinez','Sandoval',7,'22780303','D'),
+('305700094','Anderson','Muñoz','Linares',7,'60184030','D'),
+('305740188','Germajones','Peña','Cornejo',7,'87593430','D'),
+('305720408','Christopher','Peraza','Aguilar',7,'70785689','D'),
+('305730121','Saici Tatiana','Quesada','Moreno',7,'63874227','D'),
+('305710275','María Paula','Rojas','Vega',7,'70193056','D'),
+('119600682','Dennis Matías','Salas','Hernández',7,'88084796','D'),
+('119720962','Asley','Sanabria','Soto',7,'64102553','D'),
+('120090839','Génesis','Solano','Campos',7,'62676511','D'),
+('120020562','Andrew Gabriel','Ureña','Cambronero',7,'89604633','D'),
+('305730023','Daniel Ricardo','Zumbado','Azofeifa',7,'85592669','D');
+
+--------------------------------11-9 B-----------------------------------------------------
+('120020505','Jill Fiorella','Alpizar','Viachica',12,'70700119','D'),
+('119950787','Danae','Barcenas','Montero',12,'83625543','D'),
+('119990269','Alejandra Tamara','Calvo','Reyes',12,'86542058','D'),
+('119860377','Ismael','Castro','Aguilar',12,'71124408','D'),
+('119960644','Dylan','Delgado','Granados',12,'88488435','D'),
+('119870392','Rechell','Flores','Largaepsada',12,'87545482','D'),
+('119890508','Valeska Sabrina','Garro','Meneses',12,'85901501','D'),
+('119860952','Dariana','Luna','Campos',12,'61084380','D'),
+('305740638','Alexa','Luna','Pinto',12,'86149434','D'),
+('119910658','Josué Arturo','Mesén','Góchez',12,'88313426','D'),
+('120060231','Andrey Manuel','Monge','Céspedes',12,'70033857','D'),
+('305750516','Nidia Alana','Ortega','Conejo',12,'25182150','D'),
+('119890681','Aynara','Ramirez','Murillo',12,'72954800','D'),
+
+('119930234','Santiago Alonso','Solano','Garro',12,'87047635','D'),
+('703280843','Jimena','Valerio','Fonseca',12,'89630757','D');
+
+
 
 
 ---7-1
