@@ -40,7 +40,28 @@ CREATE TABLE Seccion (
 --Secciones 
 --7-1
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(71,'121160700','Andres Segura Araya','2024'),
+(71,'121160700','Andres Segura Araya','2024');
+--11-1
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+(111,'120040219','Karina Fonseca Miller','2024'),
+(111,'305710609','Karina Fonseca Miller','2024'),
+(111,'120060425','Karina Fonseca Miller','2024'),
+(111,'119640612','Karina Fonseca Miller','2024'),
+(111,'119920020','Karina Fonseca Miller','2024'),
+(111,'119990004','Karina Fonseca Miller','2024'),
+(111,'119930406','Karina Fonseca Miller','2024'),
+(111,'119950359','Karina Fonseca Miller','2024'),
+(111,'305700745','Karina Fonseca Miller','2024'),
+(111,'120070051','Karina Fonseca Miller','2024'),
+(111,'120080037','Karina Fonseca Miller','2024'),
+(111,'119990841','Karina Fonseca Miller','2024'),
+(111,'120040946','Karina Fonseca Miller','2024'),
+(111,'119830774','Karina Fonseca Miller','2024'),
+(111,'120030337','Karina Fonseca Miller','2024'),
+(111,'119790998','Karina Fonseca Miller','2024'),
+(111,'119840882','Karina Fonseca Miller','2024'),
+(111,'119840232','Karina Fonseca Miller','2024'),
+(111,'119870269','Karina Fonseca Miller','2024');
 
 
 ---7-1
