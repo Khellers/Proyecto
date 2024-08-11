@@ -256,38 +256,37 @@ INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 --11-9
 INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 -------------------------------11-9 A-----------------------------------------------------------
-('119430437','Andrey','Calderon','Alvarez',7,'84012153','D'),
-('305730352','Dayan','Delgado','Salas',7,'72561567','D'),
-('119830685','Emily','Fernández','Cordero',7,'87194189','D'),
-('305740070','Kristel Michelle','Martinez','Sandoval',7,'22780303','D'),
-('305700094','Anderson','Muñoz','Linares',7,'60184030','D'),
-('305740188','Germajones','Peña','Cornejo',7,'87593430','D'),
-('305720408','Christopher','Peraza','Aguilar',7,'70785689','D'),
-('305730121','Saici Tatiana','Quesada','Moreno',7,'63874227','D'),
-('305710275','María Paula','Rojas','Vega',7,'70193056','D'),
-('119600682','Dennis Matías','Salas','Hernández',7,'88084796','D'),
-('119720962','Asley','Sanabria','Soto',7,'64102553','D'),
-('120090839','Génesis','Solano','Campos',7,'62676511','D'),
-('120020562','Andrew Gabriel','Ureña','Cambronero',7,'89604633','D'),
-('305730023','Daniel Ricardo','Zumbado','Azofeifa',7,'85592669','D');
+(119,'119430437','Gerardo Sibaja Salguero','2024'),
+(119,'305730352','Gerardo Sibaja Salguero','2024'),
+(119,'119830685','Gerardo Sibaja Salguero','2024'),
+(119,'305740070','Gerardo Sibaja Salguero','2024'),
+(119,'305700094','Gerardo Sibaja Salguero','2024'),
+(119,'305740188','Gerardo Sibaja Salguero','2024'),
+(119,'305720408','Gerardo Sibaja Salguero','2024'),
+(119,'305730121','Gerardo Sibaja Salguero','2024'),
+(119,'305710275','Gerardo Sibaja Salguero','2024'),
+(119,'119600682','Gerardo Sibaja Salguero','2024'),
+(119,'119720962','Gerardo Sibaja Salguero','2024'),
+(119,'120090839','Gerardo Sibaja Salguero','2024'),
+(119,'120020562','Gerardo Sibaja Salguero','2024'),
+(119,'305730023','Gerardo Sibaja Salguero','2024'),
 
 --------------------------------11-9 B-----------------------------------------------------
-('120020505','Jill Fiorella','Alpizar','Viachica',12,'70700119','D'),
-('119950787','Danae','Barcenas','Montero',12,'83625543','D'),
-('119990269','Alejandra Tamara','Calvo','Reyes',12,'86542058','D'),
-('119860377','Ismael','Castro','Aguilar',12,'71124408','D'),
-('119960644','Dylan','Delgado','Granados',12,'88488435','D'),
-('119870392','Rechell','Flores','Largaepsada',12,'87545482','D'),
-('119890508','Valeska Sabrina','Garro','Meneses',12,'85901501','D'),
-('119860952','Dariana','Luna','Campos',12,'61084380','D'),
-('305740638','Alexa','Luna','Pinto',12,'86149434','D'),
-('119910658','Josué Arturo','Mesén','Góchez',12,'88313426','D'),
-('120060231','Andrey Manuel','Monge','Céspedes',12,'70033857','D'),
-('305750516','Nidia Alana','Ortega','Conejo',12,'25182150','D'),
-('119890681','Aynara','Ramirez','Murillo',12,'72954800','D'),
-
-('119930234','Santiago Alonso','Solano','Garro',12,'87047635','D'),
-('703280843','Jimena','Valerio','Fonseca',12,'89630757','D');
+(119,'120020505','Gerardo Sibaja Salguero','2024'),
+(119,'119950787','Gerardo Sibaja Salguero','2024'),
+(119,'119990269','Gerardo Sibaja Salguero','2024'),
+(119,'119860377','Gerardo Sibaja Salguero','2024'),
+(119,'119960644','Gerardo Sibaja Salguero','2024'),
+(119,'119870392','Gerardo Sibaja Salguero','2024'),
+(119,'119890508','Gerardo Sibaja Salguero','2024'),
+(119,'119860952','Gerardo Sibaja Salguero','2024'),
+(119,'305740638','Gerardo Sibaja Salguero','2024'),
+(119,'119910658','Gerardo Sibaja Salguero','2024'),
+(119,'120060231','Gerardo Sibaja Salguero','2024'),
+(119,'305750516','Gerardo Sibaja Salguero','2024'),
+(119,'119890681','Gerardo Sibaja Salguero','2024'),
+(119,'119930234','Gerardo Sibaja Salguero','2024'),
+(119,'703280843','Gerardo Sibaja Salguero','2024');
 
 
 
