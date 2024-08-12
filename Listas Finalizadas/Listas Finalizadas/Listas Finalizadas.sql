@@ -2644,38 +2644,6 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('120060189','Allison','Zelaya','Mendiola',5,'61744645','D'),
 ('119650883','Jocksan','Zeledon','Montero',5,'71963927','D');
 
---11-8
-INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
----------------------------------11-8 A----------------------------------------------------------
-(119,'305740074','Andres Segura Araya','2024'),
-(119,'119970467','Andres Segura Araya','2024'),
-(119,'119900057','Andres Segura Araya','2024'),
-(119,'305700711','Andres Segura Araya','2024'),
-(119,'119870169','Andres Segura Araya','2024'),
-(119,'305730467','Andres Segura Araya','2024'),
-(119,'120080446','Andres Segura Araya','2024'),
-(119,'120000178','Andres Segura Araya','2024'),
-(119,'119930694','Andres Segura Araya','2024'),
-(119,'305750228','Andres Segura Araya','2024'),
-(119,'305710686','Andres Segura Araya','2024'),
-(119,'305720953','Andres Segura Araya','2024'),
-(119,'119880392','Andres Segura Araya','2024'),
-
------------------------------------11-8 B---------------------------------------------------
-(119,'119570521','Andres Segura Araya','2024'),
-(119,'119930115','Andres Segura Araya','2024'),
-(119,'305620393','Andres Segura Araya','2024'),
-(119,'119830075','Andres Segura Araya','2024'),
-(119,'305640158','Andres Segura Araya','2024'),
-(119,'119700376','Andres Segura Araya','2024'),
-(119,'120010831','Andres Segura Araya','2024'),
-(119,'120000390','Andres Segura Araya','2024'),
-(119,'305670072','Andres Segura Araya','2024'),
-(119,'120020387','Andres Segura Araya','2024'),
-(119,'119360121','Andres Segura Araya','2024'),
-(119,'119990617','Andres Segura Araya','2024'),
-(119,'120060189','Andres Segura Araya','2024'),
-(119,'119650883','Andres Segura Araya','2024');
 
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
