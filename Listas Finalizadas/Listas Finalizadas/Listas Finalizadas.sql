@@ -38,325 +38,7 @@ CREATE TABLE Seccion (
 );
 
 --Secciones 
---7-1
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-<<<<<<< HEAD
-(71,'121160700','Andres Segura Araya','2024');
 
-(108A,'','  ','2024');
---10-1
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(101,'120300536','Nancy Sequeira Chacón','2024');
-(101,'119890787','Nancy Sequeira Chacón','2024');
-(101,'120150167','Nancy Sequeira Chacón','2024');
-(101,'120260161','Nancy Sequeira Chacón','2024');
-(101,'305760397','Nancy Sequeira Chacón','2024');
-(101,'305750403','Nancy Sequeira Chacón','2024');
-(101,'119520424','Nancy Sequeira Chacón','2024');
-(101,'120190200','Nancy Sequeira Chacón','2024');
-(101,'120220406','Nancy Sequeira Chacón','2024');
-(101,'120380540','Nancy Sequeira Chacón','2024');
-(101,'120190361','Nancy Sequeira Chacón','2024');
-(101,'120170498','Nancy Sequeira Chacón','2024');
-(101,'305780981','Nancy Sequeira Chacón','2024');
-(101,'305770992','Nancy Sequeira Chacón','2024');
-(101,'305770346','Nancy Sequeira Chacón','2024');
-(101,'120120995','Nancy Sequeira Chacón','2024');
-(101,'120360271','Nancy Sequeira Chacón','2024');
-(101,'120160389','Nancy Sequeira Chacón','2024');
-(101,'305810166','Nancy Sequeira Chacón','2024');
-(101,'120210895','Nancy Sequeira Chacón','2024');
-(101,'120370200','Nancy Sequeira Chacón','2024');
-(101,'305720638','Nancy Sequeira Chacón','2024');
-(101,'305730588','Nancy Sequeira Chacón','2024');
-(101,'305620645','Nancy Sequeira Chacón','2024');
-
-
---10-2
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(102,'119590925','Carmen Loría','2024');
-(102,'120050772','Carmen Loría','2024');
-(102,'120010350','Carmen Loría','2024');
-(102,'305800508','Carmen Loría','2024');
-(102,'120330056','Carmen Loría','2024');
-(102,'120150668','Carmen Loría','2024');
-(102,'120400310','Carmen Loría','2024');
-(102,'209040515','Carmen Loría','2024');
-(102,'120250740','Carmen Loría','2024');
-(102,'305750552','Carmen Loría','2024');
-(102,'120200922','Carmen Loría','2024');
-(102,'120360889','Carmen Loría','2024');
-(102,'120130842','Carmen Loría','2024');
-(102,'120180218','Carmen Loría','2024');
-(102,'305770227','Carmen Loría','2024');
-(102,'119990579','Carmen Loría','2024');
-(102,'120210047','Carmen Loría','2024');
-(102,'120360037','Carmen Loría','2024');
-(102,'120140983','Carmen Loría','2024');
-(102,'120180555','Carmen Loría','2024');
-(102,'305930699','Carmen Loría','2024');
-(102,'305540464','Carmen Loría','2024');
-(102,'119820539','Carmen Loría','2024');
-(102,'119530454','Carmen Loría','2024');
-
-
-
---10-3
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(103,'305810577','Manuel Espinoza Gonzales','2024');
-(103,'305790602','Manuel Espinoza Gonzales','2024');
-(103,'305800770','Manuel Espinoza Gonzales','2024');
-(103,'120230990','Manuel Espinoza Gonzales','2024');
-(103,'305770906','Manuel Espinoza Gonzales','2024');
-(103,'305770611','Manuel Espinoza Gonzales','2024');
-(103,'305780258','Manuel Espinoza Gonzales','2024');
-(103,'305820159','Manuel Espinoza Gonzales','2024');
-(103,'120200173','Manuel Espinoza Gonzales','2024');
-(103,'120150281','Manuel Espinoza Gonzales','2024');
-(103,'120160391','Manuel Espinoza Gonzales','2024');
-(103,'120210181','Manuel Espinoza Gonzales','2024');
-(103,'120270116','Manuel Espinoza Gonzales','2024');
-(103,'120110838','Manuel Espinoza Gonzales','2024');
-(103,'120180664','Manuel Espinoza Gonzales','2024');
-(103,'305820698','Manuel Espinoza Gonzales','2024');
-(103,'121760384','Manuel Espinoza Gonzales','2024');
-(103,'305790454','Manuel Espinoza Gonzales','2024');
-(103,'120360038','Manuel Espinoza Gonzales','2024');
-
---10-4
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(104,'305801300','Manuel Espinoza Gonzales','2024');
-(104,'120390211','Manuel Espinoza Gonzales','2024');
-(104,'120220488','Manuel Espinoza Gonzales','2024');
-(104,'120290628','Manuel Espinoza Gonzales','2024');
-(104,'120340227','Manuel Espinoza Gonzales','2024');
-(104,'120320801','Manuel Espinoza Gonzales','2024');
-(104,'120170465','Manuel Espinoza Gonzales','2024');
-(104,'305820217','Manuel Espinoza Gonzales','2024');
-(104,'120360569','Manuel Espinoza Gonzales','2024');
-(104,'120360528','Manuel Espinoza Gonzales','2024');
-(104,'305790583','Manuel Espinoza Gonzales','2024');
-(104,'120220223','Manuel Espinoza Gonzales','2024');
-(104,'120350550','Manuel Espinoza Gonzales','2024');
-(104,'120080503','Manuel Espinoza Gonzales','2024');
-(104,'120290601','Manuel Espinoza Gonzales','2024');
-(104,'305750637','Manuel Espinoza Gonzales','2024');
-(104,'305810078','Manuel Espinoza Gonzales','2024');
-(104,'120130034','Manuel Espinoza Gonzales','2024');
-(104,'119920058','Manuel Espinoza Gonzales','2024');
-(104,'120390164','Manuel Espinoza Gonzales','2024');
-(104,'119830912','Manuel Espinoza Gonzales','2024');
-(104,'119940171','Manuel Espinoza Gonzales','2024');
-(104,'120090074','Manuel Espinoza Gonzales','2024');
-
-
---10-5
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(105,'120120409','105','2024');
-(105,'120100143','105','2024');
-(105,'120210987','105','2024');
-(105,'305730686','105','2024');
-(105,'305790133','105','2024');
-(105,'120320435','105','2024');
-(105,'120150018','105','2024');
-(105,'120240626','105','2024');
-(105,'120350649','105','2024');
-(105,'119590672','105','2024');
-(105,'305790214','105','2024');
-(105,'305790537','105','2024');
-(105,'305710201','105','2024');
-(105,'120180869','105','2024');
-(105,'120360969','105','2024');
-(105,'305670701','105','2024');
-(105,'120140620','105','2024');
-(105,'120410240','105','2024');
-(105,'305770600','105','2024');
-(105,'120300306','105','2024');
-(105,'305810942','105','2024');
-(105,'120080486','105','2024');
-(105,'119920935','105','2024');
-(105,'119910158','105','2024');
-(105,'208930023','105','2024');
-(105,'119830319','105','2024');
-
---10-6
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(106,'119320816','Marcia Menani Córdoba','2024');
-(106,'305770436','Marcia Menani Córdoba','2024');
-(106,'120050503','Marcia Menani Córdoba','2024');
-(106,'120330125','Marcia Menani Córdoba','2024');
-(106,'305760154','Marcia Menani Córdoba','2024');
-(106,'119990140','Marcia Menani Córdoba','2024');
-(106,'120280245','Marcia Menani Córdoba','2024');
-(106,'120320889','Marcia Menani Córdoba','2024');
-(106,'120200652','Marcia Menani Córdoba','2024');
-(106,'119830714','Marcia Menani Córdoba','2024');
-(106,'901280786','Marcia Menani Córdoba','2024');
-(106,'305750413','Marcia Menani Córdoba','2024');
-(106,'120250919','Marcia Menani Córdoba','2024');
-(106,'120050981','Marcia Menani Córdoba','2024');
-(106,'120110014','Marcia Menani Córdoba','2024');
-(106,'120400186','Marcia Menani Córdoba','2024');
-(106,'504780836','Marcia Menani Córdoba','2024');
-(106,'305770859','Marcia Menani Córdoba','2024');
-(106,'120100147','Marcia Menani Córdoba','2024');
-(106,'119630609','Marcia Menani Córdoba','2024');
-(106,'120340390','Marcia Menani Córdoba','2024');
-(106,'119870944','Marcia Menani Córdoba','2024');
-
-
-
-
---10-7A
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(107,'305650595','Manuel Espinoza Gonzales','2024');
-(107,'120290336','Manuel Espinoza Gonzales','2024');
-(107,'305790750','Manuel Espinoza Gonzales','2024');
-(107,'120140532','Manuel Espinoza Gonzales','2024');
-(107,'120350549','Manuel Espinoza Gonzales','2024');
-(107,'305770637','Manuel Espinoza Gonzales','2024');
-(107,'120350407','Manuel Espinoza Gonzales','2024');
-(107,'120220325','Manuel Espinoza Gonzales','2024');
-(107,'120130635','Manuel Espinoza Gonzales','2024');
-(107,'305790886','Manuel Espinoza Gonzales','2024');
-(107,'3057801723','Manuel Espinoza Gonzales','2024');
-(107,'120010530','Manuel Espinoza Gonzales','2024');
-(107,'305730052','Manuel Espinoza Gonzales','2024');
-(107,'85203579','Manuel Espinoza Gonzales','2024');
-(107,'305790079','Manuel Espinoza Gonzales','2024');
-(107,'120130872','Gerardo Sibaja Salguero','2024');
-(107,'120360174','Gerardo Sibaja Salguero','2024');
-(107,'120230051','Gerardo Sibaja Salguero','2024');
-(107,'120170262','Gerardo Sibaja Salguero','2024');
-(107,'305810223','Gerardo Sibaja Salguero','2024');
-(107,'120330080','Gerardo Sibaja Salguero','2024');
-(107,'120260785','Gerardo Sibaja Salguero','2024');
-(107,'305740204','Gerardo Sibaja Salguero','2024');
-(107,'120220966','Gerardo Sibaja Salguero','2024');
-(107,'120170876','Gerardo Sibaja Salguero','2024');
-(107,'120270348','Gerardo Sibaja Salguero','2024');
-(107,'120350537','Gerardo Sibaja Salguero','2024');
-(107,'120340266','Gerardo Sibaja Salguero','2024');
-(107,'120140190','Gerardo Sibaja Salguero','2024');
-(107,'305780211','Gerardo Sibaja Salguero','2024');
-(107,'120150713','Gerardo Sibaja Salguero','2024');
-(107,'120000611','Gerardo Sibaja Salguero','2024');
-
-
-
-
-
---10-8A
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(108,'120400187','  ','2024');
-(108,'119620053','  ','2024');
-(108,'305750855','  ','2024');
-(108,'305780120','  ','2024');
-(108,'119630625','  ','2024');
-(108,'305820431','  ','2024');
-(108,'120110375','  ','2024');
-(108,'120300512','  ','2024');
-(108,'901270892','  ','2024');
-(108,'120380787','  ','2024');
-(108,'120130928','  ','2024');
-(108,'305800946','  ','2024');
-(108,'305780582','  ','2024');
-(108,'305760327','  ','2024');
-(108,'305760920','  ','2024');
-(108,'305680201','  ','2024');
-(108,'305760868','  ','2024');
-(108,'120280321','  ','2024');
-(108,'120150303','  ','2024');
-(108,'305810257','  ','2024');
-(108,'305640247','  ','2024');
-(108,'801270987','  ','2024');
-(108,'120170911','  ','2024');
-(108,'110810990','  ','2024');
-(108,'120300616','  ','2024');
-(108,'155834359635','  ','2024');
-(108,'120140446','  ','2024');
-(108,'120360951','  ','2024');
-(108,'120220929','  ','2024');
-(108,'119860736','  ','2024');
-(108,'305810272','  ','2024');
-(108,'305730921','  ','2024');
-
-
-
-
---10-9 A 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
-('Arias', 'Solis', 'Tamara', '120180655', '63320441', 14, 'D'),
-('Arrollo', 'Calvo', 'Gabriel', '120080488', '83378791', 14, 'D'), ('Barboza', 'Masis', 'Abigail', '121050978', '86343695', 14, 'D'), 
-('Barquero', 'Rodríguez', 'Maria Fernanda', '305580620', '72792739', 14, 'D'), ('Brenes', 'Zúñiga', 'Genesis', '305740152', '84686317', 14, 'D'),
-('Brizuela', 'Rojas', 'Olana', '120020531', '89596270', 14, 'D'), ('Céspedes', 'Duarte', 'Kaitlyn', '120260543', '85765784', 14, 'D'), 
-('Cordero', 'Mora', 'Anyeri', '119760208', '72477764', 14, 'D'), ('Gómez', 'Rodríguez', 'Kendall', '119640891', '60353301', 14, 'D'), 
-('Guevara', 'Rojas', 'Keilyn', '305820118', '71936708', 14, 'D'), ('Hazel', 'Trigueros', 'Daphane', '120280573', '72925957', 14, 'D'), 
-('Meneses', 'Cruz', 'Elizabeth', '120150669', '60137996', 14, 'D'), ('Navarro', 'Calderón', 'Ericka', '120300795', '70259216', 14, 'D'), 
-('Quesada', 'Aguilar', 'Alondra', '120210971', '83664231', 14, 'D'), ('Reyes', 'Arrieta', 'Sofia', '120230057', '72062243', 14, 'D'), 
-('Ureña', 'Esquivel', 'Kerlyn', '120350315', '88653548', 14, 'D'), ('Vargas', 'Solano', 'Maykel', '120310208', '86253317', 14, 'D'), 
-('Vega', 'Rojas', 'Abigail', '305760180', '87954596', 14, 'D'), ('Villalta', 'Chan', 'Kaisha', '119840236', '88707172', 14, 'D'); 
-
---10-9 B 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
-('Acosta', 'Mora', 'Rachel', '120380276', '89434892', 6,'D'), 
-('Aguirre', 'Cervantes', 'Isaí', '120260199','86733511', 6,'D'),
-('Anderson', 'Rodríguez', 'Josue', '305800480','86175898', 6,'D'), 
-('Ballestero', 'Varela', 'Marco', '305770384','87412204', 6,'D'),
-('Calvo', 'Cerdas', 'Jimena', '305790712','86281980', 6,'D'), 
-('Catro', 'Vargas', 'Reichell', '120140497','85107462', 6,'D'), 
-('Chacon', 'Aguilar', 'Sebastián', '120120806','88117446', 6,'D'), 
-('Gonzáles', 'Mora', 'Michelle', '305800496','70498337', 6,'D'),
-('Lizano', 'Morraga', 'Verónica', '120200471','83866340', 6,'D'), 
-('Loaiza', 'Calderón', 'Julio', '305800415','71425169', 6,'D'),
-('Mata', 'Hernández', 'Keylor', '120220963','89382112', 6,'D'), 
-('Méndez', 'Azofeifa', 'Alison', '120360796','84002317', 6,'D'), 
-('Picado', 'Solano', 'Merilan', '305790161','72495080', 6,'D'), 
-('Ramírez', 'Valverde', 'Ariela', '305760765','62906867', 6,'D'),
-('Salazar', ' Barboza', 'Emily', '305770350','60478141', 6,'D'), 
-('Villalobos', 'Castillo', 'Enyell', '305780218','62041313', 6,'D'); 
-
---10-10A
-
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
-('BULA',	  'CALVO',	     'IVANNA',     '305790631', '89470055','2','D'),	
-('AGUILAR',   'BALLESTERO',	 'MATHIAS'	,  '119910091', '70128690','2','D'),
-('CONEJO',	  'CALVO',     	 'DAHIAN',	   '120150416', '89116846','2','D'),
-('GODINEZ',	  'DURAN',	     'SEBASTIAN',  '120250425', '88948312','2','D'),
-('GORDON',	  'ECHAVARRIA',	 'DANNARA',	   '120300242', '87310959','2','D'),
-('GUTIEREZ',  'BARQUERO',	 'JESUS',	   '305760801', '88552728','2','D'),
-('GUTIERREZ', 'OABIOAGUA',	 'JESHUE',	   '120190047', '61188758','2','D'),
-('HERNANDEZ', 'TORRES',	     'AXEL',	   '305810547', '72338856','2','D'),
-('HIDALGO',	  'SERRANO',	 'DANIELA',	   '120210780', '22535400','2','D'),
-('JARQUIN',	  'MORA',	     'NANCY',	   '305760932', '85579347','2','D'),
-('NAJERA',	  'SERRANO',	 'KEILYN',	   '120200529', '86917143','2','D'),
-('PEREZ',	  'CALVO',	     'MARIPAZ',	   '120370587', '84991675','2','D'),
-('PICADO',	  'CHAVEZ',	     'KEILYN',	   '305780265', '70659261','2','D'),
-('RODRIGUEZ', 'NIEBLES',	 'MARIANA',	   '120260238', '85952787','2','D'),
-('SEGURA',	  'CAMPOS',	     'ANDREW',	   '120150698', '85862258','2','D'),	
-('VEGA',	  'ROJAS',	     'VICTORIA',   '305460181', '87954596','2','D');
-
-
---10-10B
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
-('Alvarado','González','Kristel','305760084','85715566',11,'D'),
-('Brenes','Olmos','Joshua','120310753','63168301',11,'D'),
-('Calderón','Lewis','Amanda','305800312','63815796',11,'D'),
-('Calderón','Cisneros','Nicole','120170014','84184661',11,'D'),
-('Camacho','Castillo','Kevin','305780831','87121389',11,'D'),
-('Escobar','López','Nicole','305800047','61058519',11,'D'),
-('Olsen','Cárdenas','Jimena','120380390','85814697',11,'D'),
-('Pacheco','Rojas','Mariana','305720008','84528946',11,'D'),
-('Pérez','Chavarría','Keisy','305790582','60739874',11,'D'),
-('Ruíz','Jarquín','Eidan','120280047','72258513',11,'D'),
-('Solano','Fallas','Samantha','120200472','86399259',11,'D'),
-('Vargas','Conejo','Camila','119910161','86399259',11,'D');
-
-
-=======
-<<<<<<< Updated upstream
-(71,'121160700','Andres Segura Araya','2024');
->>>>>>> parent of 153622a (setimos)
 
 INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 ------------------------- 9-7 --------------------------------
@@ -865,45 +547,7 @@ INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 
 
 
-<<<<<<< HEAD
-=======
-=======
-(71,'121160700','Andres Segura Araya','2024'),
-(71,'121030950','Andres Segura Araya','2024'),
-(71,'306000440','Andres Segura Araya','2024'),
-(71,'121300135','Andres Segura Araya','2024'),
-(71,'121200900','Andres Segura Araya','2024'),
-(71,'305980486','Andres Segura Araya','2024'),
-(71,'306030378','Andres Segura Araya','2024'),
-(71,'305980818','Andres Segura Araya','2024'),
-(71,'306020254','Andres Segura Araya','2024'),
-(71,'305970186','Andres Segura Araya','2024'),
-(71,'121170405','Andres Segura Araya','2024'),
-(71,'306010011','Andres Segura Araya','2024'),
-(71,'306000755','Andres Segura Araya','2024'),
-(71,'121220919','Andres Segura Araya','2024'),
-(71,'155840276630','Andres Segura Araya','2024'),
-(71,'305970801','Andres Segura Araya','2024'),
-(71,'121180974','Andres Segura Araya','2024'),
-(71,'121080140','Andres Segura Araya','2024'),
-(71,'305970327','Andres Segura Araya','2024'),
-(71,'121290293','Andres Segura Araya','2024'),
-(71,'306000413','Andres Segura Araya','2024'),
-(71,'306020864','Andres Segura Araya','2024'),
-(71,'121090039','Andres Segura Araya','2024'),
-(71,'306000269','Andres Segura Araya','2024'),
-(71,'121070759','Andres Segura Araya','2024'),
-(71,'120960960','Andres Segura Araya','2024'),
-(71,'305970791','Andres Segura Araya','2024'),
-(71,'121140503','Andres Segura Araya','2024'),
-(71,'305950694','Andres Segura Araya','2024'),
-(71,'305980999','Andres Segura Araya','2024'),
-(71,'305960492','Andres Segura Araya','2024'),
-(71,'121280729','Andres Segura Araya','2024'),
-(71,'305920719','Andres Segura Araya','2024'),
-(71,'305920082','Andres Segura Araya','2024');
->>>>>>> Stashed changes
->>>>>>> parent of 153622a (setimos)
+
 
 ---7-1
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
@@ -943,6 +587,45 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('121280729','DERECK','YOUNG','OROZCO',null,'60528089','D'),
 ('305920719','ISAAC','MORA','DELGADO',null,'84624082','D'),
 ('305920082','ANDRÉ','VARGAS','AGUILAR',null,'83474986','D');
+
+-----
+--7-1
+INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
+(71,'121160700','Andres Segura Araya','2024'),
+(71,'121030950','Andres Segura Araya','2024'),
+(71,'306000440','Andres Segura Araya','2024'),
+(71,'121300135','Andres Segura Araya','2024'),
+(71,'121200900','Andres Segura Araya','2024'),
+(71,'305980486','Andres Segura Araya','2024'),
+(71,'306030378','Andres Segura Araya','2024'),
+(71,'305980818','Andres Segura Araya','2024'),
+(71,'306020254','Andres Segura Araya','2024'),
+(71,'305970186','Andres Segura Araya','2024'),
+(71,'121170405','Andres Segura Araya','2024'),
+(71,'306010011','Andres Segura Araya','2024'),
+(71,'306000755','Andres Segura Araya','2024'),
+(71,'121220919','Andres Segura Araya','2024'),
+(71,'155840276630','Andres Segura Araya','2024'),
+(71,'305970801','Andres Segura Araya','2024'),
+(71,'121180974','Andres Segura Araya','2024'),
+(71,'121080140','Andres Segura Araya','2024'),
+(71,'305970327','Andres Segura Araya','2024'),
+(71,'121290293','Andres Segura Araya','2024'),
+(71,'306000413','Andres Segura Araya','2024'),
+(71,'306020864','Andres Segura Araya','2024'),
+(71,'121090039','Andres Segura Araya','2024'),
+(71,'306000269','Andres Segura Araya','2024'),
+(71,'121070759','Andres Segura Araya','2024'),
+(71,'120960960','Andres Segura Araya','2024'),
+(71,'305970791','Andres Segura Araya','2024'),
+(71,'121140503','Andres Segura Araya','2024'),
+(71,'305950694','Andres Segura Araya','2024'),
+(71,'305980999','Andres Segura Araya','2024'),
+(71,'305960492','Andres Segura Araya','2024'),
+(71,'121280729','Andres Segura Araya','2024'),
+(71,'305920719','Andres Segura Araya','2024'),
+(71,'305920082','Andres Segura Araya','2024');
+
 
 
 
@@ -985,6 +668,46 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('209470010','ZOE','QUIROS'	,'ESTRADA',NULL,'88187584','D'),
 ('121050470','JUAN JOSÉ','ESPINOZA','OBANDO',NULL,'72242407','D'),
 ('121180428','NOELIA','CONEJO',	'FERNANDEZ',NULL,'83090467','D');
+----
+--7-2--
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(72,'305980663','Oscar Zúñiga Zúñiga','2024'),
+(72,'121190701','Oscar Zúñiga Zúñiga','2024'),
+(72,'121160424','Oscar Zúñiga Zúñiga','2024'),
+(72,'306000798','Oscar Zúñiga Zúñiga','2024'),
+(72,'121240511','Oscar Zúñiga Zúñiga','2024'),
+(72,'306020100','Oscar Zúñiga Zúñiga','2024'),
+(72,'505490054','Oscar Zúñiga Zúñiga','2024'),
+(72,'305990548','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980071','Oscar Zúñiga Zúñiga','2024'),
+(72,'121010584','Oscar Zúñiga Zúñiga','2024'),
+(72,'121130068','Oscar Zúñiga Zúñiga','2024'),
+(72,'121030925','Oscar Zúñiga Zúñiga','2024'),
+(72,'121120546','Oscar Zúñiga Zúñiga','2024'),
+(72,'121210021','Oscar Zúñiga Zúñiga','2024'),
+(72,'121100755','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980318','Oscar Zúñiga Zúñiga','2024'),
+(72,'121070165','Oscar Zúñiga Zúñiga','2024'),
+(72,'305990649','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980226','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980704','Oscar Zúñiga Zúñiga','2024'),
+(72,'121160621','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980030','Oscar Zúñiga Zúñiga','2024'),
+(72,'121170543','Oscar Zúñiga Zúñiga','2024'),
+(72,'121110791','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980854','Oscar Zúñiga Zúñiga','2024'),
+(72,'305960853','Oscar Zúñiga Zúñiga','2024'),
+(72,'121200884','Oscar Zúñiga Zúñiga','2024'),
+(72,'121020032','Oscar Zúñiga Zúñiga','2024'),
+(72,'121220360','Oscar Zúñiga Zúñiga','2024'),
+(72,'121190633','Oscar Zúñiga Zúñiga','2024'),
+(72,'121130312','Oscar Zúñiga Zúñiga','2024'),
+(72,'305960188','Oscar Zúñiga Zúñiga','2024'),
+(72,'209470010','Oscar Zúñiga Zúñiga','2024'),
+(72,'121050470','Oscar Zúñiga Zúñiga','2024'),
+(72,'121180428','Oscar Zúñiga Zúñiga','2024'); 
+
+
 
 
 --7-3---
@@ -1027,6 +750,45 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('121060937','VERNY','VASQUEZ','MENDOZA',null,'89564468','D'),
 ('305940117','BRYAN','FALLAS','TORRES',null,'72635497','D'),
 ('120900977','CALEB','VARGAS','MORALES',null,'84080828','D');
+----
+--7-3--
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(73,'306000663','Maureen Leiva Soto','2024'),
+(73,'121030433','Maureen Leiva Soto','2024'),
+(73,'121110829','Maureen Leiva Soto','2024'),
+(73,'121020640','Maureen Leiva Soto','2024'),
+(73,'121210991','Maureen Leiva Soto','2024'),
+(73,'121270444','Maureen Leiva Soto','2024'),
+(73,'306010320','Maureen Leiva Soto','2024'),
+(73,'306010953','Maureen Leiva Soto','2024'),
+(73,'121140572','Maureen Leiva Soto','2024'),
+(73,'121040223','Maureen Leiva Soto','2024'),
+(73,'121060107','Maureen Leiva Soto','2024'),
+(73,'306010251','Maureen Leiva Soto','2024'),
+(73,'305960652','Maureen Leiva Soto','2024'),
+(73,'121100861','Maureen Leiva Soto','2024'),
+(73,'306010306','Maureen Leiva Soto','2024'),
+(73,'121060644','Maureen Leiva Soto','2024'),
+(73,'306040714','Maureen Leiva Soto','2024'),
+(73,'121140170','Maureen Leiva Soto','2024'),
+(73,'305980522','Maureen Leiva Soto','2024'),
+(73,'121180523','Maureen Leiva Soto','2024'),
+(73,'306020043','Maureen Leiva Soto','2024'),
+(73,'305980783','Maureen Leiva Soto','2024'),
+(73,'121200316','Maureen Leiva Soto','2024'),
+(73,'121120565','Maureen Leiva Soto','2024'),
+(73,'121130550','Maureen Leiva Soto','2024'),
+(73,'121110599','Maureen Leiva Soto','2024'),
+(73,'121130174','Maureen Leiva Soto','2024'),
+(73,'121130284','Maureen Leiva Soto','2024'),
+(73,'305980681','Maureen Leiva Soto','2024'),
+(73,'121120491','Maureen Leiva Soto','2024'),
+(73,'305910777','Maureen Leiva Soto','2024'),
+(73,'306020240','Maureen Leiva Soto','2024'),
+(73,'121060937','Maureen Leiva Soto','2024'),
+(73,'305940117','Maureen Leiva Soto','2024'),
+(73,'120900977','Maureen Leiva Soto','2024');
+
 
 
 --7-4---
@@ -1069,44 +831,47 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('120670781','MARÍA CELESTE','CASTILLO','ACUÑA',NULL,'87100476','D'),
 ('155844875317','HAZEL','QUINTANILLA','REYES',NULL,'60097247','D');
 
-<<<<<<< HEAD
-=======
+---
+--7-4--
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(75,'121180456','Maureen Leiva Soto','2024'),
-(75,'121190107','Maureen Leiva Soto','2024'),
-(75,'209380763','Maureen Leiva Soto','2024'),
-(75,'306020837','Maureen Leiva Soto','2024'),
-(75,'121310036','Maureen Leiva Soto','2024'),
-(75,'306020340','Maureen Leiva Soto','2024'),
-(75,'121250087','Maureen Leiva Soto','2024'),
-(75,'C02548063','Maureen Leiva Soto','2024'),
-(75,'306010072','Maureen Leiva Soto','2024'),
-(75,'121200762','Maureen Leiva Soto','2024'),
-(75,'121260056','Maureen Leiva Soto','2024'),
-(75,'121110843','Maureen Leiva Soto','2024'),
-(75,'121150723','Maureen Leiva Soto','2024'),
-(75,'121080279','Maureen Leiva Soto','2024'),
-(75,'121050700','Maureen Leiva Soto','2024'),
-(75,'306020423','Maureen Leiva Soto','2024'),
-(75,'121190002','Maureen Leiva Soto','2024'),
-(75,'305990830','Maureen Leiva Soto','2024'),
-(75,'121090799','Maureen Leiva Soto','2024'),
-(75,'305990258','Maureen Leiva Soto','2024'),
-(75,'305970941','Maureen Leiva Soto','2024'),
-(75,'120610334','Maureen Leiva Soto','2024'),
-(75,'121080936','Maureen Leiva Soto','2024'),
-(75,'305970755','Maureen Leiva Soto','2024'),
-(75,'306040538','Maureen Leiva Soto','2024'),
-(75,'121120765','Maureen Leiva Soto','2024'),
-(75,'121290915','Maureen Leiva Soto','2024'),
-(75,'121180515','Maureen Leiva Soto','2024'),
-(75,'121250494','Maureen Leiva Soto','2024'),
-(75,'504940864','Maureen Leiva Soto','2024'),
-(75,'305960554','Maureen Leiva Soto','2024'),
-(75,'121110639','Maureen Leiva Soto','2024'),
-(75,'120940672','Maureen Leiva Soto','2024'),
+(74,'121180172','Ariel Martínez Silva','2024'),
+(74,'121130545','Ariel Martínez Silva','2024'),
+(74,'209410943','Ariel Martínez Silva','2024'),
+(74,'305970461','Ariel Martínez Silva','2024'),
+(74,'305990506','Ariel Martínez Silva','2024'),
+(74,'306020520','Ariel Martínez Silva','2024'),
+(74,'121140405','Ariel Martínez Silva','2024'),
+(74,'155846984221','Ariel Martínez Silva','2024'),
+(74,'306000348','Ariel Martínez Silva','2024'),
+(74,'306010801','Ariel Martínez Silva','2024'),
+(74,'402870358','Ariel Martínez Silva','2024'),
+(74,'306030917','Ariel Martínez Silva','2024'),
+(74,'305970478','Ariel Martínez Silva','2024'),
+(74,'305990869','Ariel Martínez Silva','2024'),
+(74,'305960864','Ariel Martínez Silva','2024'),
+(74,'121300699','Ariel Martínez Silva','2024'),
+(74,'121080638','Ariel Martínez Silva','2024'),
+(74,'306010664','Ariel Martínez Silva','2024'),
+(74,'121210600','Ariel Martínez Silva','2024'),
+(74,'305990455','Ariel Martínez Silva','2024'),
+(74,'703590202','Ariel Martínez Silva','2024'),
+(74,'209450454','Ariel Martínez Silva','2024'),
+(74,'121240357','Ariel Martínez Silva','2024'),
+(74,'305980578','Ariel Martínez Silva','2024'),
+(74,'305960406','Ariel Martínez Silva','2024'),
+(74,'306020038','Ariel Martínez Silva','2024'),
+(74,'305980708','Ariel Martínez Silva','2024'),
+(74,'306020958','Ariel Martínez Silva','2024'),
+(74,'121140406','Ariel Martínez Silva','2024'),
+(74,'306020614','Ariel Martínez Silva','2024'),
+(74,'306000831','Ariel Martínez Silva','2024'),
+(74,'121030248','Ariel Martínez Silva','2024'),
+(74,'121180471','Ariel Martínez Silva','2024'),
+(74,'120670781','Ariel Martínez Silva','2024'),
+(74,'155844875317','Ariel Martínez Silva','2024');
 
->>>>>>> parent of 153622a (setimos)
+
+
 --7-5---
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
@@ -1145,6 +910,48 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('121110639','SANTIAGO','ZÚÑIGA','VALVERDE',NULL,'87600595','D'),
 ('120940672','ISAAC','NAVARRO',	'FERNANDEZ',NULL,'72631796','D');
 
+---
+
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(75,'121180456','Maureen Leiva Soto','2024'),
+(75,'121190107','Maureen Leiva Soto','2024'),
+(75,'209380763','Maureen Leiva Soto','2024'),
+(75,'306020837','Maureen Leiva Soto','2024'),
+(75,'121310036','Maureen Leiva Soto','2024'),
+(75,'306020340','Maureen Leiva Soto','2024'),
+(75,'121250087','Maureen Leiva Soto','2024'),
+(75,'C02548063','Maureen Leiva Soto','2024'),
+(75,'306010072','Maureen Leiva Soto','2024'),
+(75,'121200762','Maureen Leiva Soto','2024'),
+(75,'121260056','Maureen Leiva Soto','2024'),
+(75,'121110843','Maureen Leiva Soto','2024'),
+(75,'121150723','Maureen Leiva Soto','2024'),
+(75,'121080279','Maureen Leiva Soto','2024'),
+(75,'121050700','Maureen Leiva Soto','2024'),
+(75,'306020423','Maureen Leiva Soto','2024'),
+(75,'121190002','Maureen Leiva Soto','2024'),
+(75,'305990830','Maureen Leiva Soto','2024'),
+(75,'121090799','Maureen Leiva Soto','2024'),
+(75,'305990258','Maureen Leiva Soto','2024'),
+(75,'305970941','Maureen Leiva Soto','2024'),
+(75,'120610334','Maureen Leiva Soto','2024'),
+(75,'121080936','Maureen Leiva Soto','2024'),
+(75,'305970755','Maureen Leiva Soto','2024'),
+(75,'306040538','Maureen Leiva Soto','2024'),
+(75,'121120765','Maureen Leiva Soto','2024'),
+(75,'121290915','Maureen Leiva Soto','2024'),
+(75,'121180515','Maureen Leiva Soto','2024'),
+(75,'121250494','Maureen Leiva Soto','2024'),
+(75,'504940864','Maureen Leiva Soto','2024'),
+(75,'305960554','Maureen Leiva Soto','2024'),
+(75,'121110639','Maureen Leiva Soto','2024'),
+(75,'120940672','Maureen Leiva Soto','2024');
+
+
+
+
+
+
 insert into Estudiantes(Cedula,nombre,Primer_Apellido,Segundo_Apellido,Especialidad,numero_encargado,TipoEstudiante)values
 --7-6
 ('121050699','DYLAN','RAMIREZ','CESPEDES',null, '60988520', 'D'),
@@ -1181,6 +988,11 @@ insert into Estudiantes(Cedula,nombre,Primer_Apellido,Segundo_Apellido,Especiali
 ('305960346',	'TAYLOR',	'BEDOYA',	'ANDERSON',null, '61059978','D'),
 ('306040330',	'EVONNY',	'ROBLES',	'AGUILAR',null, '86938249','D'),
 ('305900695',	'VALENTINA',	'SOLANO',	'MONTOYA',null, '87866262','D');
+
+----
+
+
+
 
 insert into Estudiantes(Cedula,nombre,Primer_Apellido,Segundo_Apellido,Especialidad,numero_encargado,TipoEstudiante)values
 --7-7
