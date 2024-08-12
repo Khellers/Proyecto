@@ -40,6 +40,7 @@ CREATE TABLE Seccion (
 --Secciones 
 --7-1
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+<<<<<<< HEAD
 (71,'121160700','Andres Segura Araya','2024');
 
 (108A,'','  ','2024');
@@ -352,6 +353,10 @@ Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_E
 ('Vargas','Conejo','Camila','119910161','86399259',11,'D');
 
 
+=======
+<<<<<<< Updated upstream
+(71,'121160700','Andres Segura Araya','2024');
+>>>>>>> parent of 153622a (setimos)
 
 INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 ------------------------- 9-7 --------------------------------
@@ -860,6 +865,45 @@ INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 
 
 
+<<<<<<< HEAD
+=======
+=======
+(71,'121160700','Andres Segura Araya','2024'),
+(71,'121030950','Andres Segura Araya','2024'),
+(71,'306000440','Andres Segura Araya','2024'),
+(71,'121300135','Andres Segura Araya','2024'),
+(71,'121200900','Andres Segura Araya','2024'),
+(71,'305980486','Andres Segura Araya','2024'),
+(71,'306030378','Andres Segura Araya','2024'),
+(71,'305980818','Andres Segura Araya','2024'),
+(71,'306020254','Andres Segura Araya','2024'),
+(71,'305970186','Andres Segura Araya','2024'),
+(71,'121170405','Andres Segura Araya','2024'),
+(71,'306010011','Andres Segura Araya','2024'),
+(71,'306000755','Andres Segura Araya','2024'),
+(71,'121220919','Andres Segura Araya','2024'),
+(71,'155840276630','Andres Segura Araya','2024'),
+(71,'305970801','Andres Segura Araya','2024'),
+(71,'121180974','Andres Segura Araya','2024'),
+(71,'121080140','Andres Segura Araya','2024'),
+(71,'305970327','Andres Segura Araya','2024'),
+(71,'121290293','Andres Segura Araya','2024'),
+(71,'306000413','Andres Segura Araya','2024'),
+(71,'306020864','Andres Segura Araya','2024'),
+(71,'121090039','Andres Segura Araya','2024'),
+(71,'306000269','Andres Segura Araya','2024'),
+(71,'121070759','Andres Segura Araya','2024'),
+(71,'120960960','Andres Segura Araya','2024'),
+(71,'305970791','Andres Segura Araya','2024'),
+(71,'121140503','Andres Segura Araya','2024'),
+(71,'305950694','Andres Segura Araya','2024'),
+(71,'305980999','Andres Segura Araya','2024'),
+(71,'305960492','Andres Segura Araya','2024'),
+(71,'121280729','Andres Segura Araya','2024'),
+(71,'305920719','Andres Segura Araya','2024'),
+(71,'305920082','Andres Segura Araya','2024');
+>>>>>>> Stashed changes
+>>>>>>> parent of 153622a (setimos)
 
 ---7-1
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
@@ -1025,6 +1069,44 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('120670781','MARÍA CELESTE','CASTILLO','ACUÑA',NULL,'87100476','D'),
 ('155844875317','HAZEL','QUINTANILLA','REYES',NULL,'60097247','D');
 
+<<<<<<< HEAD
+=======
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(75,'121180456','Maureen Leiva Soto','2024'),
+(75,'121190107','Maureen Leiva Soto','2024'),
+(75,'209380763','Maureen Leiva Soto','2024'),
+(75,'306020837','Maureen Leiva Soto','2024'),
+(75,'121310036','Maureen Leiva Soto','2024'),
+(75,'306020340','Maureen Leiva Soto','2024'),
+(75,'121250087','Maureen Leiva Soto','2024'),
+(75,'C02548063','Maureen Leiva Soto','2024'),
+(75,'306010072','Maureen Leiva Soto','2024'),
+(75,'121200762','Maureen Leiva Soto','2024'),
+(75,'121260056','Maureen Leiva Soto','2024'),
+(75,'121110843','Maureen Leiva Soto','2024'),
+(75,'121150723','Maureen Leiva Soto','2024'),
+(75,'121080279','Maureen Leiva Soto','2024'),
+(75,'121050700','Maureen Leiva Soto','2024'),
+(75,'306020423','Maureen Leiva Soto','2024'),
+(75,'121190002','Maureen Leiva Soto','2024'),
+(75,'305990830','Maureen Leiva Soto','2024'),
+(75,'121090799','Maureen Leiva Soto','2024'),
+(75,'305990258','Maureen Leiva Soto','2024'),
+(75,'305970941','Maureen Leiva Soto','2024'),
+(75,'120610334','Maureen Leiva Soto','2024'),
+(75,'121080936','Maureen Leiva Soto','2024'),
+(75,'305970755','Maureen Leiva Soto','2024'),
+(75,'306040538','Maureen Leiva Soto','2024'),
+(75,'121120765','Maureen Leiva Soto','2024'),
+(75,'121290915','Maureen Leiva Soto','2024'),
+(75,'121180515','Maureen Leiva Soto','2024'),
+(75,'121250494','Maureen Leiva Soto','2024'),
+(75,'504940864','Maureen Leiva Soto','2024'),
+(75,'305960554','Maureen Leiva Soto','2024'),
+(75,'121110639','Maureen Leiva Soto','2024'),
+(75,'120940672','Maureen Leiva Soto','2024'),
+
+>>>>>>> parent of 153622a (setimos)
 --7-5---
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
