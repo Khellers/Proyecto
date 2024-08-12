@@ -208,44 +208,38 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 --10-7A
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(107A,'305650595','Manuel Espinoza Gonzales','2024');
-(107A,'120290336','Manuel Espinoza Gonzales','2024');
-(107A,'305790750','Manuel Espinoza Gonzales','2024');
-(107A,'120140532','Manuel Espinoza Gonzales','2024');
-(107A,'120350549','Manuel Espinoza Gonzales','2024');
-(107A,'305770637','Manuel Espinoza Gonzales','2024');
-(107A,'120350407','Manuel Espinoza Gonzales','2024');
-(107A,'120220325','Manuel Espinoza Gonzales','2024');
-(107A,'120130635','Manuel Espinoza Gonzales','2024');
-(107A,'305790886','Manuel Espinoza Gonzales','2024');
-(107A,'3057801723','Manuel Espinoza Gonzales','2024');
-(107A,'120010530','Manuel Espinoza Gonzales','2024');
-(107A,'305730052','Manuel Espinoza Gonzales','2024');
-(107A,'85203579','Manuel Espinoza Gonzales','2024');
-(107A,'305790079','Manuel Espinoza Gonzales','2024');
-
-
-
---10-7B
-
-
-(107B,'120130872','Gerardo Sibaja Salguero','2024');
-(107B,'120360174','Gerardo Sibaja Salguero','2024');
-(107B,'120230051','Gerardo Sibaja Salguero','2024');
-(107B,'120170262','Gerardo Sibaja Salguero','2024');
-(107B,'305810223','Gerardo Sibaja Salguero','2024');
-(107B,'120330080','Gerardo Sibaja Salguero','2024');
-(107B,'120260785','Gerardo Sibaja Salguero','2024');
-(107B,'305740204','Gerardo Sibaja Salguero','2024');
-(107B,'120220966','Gerardo Sibaja Salguero','2024');
-(107B,'120170876','Gerardo Sibaja Salguero','2024');
-(107B,'120270348','Gerardo Sibaja Salguero','2024');
-(107B,'120350537','Gerardo Sibaja Salguero','2024');
-(107B,'120340266','Gerardo Sibaja Salguero','2024');
-(107B,'120140190','Gerardo Sibaja Salguero','2024');
-(107B,'305780211','Gerardo Sibaja Salguero','2024');
-(107B,'120150713','Gerardo Sibaja Salguero','2024');
-(107B,'120000611','Gerardo Sibaja Salguero','2024');
+(107,'305650595','Manuel Espinoza Gonzales','2024');
+(107,'120290336','Manuel Espinoza Gonzales','2024');
+(107,'305790750','Manuel Espinoza Gonzales','2024');
+(107,'120140532','Manuel Espinoza Gonzales','2024');
+(107,'120350549','Manuel Espinoza Gonzales','2024');
+(107,'305770637','Manuel Espinoza Gonzales','2024');
+(107,'120350407','Manuel Espinoza Gonzales','2024');
+(107,'120220325','Manuel Espinoza Gonzales','2024');
+(107,'120130635','Manuel Espinoza Gonzales','2024');
+(107,'305790886','Manuel Espinoza Gonzales','2024');
+(107,'3057801723','Manuel Espinoza Gonzales','2024');
+(107,'120010530','Manuel Espinoza Gonzales','2024');
+(107,'305730052','Manuel Espinoza Gonzales','2024');
+(107,'85203579','Manuel Espinoza Gonzales','2024');
+(107,'305790079','Manuel Espinoza Gonzales','2024');
+(107,'120130872','Gerardo Sibaja Salguero','2024');
+(107,'120360174','Gerardo Sibaja Salguero','2024');
+(107,'120230051','Gerardo Sibaja Salguero','2024');
+(107,'120170262','Gerardo Sibaja Salguero','2024');
+(107,'305810223','Gerardo Sibaja Salguero','2024');
+(107,'120330080','Gerardo Sibaja Salguero','2024');
+(107,'120260785','Gerardo Sibaja Salguero','2024');
+(107,'305740204','Gerardo Sibaja Salguero','2024');
+(107,'120220966','Gerardo Sibaja Salguero','2024');
+(107,'120170876','Gerardo Sibaja Salguero','2024');
+(107,'120270348','Gerardo Sibaja Salguero','2024');
+(107,'120350537','Gerardo Sibaja Salguero','2024');
+(107,'120340266','Gerardo Sibaja Salguero','2024');
+(107,'120140190','Gerardo Sibaja Salguero','2024');
+(107,'305780211','Gerardo Sibaja Salguero','2024');
+(107,'120150713','Gerardo Sibaja Salguero','2024');
+(107,'120000611','Gerardo Sibaja Salguero','2024');
 
 
 
@@ -253,62 +247,39 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 --10-8A
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(108A,'120400187','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
-(108A,'','  ','2024');
+(108,'120400187','  ','2024');
+(108,'119620053','  ','2024');
+(108,'305750855','  ','2024');
+(108,'305780120','  ','2024');
+(108,'119630625','  ','2024');
+(108,'305820431','  ','2024');
+(108,'120110375','  ','2024');
+(108,'120300512','  ','2024');
+(108,'901270892','  ','2024');
+(108,'120380787','  ','2024');
+(108,'120130928','  ','2024');
+(108,'305800946','  ','2024');
+(108,'305780582','  ','2024');
+(108,'305760327','  ','2024');
+(108,'305760920','  ','2024');
+(108,'305680201','  ','2024');
+(108,'305760868','  ','2024');
+(108,'120280321','  ','2024');
+(108,'120150303','  ','2024');
+(108,'305810257','  ','2024');
+(108,'305640247','  ','2024');
+(108,'801270987','  ','2024');
+(108,'120170911','  ','2024');
+(108,'110810990','  ','2024');
+(108,'120300616','  ','2024');
+(108,'155834359635','  ','2024');
+(108,'120140446','  ','2024');
+(108,'120360951','  ','2024');
+(108,'120220929','  ','2024');
+(108,'119860736','  ','2024');
+(108,'305810272','  ','2024');
+(108,'305730921','  ','2024');
 
-('Alvarado','Li','Yanlin','','89313337',10,'D'),
-('Barrantes','Jiménez','Meilyn','119620053','83353198',10,'D'),
-('Calderón','Rodríguez','Esteban','305750855','60064006',10,'D'),
-('Calvo','Villalobos','Monserrat','305780120','89930987',10,'D'),
-('Dannembergen','Garro','Sebastián','119630625','85233080',10,'D'),
-('Elizondo','Mendoza','Ashly','305820431','64863189',10,'D'),
-('Giraldo','Correa','Mariana','120110375','83554643',10,'D'),
-('Granados','Méndez','Luciana','120300512','83463643',10,'D'),
-('Lizano','Oyuela','Eliam','901270892','70723055',10,'D'),
-('Montenegro','Sánchez','Maria Paula','120380787','89954604',10,'D'),
-('Retana','Villalobos','Allison','120130928','86012993',10,'D'),
-('Salas','Rodríguez','Asley','305800946','86218044',10,'D'),
-('Trejos','Jiménez','Layonel','305780582','86281880',10,'D'),
-('Vargas','Gutiérrez','Kenneth','305760327','71177075',10,'D'),
-('Vega','Masís','Angie','305760920','83940741',10,'D');
-
-
-
---10-8B
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
-('Alvarado','Montoya','Sebastián','305680201','84346445',4,'D'),
-('Anderson','Solís','Evans','305760868','86958833',4,'D'),
-('Bosch','Salazar','Sebastián','120280321','70977640',4,'D'),
-('Casas','Rivera','Valerie','120150303','88354458',4,'D'),
-('Castillo','Abarca','Allison','305810257','70528419',4,'D'),
-('González','Montero','Gabriel','305640247','87532390',4,'D'),
-('Jirón','Cano','Carles','801270987','62567240',4,'D'),
-('Mora','Jiménez','Bayron Fabián','120170911','71096322',4,'D'),
-('Montero','Ramírez','Rodian','110810990','89630509',4,'D'),
-('Navarro','Delgado','Fiorella','120300616','85420278',4,'D'),
-('Olivas','Cortez','María','155834359635','71531984',4,'D'),
-('Páez','Araya','Krystel','120140446','86939439',4,'D'),
-('Rojas','Madrigal','Johan','120360951','72935801',4,'D'),
-('Solano','Arce','Keissi','120220929','85118250',4,'D'),
-('Vega','Campos','Daniel','119860736','87963665',4,'D'),
-('Vega','Rojas','Luna','305810272','61500736',4,'D'),
-('Villalta','Céspedes','Ángel','305730921','72029440',4,'D');
 
 
 
