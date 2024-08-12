@@ -17,7 +17,6 @@
 
 <a href="@Url.Action("Create", "Estudiantes")" title="Añadir Estudiante">
     <img src="~/Scripts/Image/add.png" alt="Añadir Estudiante" style="width:24px; height:24px;" />
-
 </a>
 
 <br />
@@ -62,7 +61,96 @@
                 </td>
                 <td> @Html.DisplayFor(modelItem => item.primer_apellido) </td>
                 <td> @Html.DisplayFor(modelItem => item.segundo_apellido) </td>
-                <td> @Html.DisplayFor(modelItem => item.especialidad) </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.especialidad)
+                    @{
+                        int? especialidadId = item.especialidad; // Asumiendo que especialidad es un int o nullable int
+                        string mensaje = string.Empty;
+
+                        if (especialidadId.HasValue) // Verifica si hay una especialidad asignada
+                        {
+                            switch (especialidadId)
+                            {
+                                // Especialidades específicas
+                                case 1:
+                                    mensaje = "Accounting";
+                                    break;
+                                case 2:
+                                    mensaje = "Administración y operación aduanera";
+                                    break;
+                                case 3:
+                                    mensaje = "Contabilidad y auditoría";
+                                    break;
+                                case 4:
+                                    mensaje = "Configuración y soporte a redes";
+                                    break;
+                                case 5:
+                                    mensaje = "Contabilidad";
+                                    break;
+                                case 6:
+                                    mensaje = "Contabilidad y control interno";
+                                    break;
+                                case 7:
+                                    mensaje = " Contabilidad y finanzas";
+                                    break;
+                                case 8:
+                                    mensaje = " Ciberseguridad";
+                                    break;
+                                case 9:
+                                    mensaje = " Desarrollo Web";
+                                    break;
+                                case 10:
+                                    mensaje = " Dibujo Técnico";
+                                    break;
+                                case 11:
+                                    mensaje = " Dibujo y modelado de edificaciones";
+                                    break;
+                                case 12:
+                                    mensaje = " Ejecutivo comercial y de servicio al cliente";
+                                    break;
+                                case 13:
+                                    mensaje = "Informática de desarrollo de software";
+                                    break;
+                                case 14:
+                                    mensaje = "Inteligencia Artificial";
+                                    break;
+                                case 15:
+                                    mensaje = "Secretariado ejecutivo";
+                                    break;
+                                case 16:
+                                    mensaje = "Desarrollo de Aplicaciones Móviles";
+                                    break;
+                                default:
+                                    mensaje = "Otra especialidad";
+                                    break;
+                            }
+                        }
+                    }
+                    @if (!string.IsNullOrEmpty(mensaje))
+                    {
+                        <span> - @mensaje</span>
+                    }
+
+
+                    @*
+        --1. Accounting
+        --2. Administracion y operación aduanera
+        --3. Configuracion y soporte a redes
+        --4. Contabilidad
+        --5. Contabilidad y control interno
+        --6. Contabilidad y finanzas
+        --7. Ciberseguridad
+        --8. Desarrollo Web
+        --9. Dibujo Tecnico
+        --10. Dibujo y modelado de edificaciones
+        --11. Ejecutivo comercial y de servicio al cliente
+        --12. Informatica de desarrollo de software
+        --13. Inteligencia Artificial
+        --14. Secretariado ejecutivo
+
+                    *@
+
+                </td>
                 <td> @Html.DisplayFor(modelItem => item.cedula) </td>
                 <td> @Html.DisplayFor(modelItem => item.Numero_Encargado) </td>
                 <td> @Html.DisplayFor(modelItem => item.tipoEstudiante) </td>

@@ -1,14 +1,14 @@
 ﻿@model XPPROJECT3.estudiantes
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalles";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<h2>Información del estudiante</h2>
 
 <div>
-    <h4>estudiantes</h4>
+    <h4></h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -109,7 +109,47 @@
 
     </dl>
 </div>
+<br />
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.cedula }) |
-    @Html.ActionLink("Back to List", "Index")
+    <a href="@Url.Action("Edit", new { id = Model.cedula })" class="btn btn-success" >
+        Editar
+    </a>
+    <style>
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            color: white;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+    </style>
+
+
+    <br />
+    <br />
+    @Html.ActionLink("Regresar", "Index", null, new { @class = "custom-link" })
+
+    <style>
+        .custom-link {
+            color: black; /* Cambia el color del texto a negro */
+            text-decoration: none; /* Elimina el subrayado */
+        }
+
+            .custom-link:hover {
+                color: gray;
+            }
+    </style>
 </p>
