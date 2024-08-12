@@ -1,18 +1,18 @@
 ﻿@model XPPROJECT3.estudiantes
 
 @{
-    ViewBag.Title = "Edit";
+    ViewBag.Title = "Editar datos";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Edit</h2>
+<h2>Editar datos del estudiante</h2>
 
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
-        <h4>estudiantes</h4>
+        <h4></h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.cedula)
@@ -112,15 +112,28 @@
                 @Html.ValidationMessageFor(model => model.tipoEstudiante, "", new { @class = "text-danger" })
             </div>
         </div>
+        <br />
+        <br />
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Guardar" class="btn btn-success" />
             </div>
         </div>
     </div>
 }
 
+<br />
 <div>
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Regresar", "Index" , null, new { @class = "custom-link" })
 </div>
+<style>
+    .custom-link {
+        color: black; /* Cambia el color del texto a negro */
+        text-decoration: none; /* Elimina el subrayado */
+    }
+
+        .custom-link:hover {
+            color: gray;
+        }
+</style>

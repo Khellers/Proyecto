@@ -492,7 +492,42 @@ insert into Estudiantes(Cedula,nombre,Primer_Apellido,Segundo_Apellido,Especiali
 ('305900695',	'VALENTINA',	'SOLANO',	'MONTOYA',null, '87866262','D');
 
 ----
-
+--7-6--
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(76,'121050699','Ariel Martínez Silva','2024'),
+(76,'306020690','Ariel Martínez Silva','2024'),
+(76,'121100481','Ariel Martínez Silva','2024'),
+(76,'121180945','Ariel Martínez Silva','2024'),
+(76,'121280875','Ariel Martínez Silva','2024'),
+(76,'121270352','Ariel Martínez Silva','2024'),
+(76,'306030166','Ariel Martínez Silva','2024'),
+(76,'121190088','Ariel Martínez Silva','2024'),
+(76,'121190217','Ariel Martínez Silva','2024'),
+(76,'121030793','Ariel Martínez Silva','2024'),
+(76,'121220910','Ariel Martínez Silva','2024'),
+(76,'121030247','Ariel Martínez Silva','2024'),
+(76,'305980024','Ariel Martínez Silva','2024'),
+(76,'121110091','Ariel Martínez Silva','2024'),
+(76,'305970274','Ariel Martínez Silva','2024'),
+(76,'305980337','Ariel Martínez Silva','2024'),
+(76,'305970748','Ariel Martínez Silva','2024'),
+(76,'121040813','Ariel Martínez Silva','2024'),
+(76,'306000962','Ariel Martínez Silva','2024'),
+(76,'121020634','Ariel Martínez Silva','2024'),
+(76,'121060872','Ariel Martínez Silva','2024'),
+(76,'305980427','Ariel Martínez Silva','2024'),
+(76,'305960710','Ariel Martínez Silva','2024'),
+(76,'121050548','Ariel Martínez Silva','2024'),
+(76,'306000219','Ariel Martínez Silva','2024'),
+(76,'121080547','Ariel Martínez Silva','2024'),
+(76,'305990430','Ariel Martínez Silva','2024'),
+(76,'306010455','Ariel Martínez Silva','2024'),
+(76,'121240983','Ariel Martínez Silva','2024'),
+(76,'305920869','Ariel Martínez Silva','2024'),
+(76,'305900832','Ariel Martínez Silva','2024'),
+(76,'305960346','Ariel Martínez Silva','2024'),
+(76,'306040330','Ariel Martínez Silva','2024'),
+(76,'305900695','Ariel Martínez Silva','2024');
 
 
 
@@ -532,6 +567,42 @@ insert into Estudiantes(Cedula,nombre,Primer_Apellido,Segundo_Apellido,Especiali
 ('1207300779',	'PAMELA',	'HERNANDEZ',	'HERRERA',null,	86219009,'D'),
 ('YR2022-30166',	'OSMARI',	'PEREZ',	'JIMENEZ',null,	84532446,'D');
 
+----
+--7-7--
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(77,'121020526','Gabriela Sánchez Solano','2024'),
+(77,'121240173','Gabriela Sánchez Solano','2024'),
+(77,'121260168','Gabriela Sánchez Solano','2024'),
+(77,'305990111','Gabriela Sánchez Solano','2024'),
+(77,'121090986','Gabriela Sánchez Solano','2024'),
+(77,'121070912','Gabriela Sánchez Solano','2024'),
+(77,'121140851','Gabriela Sánchez Solano','2024'),
+(77,'121030784','Gabriela Sánchez Solano','2024'),
+(77,'121220757','Gabriela Sánchez Solano','2024'),
+(77,'305990026','Gabriela Sánchez Solano','2024'),
+(77,'121010152','Gabriela Sánchez Solano','2024'),
+(77,'121110401','Gabriela Sánchez Solano','2024'),
+(77,'121110835','Gabriela Sánchez Solano','2024'),
+(77,'306020367','Gabriela Sánchez Solano','2024'),
+(77,'306010342','Gabriela Sánchez Solano','2024'),
+(77,'121180969','Gabriela Sánchez Solano','2024'),
+(77,'121300648','Gabriela Sánchez Solano','2024'),
+(77,'121160629','Gabriela Sánchez Solano','2024'),
+(77,'305990791','Gabriela Sánchez Solano','2024'),
+(77,'121290128','Gabriela Sánchez Solano','2024'),
+(77,'306010732','Gabriela Sánchez Solano','2024'),
+(77,'305970192','Gabriela Sánchez Solano','2024'),
+(77,'121220393','Gabriela Sánchez Solano','2024'),
+(77,'1221120630','Gabriela Sánchez Solano','2024'),
+(77,'121240876','Gabriela Sánchez Solano','2024'),
+(77,'305970507','Gabriela Sánchez Solano','2024'),
+(77,'305970854','Gabriela Sánchez Solano','2024'),
+(77,'306010738','Gabriela Sánchez Solano','2024'),
+(77,'305980336','Gabriela Sánchez Solano','2024'),
+(77,'121110710','Gabriela Sánchez Solano','2024'),
+(77,'305880773','Gabriela Sánchez Solano','2024'),
+(77,'1207300779','Gabriela Sánchez Solano','2024'),
+(77,'YR2022-30166','Gabriela Sánchez Solano','2024');
 
 
 --8-7
@@ -1962,8 +2033,7 @@ Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_E
 ('Dorado','Vargas','Alexa','120170262','86408593',3,'D'),
 ('Fonseca','Chavarría','Gabriel','305810223','89390079',3,'D'),
 ('Matarrita','López','Naomy','120330080','62243807',3,'D'),
-('Mora','Solano','José','120260785','61971093',3,'D'),
-('Morales','Cubillo','Fiorella','305740204','64895799',3,'D'),
+('Mora','Solano','José','120260785','61971093',3,'D'),('Morales','Cubillo','Fiorella','305740204','64895799',3,'D'),
 ('Morales','Herrera','Nathaly','120220966','72078763',3,'D'),
 ('Morera','Sanabria','Emanuel','120170876','85018524',3,'D'),
 ('Murillo','Quirós','Gianluigui','120270348','85196509',3,'D'),
