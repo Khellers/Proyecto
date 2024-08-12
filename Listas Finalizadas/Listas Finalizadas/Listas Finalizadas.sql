@@ -40,6 +40,7 @@ CREATE TABLE Seccion (
 --Secciones 
 --7-1
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+<<<<<<< Updated upstream
 (71,'121160700','Andres Segura Araya','2024');
 
 INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
@@ -549,6 +550,42 @@ INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 
 
 
+=======
+(71,'121160700','Andres Segura Araya','2024'),
+(71,'121030950','Andres Segura Araya','2024'),
+(71,'306000440','Andres Segura Araya','2024'),
+(71,'121300135','Andres Segura Araya','2024'),
+(71,'121200900','Andres Segura Araya','2024'),
+(71,'305980486','Andres Segura Araya','2024'),
+(71,'306030378','Andres Segura Araya','2024'),
+(71,'305980818','Andres Segura Araya','2024'),
+(71,'306020254','Andres Segura Araya','2024'),
+(71,'305970186','Andres Segura Araya','2024'),
+(71,'121170405','Andres Segura Araya','2024'),
+(71,'306010011','Andres Segura Araya','2024'),
+(71,'306000755','Andres Segura Araya','2024'),
+(71,'121220919','Andres Segura Araya','2024'),
+(71,'155840276630','Andres Segura Araya','2024'),
+(71,'305970801','Andres Segura Araya','2024'),
+(71,'121180974','Andres Segura Araya','2024'),
+(71,'121080140','Andres Segura Araya','2024'),
+(71,'305970327','Andres Segura Araya','2024'),
+(71,'121290293','Andres Segura Araya','2024'),
+(71,'306000413','Andres Segura Araya','2024'),
+(71,'306020864','Andres Segura Araya','2024'),
+(71,'121090039','Andres Segura Araya','2024'),
+(71,'306000269','Andres Segura Araya','2024'),
+(71,'121070759','Andres Segura Araya','2024'),
+(71,'120960960','Andres Segura Araya','2024'),
+(71,'305970791','Andres Segura Araya','2024'),
+(71,'121140503','Andres Segura Araya','2024'),
+(71,'305950694','Andres Segura Araya','2024'),
+(71,'305980999','Andres Segura Araya','2024'),
+(71,'305960492','Andres Segura Araya','2024'),
+(71,'121280729','Andres Segura Araya','2024'),
+(71,'305920719','Andres Segura Araya','2024'),
+(71,'305920082','Andres Segura Araya','2024');
+>>>>>>> Stashed changes
 
 ---7-1
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
@@ -589,8 +626,43 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305920719','ISAAC','MORA','DELGADO',null,'84624082','D'),
 ('305920082','ANDRÉ','VARGAS','AGUILAR',null,'83474986','D');
 
-
-
+--7-2--
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(72,'305980663','Oscar Zúñiga Zúñiga','2024'),
+(72,'121190701','Oscar Zúñiga Zúñiga','2024'),
+(72,'121160424','Oscar Zúñiga Zúñiga','2024'),
+(72,'306000798','Oscar Zúñiga Zúñiga','2024'),
+(72,'121240511','Oscar Zúñiga Zúñiga','2024'),
+(72,'306020100','Oscar Zúñiga Zúñiga','2024'),
+(72,'505490054','Oscar Zúñiga Zúñiga','2024'),
+(72,'305990548','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980071','Oscar Zúñiga Zúñiga','2024'),
+(72,'121010584','Oscar Zúñiga Zúñiga','2024'),
+(72,'121130068','Oscar Zúñiga Zúñiga','2024'),
+(72,'121030925','Oscar Zúñiga Zúñiga','2024'),
+(72,'121120546','Oscar Zúñiga Zúñiga','2024'),
+(72,'121210021','Oscar Zúñiga Zúñiga','2024'),
+(72,'121100755','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980318','Oscar Zúñiga Zúñiga','2024'),
+(72,'121070165','Oscar Zúñiga Zúñiga','2024'),
+(72,'305990649','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980226','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980704','Oscar Zúñiga Zúñiga','2024'),
+(72,'121160621','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980030','Oscar Zúñiga Zúñiga','2024'),
+(72,'121170543','Oscar Zúñiga Zúñiga','2024'),
+(72,'121110791','Oscar Zúñiga Zúñiga','2024'),
+(72,'305980854','Oscar Zúñiga Zúñiga','2024'),
+(72,'305960853','Oscar Zúñiga Zúñiga','2024'),
+(72,'121200884','Oscar Zúñiga Zúñiga','2024'),
+(72,'121020032','Oscar Zúñiga Zúñiga','2024'),
+(72,'121220360','Oscar Zúñiga Zúñiga','2024'),
+(72,'121190633','Oscar Zúñiga Zúñiga','2024'),
+(72,'121130312','Oscar Zúñiga Zúñiga','2024'),
+(72,'305960188','Oscar Zúñiga Zúñiga','2024'),
+(72,'209470010','Oscar Zúñiga Zúñiga','2024'),
+(72,'121050470','Oscar Zúñiga Zúñiga','2024'),
+(72,'121180428','Oscar Zúñiga Zúñiga','2024'); 
 
 --7-2---
 
@@ -631,13 +703,51 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('121050470','JUAN JOSÉ','ESPINOZA','OBANDO',NULL,'72242407','D'),
 ('121180428','NOELIA','CONEJO',	'FERNANDEZ',NULL,'83090467','D');
 
+--7-3--
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(73,'306000663','Maureen Leiva Soto','2024'),
+(73,'121030433','Maureen Leiva Soto','2024'),
+(73,'121110829','Maureen Leiva Soto','2024'),
+(73,'121020640','Maureen Leiva Soto','2024'),
+(73,'121210991','Maureen Leiva Soto','2024'),
+(73,'121270444','Maureen Leiva Soto','2024'),
+(73,'306010320','Maureen Leiva Soto','2024'),
+(73,'306010953','Maureen Leiva Soto','2024'),
+(73,'121140572','Maureen Leiva Soto','2024'),
+(73,'121040223','Maureen Leiva Soto','2024'),
+(73,'121060107','Maureen Leiva Soto','2024'),
+(73,'306010251','Maureen Leiva Soto','2024'),
+(73,'305960652','Maureen Leiva Soto','2024'),
+(73,'121100861','Maureen Leiva Soto','2024'),
+(73,'306010306','Maureen Leiva Soto','2024'),
+(73,'121060644','Maureen Leiva Soto','2024'),
+(73,'306040714','Maureen Leiva Soto','2024'),
+(73,'121140170','Maureen Leiva Soto','2024'),
+(73,'305980522','Maureen Leiva Soto','2024'),
+(73,'121180523','Maureen Leiva Soto','2024'),
+(73,'306020043','Maureen Leiva Soto','2024'),
+(73,'305980783','Maureen Leiva Soto','2024'),
+(73,'121200316','Maureen Leiva Soto','2024'),
+(73,'121120565','Maureen Leiva Soto','2024'),
+(73,'121130550','Maureen Leiva Soto','2024'),
+(73,'121110599','Maureen Leiva Soto','2024'),
+(73,'121130174','Maureen Leiva Soto','2024'),
+(73,'121130284','Maureen Leiva Soto','2024'),
+(73,'305980681','Maureen Leiva Soto','2024'),
+(73,'121120491','Maureen Leiva Soto','2024'),
+(73,'305910777','Maureen Leiva Soto','2024'),
+(73,'306020240','Maureen Leiva Soto','2024'),
+(73,'121060937','Maureen Leiva Soto','2024'),
+(73,'305940117','Maureen Leiva Soto','2024'),
+(73,'120900977','Maureen Leiva Soto','2024');
+
 
 --7-3---
 
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
 
-('30600663','VALERIA','ARAYA','JIMENEZ',NULL,'89668293','D'),
+('306000663','VALERIA','ARAYA','JIMENEZ',NULL,'89668293','D'),
 ('121030433','IAM',	'BARRANTES'	,'CASTRILLO',NULL,'25181717','D'),
 ('121110829','ESTEBAN','BARQUERO','ARGUEDAS',NULL,'72199314','D'),
 ('121020640','SAMANTHA','BOZA'	,'GOMEZ',NULL,'83556049','D'),
@@ -673,10 +783,46 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305940117','BRYAN','FALLAS','TORRES',null,'72635497','D'),
 ('120900977','CALEB','VARGAS','MORALES',null,'84080828','D');
 
+--7-4--
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(74,'121180172','Ariel Martínez Silva','2024'),
+(74,'121130545','Ariel Martínez Silva','2024'),
+(74,'209410943','Ariel Martínez Silva','2024'),
+(74,'305970461','Ariel Martínez Silva','2024'),
+(74,'305990506','Ariel Martínez Silva','2024'),
+(74,'306020520','Ariel Martínez Silva','2024'),
+(74,'121140405','Ariel Martínez Silva','2024'),
+(74,'155846984221','Ariel Martínez Silva','2024'),
+(74,'306000348','Ariel Martínez Silva','2024'),
+(74,'306010801','Ariel Martínez Silva','2024'),
+(74,'402870358','Ariel Martínez Silva','2024'),
+(74,'306030917','Ariel Martínez Silva','2024'),
+(74,'305970478','Ariel Martínez Silva','2024'),
+(74,'305990869','Ariel Martínez Silva','2024'),
+(74,'305960864','Ariel Martínez Silva','2024'),
+(74,'121300699','Ariel Martínez Silva','2024'),
+(74,'121080638','Ariel Martínez Silva','2024'),
+(74,'306010664','Ariel Martínez Silva','2024'),
+(74,'121210600','Ariel Martínez Silva','2024'),
+(74,'305990455','Ariel Martínez Silva','2024'),
+(74,'703590202','Ariel Martínez Silva','2024'),
+(74,'209450454','Ariel Martínez Silva','2024'),
+(74,'121240357','Ariel Martínez Silva','2024'),
+(74,'305980578','Ariel Martínez Silva','2024'),
+(74,'305960406','Ariel Martínez Silva','2024'),
+(74,'306020038','Ariel Martínez Silva','2024'),
+(74,'305980708','Ariel Martínez Silva','2024'),
+(74,'306020958','Ariel Martínez Silva','2024'),
+(74,'121140406','Ariel Martínez Silva','2024'),
+(74,'306020614','Ariel Martínez Silva','2024'),
+(74,'306000831','Ariel Martínez Silva','2024'),
+(74,'121030248','Ariel Martínez Silva','2024'),
+(74,'121180471','Ariel Martínez Silva','2024'),
+(74,'120670781','Ariel Martínez Silva','2024'),
+(74,'155844875317','Ariel Martínez Silva','2024'),
 
 --7-4---
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
-
 
 ('121180172','MARIELA','SEGURA','CALDERON',null,'70252200','D'),
 ('121130545','MARIA JESUS','SOLANO','MOLINA',NULL,'72299009','D'),
@@ -693,7 +839,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305970478','LUIS','MONGE','BEJARANO',NULL,'71022875','D'),
 ('305990869','BRIANA','MORA ','CHACON',NULL,'70290143','D'),
 ('305960864','JOSE','NAVARRO','VASQUEZ',NULL,'85930749','D'),
-('12130099'	,'ETHAN','VASQUEZ','ARRIETA',NULL,'86907447','D'),
+('121300699','ETHAN','VASQUEZ','ARRIETA',NULL,'86907447','D'),
 ('121080638','JOSUE','VARGAS','ARCE',NULL,'85593746','D'),
 ('306010664','AMBER','VILLALOBOS','CASTILLO',NULL,'62041313','D'),
 ('121210600','FIORELLA','ARCE','SEGURA',NULL,'60728837','D'),
@@ -714,6 +860,41 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('120670781','MARÍA CELESTE','CASTILLO','ACUÑA',NULL,'87100476','D'),
 ('155844875317','HAZEL','QUINTANILLA','REYES',NULL,'60097247','D');
 
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
+(75,'121180456','Maureen Leiva Soto','2024'),
+(75,'121190107','Maureen Leiva Soto','2024'),
+(75,'209380763','Maureen Leiva Soto','2024'),
+(75,'306020837','Maureen Leiva Soto','2024'),
+(75,'121310036','Maureen Leiva Soto','2024'),
+(75,'306020340','Maureen Leiva Soto','2024'),
+(75,'121250087','Maureen Leiva Soto','2024'),
+(75,'C02548063','Maureen Leiva Soto','2024'),
+(75,'306010072','Maureen Leiva Soto','2024'),
+(75,'121200762','Maureen Leiva Soto','2024'),
+(75,'121260056','Maureen Leiva Soto','2024'),
+(75,'121110843','Maureen Leiva Soto','2024'),
+(75,'121150723','Maureen Leiva Soto','2024'),
+(75,'121080279','Maureen Leiva Soto','2024'),
+(75,'121050700','Maureen Leiva Soto','2024'),
+(75,'306020423','Maureen Leiva Soto','2024'),
+(75,'121190002','Maureen Leiva Soto','2024'),
+(75,'305990830','Maureen Leiva Soto','2024'),
+(75,'121090799','Maureen Leiva Soto','2024'),
+(75,'305990258','Maureen Leiva Soto','2024'),
+(75,'305970941','Maureen Leiva Soto','2024'),
+(75,'120610334','Maureen Leiva Soto','2024'),
+(75,'121080936','Maureen Leiva Soto','2024'),
+(75,'305970755','Maureen Leiva Soto','2024'),
+(75,'306040538','Maureen Leiva Soto','2024'),
+(75,'121120765','Maureen Leiva Soto','2024'),
+(75,'121290915','Maureen Leiva Soto','2024'),
+(75,'121180515','Maureen Leiva Soto','2024'),
+(75,'121250494','Maureen Leiva Soto','2024'),
+(75,'504940864','Maureen Leiva Soto','2024'),
+(75,'305960554','Maureen Leiva Soto','2024'),
+(75,'121110639','Maureen Leiva Soto','2024'),
+(75,'120940672','Maureen Leiva Soto','2024'),
+
 --7-5---
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
@@ -721,7 +902,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('121180456','ARIANA','MOYA','VEGA',NULL,'88042432','D'),
 ('121190107','SANTIAGO','ARIAS','MORA',NULL,'87649570','D'),
 ('209380763','YULIANA',	'BARAHONA','NAVARRO',NULL,'30120880','D'),
-('30602837','EMANUEL', 	'BARRANTES','SALAS',NULL,'88468346','D'),
+('306020837','EMANUEL', 'BARRANTES','SALAS',NULL,'88468346','D'),
 ('121310036','ARELHEN',	'BRENES','VALDIVIA',NULL,'85350101','D'),
 ('306020340','ADRIAN',	'CHEVES','PEREIRA',NULL,'89701643','D'),
 ('121250087','SOFIA',	'GIRALDO','CORREA',NULL,'22782122','D'),
