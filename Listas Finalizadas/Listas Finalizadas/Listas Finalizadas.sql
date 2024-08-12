@@ -2121,7 +2121,7 @@ Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_E
 
 
 --10-9 
-insert into SeccionNancy Sequeira Chacón(IdSeccion,cedula,ProfesorGuia,año) values
+insert into Seccion (IdSeccion,cedula,ProfesorGuia,año) values
  (109,'120180655','Nancy Sequeira Chacón','2024'),
  (109,'120080488','Nancy Sequeira Chacón','2024'),
  (109,'305580620','Nancy Sequeira Chacón','2024'),
