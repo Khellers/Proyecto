@@ -31,12 +31,20 @@ CREATE TABLE Seccion (
 
     IdSeccion INT,
 	cedula varchar(15),
-    ProfesorGuia VARCHAR(15),
+    ProfesorGuia INT,
 	año varchar(4),
 	primary key (IdSeccion,cedula,ProfesorGuia,año),
     CONSTRAINT FKSeccioncedula FOREIGN KEY (cedula) REFERENCES estudiantes (cedula)
 );
 
+CREATE TABLE Secciones(
+
+	Id int primary key,
+
+	Seccion varchar(6)
+
+);
+ 
 
 
 
@@ -3232,3 +3240,52 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 (127,'119710476','Patricia Granados Jiménez','2024'),
 (127,'119650250','Patricia Granados Jiménez','2024'),
 (127,'305660535','Patricia Granados Jiménez','2024'); 
+
+Insert into Secciones(Id, Seccion) values
+(71, '7-1'),
+(72, '7-2'),
+(73, '7-1'),
+(74, '7-2'),
+(75, '7-1'),
+(76, '7-2'),
+(77, '7-1'),
+(81, '8-1'),
+(82, '8-2'),
+(83, '8-3'),
+(84, '8-4'),
+(85, '8-5'),
+(86, '8-6'),
+(87, '8-7'),
+(91, '9-1'),
+(92, '9-2'),
+(93, '9-3'),
+(94, '9-4'),
+(95, '9-5'),
+(96, '9-6'),
+(97, '9-7'),
+(101, '10-1'),
+(102, '10-2'),
+(103, '10-3'),
+(104, '10-4'),
+(105, '10-5'),
+(106, '10-6'),
+(107, '10-7'),
+(108, '10-8'),
+(109, '10-9'),
+(110, '10-10'),
+(111, '11-1'),
+(112, '11-2'),
+(113, '11-3'),
+(114, '11-4'),
+(115, '11-5'),
+(116, '11-6'),
+(117, '11-7'),
+(118, '11-8'),
+(119, '11-9'),
+(121, '12-1'),
+(122, '12-2'),
+(123, '12-3'),
+(124, '12-4'),
+(125, '12-5'),
+(126, '12-6'),
+(127, '12-7');
