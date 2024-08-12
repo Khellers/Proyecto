@@ -8,16 +8,46 @@
         e.nombre.Contains(searchQuery) ||
         e.primer_apellido.Contains(searchQuery) ||
         e.segundo_apellido.Contains(searchQuery) ||
-        e.cedula.ToString().Contains(searchQuery) ||
         e.cedula.ToString().Contains(searchQuery)
     );
 }
 
 <h2>Listas de clase</h2>
 
-<a href="@Url.Action("Create", "Estudiantes")" title="Añadir Estudiante">
-    <img src="~/Scripts/Image/add.png" alt="Añadir Estudiante" style="width:24px; height:24px;" />
-</a>
+<!-- Botón para abrir el off-canvas -->
+<button type="button" class="btn btn-outline-info" data-bs-toggle="offcanvas" data-bs-target="#especialidadesOffCanvas" aria-controls="especialidadesOffCanvas">
+    Información sobre Especialidades
+</button>
+
+<!-- Off-Canvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="especialidadesOffCanvas" aria-labelledby="especialidadesOffCanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="especialidadesOffCanvasLabel">Especialidades</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul>
+            <li>1. Accounting</li>
+            <li>2. Administración y Operación Aduanera</li>
+            <li>3. Contabilidad y Auditoría</li>
+            <li>4. Configuración y Soporte a Redes</li>
+            <li>5. Contabilidad</li>
+            <li>6. Contabilidad y Control Interno</li>
+            <li>7. Contabilidad y Finanzas</li>
+            <li>8. Ciberseguridad</li>
+            <li>9. Desarrollo Web</li>
+            <li>10. Dibujo Técnico</li>
+            <li>11. Dibujo y Modelado de Edificaciones</li>
+            <li>12. Ejecutivo Comercial y de Servicio al Cliente</li>
+            <li>13. Informática en Desarrollo de Software</li>
+            <li>14. Inteligencia Artificial</li>
+            <li>15. Secretariado Ejecutivo</li>
+            <li>16. Desarrollo de Aplicaciones Móviles</li>
+        </ul>
+        <!-- Botón para ocultar permanentemente el off-canvas -->
+        <button type="button" class="btn btn-secondary" id="hideOffCanvasBtn">No mostrar nuevamente</button>
+    </div>
+</div>
 
 <br />
 <br />
@@ -64,14 +94,13 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.especialidad)
                     @{
-                        int? especialidadId = item.especialidad; // Asumiendo que especialidad es un int o nullable int
+                        int? especialidadId = item.especialidad;
                         string mensaje = string.Empty;
 
-                        if (especialidadId.HasValue) // Verifica si hay una especialidad asignada
+                        if (especialidadId.HasValue)
                         {
                             switch (especialidadId)
                             {
-                                // Especialidades específicas
                                 case 1:
                                     mensaje = "Accounting";
                                     break;
@@ -91,22 +120,22 @@
                                     mensaje = "Contabilidad y control interno";
                                     break;
                                 case 7:
-                                    mensaje = " Contabilidad y finanzas";
+                                    mensaje = "Contabilidad y finanzas";
                                     break;
                                 case 8:
-                                    mensaje = " Ciberseguridad";
+                                    mensaje = "Ciberseguridad";
                                     break;
                                 case 9:
-                                    mensaje = " Desarrollo Web";
+                                    mensaje = "Desarrollo Web";
                                     break;
                                 case 10:
-                                    mensaje = " Dibujo Técnico";
+                                    mensaje = "Dibujo Técnico";
                                     break;
                                 case 11:
-                                    mensaje = " Dibujo y modelado de edificaciones";
+                                    mensaje = "Dibujo y modelado de edificaciones";
                                     break;
                                 case 12:
-                                    mensaje = " Ejecutivo comercial y de servicio al cliente";
+                                    mensaje = "Ejecutivo comercial y de servicio al cliente";
                                     break;
                                 case 13:
                                     mensaje = "Informática de desarrollo de software";
@@ -130,29 +159,6 @@
                     {
                         <span> - @mensaje</span>
                     }
-
-
-                    @*
-
-        1. *Accounting*
-        2. *Administración y Operación Aduanera*
-        3. *Contabilidad y Auditoría*
-        4. *Configuración y Soporte a Redes*
-        5. *Contabilidad*
-        6. *Contabilidad y Control Interno*
-        7. *Contabilidad y Finanzas*
-        8. *Ciberseguridad*
-        9. *Desarrollo Web*
-        10. *Dibujo Técnico*
-        11. *Dibujo y Modelado de Edificaciones*
-        12. *Ejecutivo Comercial y de Servicio al Cliente*
-        13. *Informática en Desarrollo de Software*
-        14. *Inteligencia Artificial*
-        15. *Secretariado Ejecutivo*
-        16. *Desarrollo de Aplicaciones Móviles*
-
-                    *@
-
                 </td>
                 <td> @Html.DisplayFor(modelItem => item.cedula) </td>
                 <td> @Html.DisplayFor(modelItem => item.Numero_Encargado) </td>
@@ -196,3 +202,24 @@
     </table>
     <button type="submit" class="btn" style="background-color: #8abbc8; color: white">Guardar Cambios</button>
 </form>
+
+<!-- JavaScript para manejar el off-canvas y cookies -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var hideOffCanvasBtn = document.getElementById("hideOffCanvasBtn");
+        var offCanvas = new bootstrap.Offcanvas(document.getElementById("especialidadesOffCanvas"));
+
+        // Chequear si la cookie 'hideOffCanvas' está establecida
+        if (document.cookie.split('; ').find(row => row.startsWith('hideOffCanvas=true'))) {
+            // No mostrar el off-canvas si la cookie está presente
+        } else {
+            offCanvas.show();
+        }
+
+        // Configurar el botón para ocultar permanentemente el off-canvas
+        hideOffCanvasBtn.addEventListener("click", function() {
+            document.cookie = "hideOffCanvas=true; path=/; max-age=" + 60*60*24*30; // Expira en 30 días
+            offCanvas.hide();
+        });
+    });
+</script>
