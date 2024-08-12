@@ -129,5 +129,17 @@
 }
 <br />
 <div>
-    @Html.ActionLink("Regresar", "Index")
+    @Html.ActionLink("Regresar", "Index", null, new { @class = "custom-link" })
+
+    <style>
+        .custom-link {
+            color: black; /* Cambia el color del texto a negro */
+            text-decoration: none; /* Elimina el subrayado */
+        }
+        .custom-link:hover{
+            color: gray;
+        }
+
+    </style>
+
 </div>
