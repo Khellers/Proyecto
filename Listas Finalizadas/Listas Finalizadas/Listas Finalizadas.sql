@@ -218,7 +218,7 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especialidad,Numero_Encargado,tipoEstudiante) values
 
-('30600663','VALERIA','ARAYA','JIMENEZ',NULL,'89668293','D'),
+('306000663','VALERIA','ARAYA','JIMENEZ',NULL,'89668293','D'),
 ('121030433','IAM',	'BARRANTES'	,'CASTRILLO',NULL,'25181717','D'),
 ('121110829','ESTEBAN','BARQUERO','ARGUEDAS',NULL,'72199314','D'),
 ('121020640','SAMANTHA','BOZA'	,'GOMEZ',NULL,'83556049','D'),
