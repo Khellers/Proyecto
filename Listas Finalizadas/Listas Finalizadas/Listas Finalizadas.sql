@@ -2942,9 +2942,6 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 (122,'119660958',9,'2024'),
 (122,'119760419',9,'2024'),
 (122,'119690108',9,'2024'),
-
---12-2B
-
 --12-2B
 (122,'305540646',9,'2024'),
 (122,'119120482',9,'2024'),
@@ -3042,7 +3039,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305670148','Swami','Rojas','Segura',4,'86401000','D'),
 ('604980894','Diego A.','Sáenz','Merino',4,'63934327','D'),
 ('119740939','Fabrizio','Segura','Valverde',4,'83789265','D'),
-('305680967','Keith','Solís','Mora',4,'8553-9488','D'); 
+('305680967','Keith','Solís','Mora',4,'85539488','D'); 
 
 --12-4A
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
@@ -3111,7 +3108,7 @@ Insert into Estudiantes (cedula,nombre,primer_apellido,segundo_apellido,especial
 ('305620616','Luis Carlos','Flores','Muñoz',4,'70108468','D'),
 ('119630726','Kevin','Guzmán','Borbón',4,'88155208','D'),
 ('119240782','Allen','Hernández','Madrigal',4,'85536694','D'),
-('119240782','Sebastián','Hernández','Solís',4,'8519-6979','D'),
+('305620299','Sebastián','Hernández','Solís',4,'85196979','D'),
 ('119240877','Joseph','Jiménez','Alpízar',4,'60377121','D'),
 ('305660667','Diego A.','Martínez','Agüero',4,'88498607','D'),
 ('305620972','Lynsay','Monge','Rojas',4,'87224114','D'),
@@ -3143,20 +3140,20 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 --12-5B
 
-(125,'119680046','Pamela Castillo Richmond','2024'),
-(125,'119430409','Pamela Castillo Richmond','2024'),
-(125,'305680831','Pamela Castillo Richmond','2024'),
-(125,'305620616','Pamela Castillo Richmond','2024'),
-(125,'119630726','Pamela Castillo Richmond','2024'),
-(125,'119240782','Pamela Castillo Richmond','2024'),
-(125,'119240782','Pamela Castillo Richmond','2024'),
-(125,'119240877','Pamela Castillo Richmond','2024'),
-(125,'305660667','Pamela Castillo Richmond','2024'),
-(125,'305620972','Pamela Castillo Richmond','2024'),
-(125,'305660300','Pamela Castillo Richmond','2024'),
-(125,'119750627','Pamela Castillo Richmond','2024'),
-(125,'119770447','Pamela Castillo Richmond','2024'),
-(125,'305660155','Pamela Castillo Richmond','2024'); 
+(125,'119680046',13,'2024'),
+(125,'119430409',13,'2024'),
+(125,'305680831',13,'2024'),
+(125,'305620616',13,'2024'),
+(125,'119630726',13,'2024'),
+(125,'119240782',13,'2024'),
+(125,'305620299',13,'2024'),
+(125,'119240877',13,'2024'),
+(125,'305660667',13,'2024'),
+(125,'305620972',13,'2024'),
+(125,'305660300',13,'2024'),
+(125,'119750627',13,'2024'),
+(125,'119770447',13,'2024'),
+(125,'305660155',13,'2024'); 
 
 
 
@@ -3271,7 +3268,7 @@ Insert into estudiantes(cedula,nombre,primer_apellido,segundo_apellido,especiali
 ('119590093','Bayron','Castillo','Solano',5,'70618837','D'),
 ('208700239','Verónica','Chacón','Fonseca',5,'72814818','D'),
 ('155834699026','Said','Chávez','Jarquín',5,'84115013','D'),
-('119570611','Tiffany','Grijalba','Martínez',5,'84115013','D'),
+('119570611','Tifany','Grijalba','Martínez',5,'84115013','D'),
 ('119580224','Deyber A.','Hurtado','Escorcia',5,'89157997','D'),
 ('305650978','Andy Jordi','Morales','López',5,'83917374','D'),
 ('119350558','Herson','Morán','Espinoza',5,'83246624','D'),
