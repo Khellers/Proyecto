@@ -15,11 +15,29 @@ namespace XPPROJECT3.Controllers
         private db_aabd33_ctpmqstestEntities db = new db_aabd33_ctpmqstestEntities();
 
         // GET: Seccions
+
+
         public ActionResult Index()
         {
-            var seccion = db.Seccion.Include(s => s.estudiantes).Include(s => s.profesoress).Include(s => s.Secciones);
-            return View(seccion.ToList());
+            var secciones = db.Seccion
+                .Include(s => s.estudiantes)
+                .Include(s => s.profesoress)
+                .ToList();
+
+            var groupedSecciones = secciones
+                .GroupBy(s => s.IdSeccion)
+                .Select(g => new SeccionViewModel
+                {
+                    Seccion = g.FirstOrDefault().Secciones.Seccion,
+                    Estudiantes = g.ToList(),
+                    Profesor = g.FirstOrDefault().profesoress.nombre
+                }).ToList();
+
+            return View(groupedSecciones);
         }
+
+
+
 
         // GET: Seccions/Details/5
         public ActionResult Details(int? id)

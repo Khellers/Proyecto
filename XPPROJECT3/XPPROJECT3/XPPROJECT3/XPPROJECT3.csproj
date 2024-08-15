@@ -342,6 +342,7 @@
     <Content Include="Views\Seccions\Edit.cshtml" />
     <Content Include="Views\Seccions\Index.cshtml" />
     <Content Include="Views\estudiantesPorSeccion.cshtml" />
+    <Content Include="Views\Home\lista.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

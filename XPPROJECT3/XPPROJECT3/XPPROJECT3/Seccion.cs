@@ -23,4 +23,11 @@ namespace XPPROJECT3
         public virtual profesoress profesoress { get; set; }
         public virtual Secciones Secciones { get; set; }
     }
+    public class SeccionViewModel
+    {
+        public string Seccion { get; set; }
+        public List<Seccion> Estudiantes { get; set; }
+        public string Profesor { get; set; }
+    }
+
 }

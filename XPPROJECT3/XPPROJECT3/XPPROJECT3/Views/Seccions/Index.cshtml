@@ -1,4 +1,4 @@
-﻿@model IEnumerable<XPPROJECT3.Seccion>
+﻿@model IEnumerable<XPPROJECT3.SeccionViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -10,37 +10,69 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.estudiantes.nombre)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.profesoress.nombre)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Secciones.Seccion)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.estudiantes.nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.profesoress.nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Secciones.Seccion)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
-    </tr>
+@foreach (var seccionGroup in Model)
+{
+    <h3>Sección: @seccionGroup.Seccion</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.primer_apellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.segundo_apellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.especialidad)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.cedula)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.Numero_Encargado)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.tipoEstudiante)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in seccionGroup.Estudiantes)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estudiantes.nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estudiantes.primer_apellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estudiantes.segundo_apellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estudiantes.especialidad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estudiantes.cedula)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estudiantes.Numero_Encargado)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.estudiantes.tipoEstudiante)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.IdSeccion }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.IdSeccion }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.IdSeccion })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
-
-</table>
