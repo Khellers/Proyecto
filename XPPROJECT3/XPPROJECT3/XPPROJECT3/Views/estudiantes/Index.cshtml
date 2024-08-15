@@ -1,4 +1,5 @@
-﻿@model IEnumerable<XPPROJECT3.estudiantes>
+﻿
+@model IEnumerable<XPPROJECT3.estudiantes>
 
 @{
     ViewBag.Title = "Listas de clase";
@@ -92,74 +93,10 @@
                 <td> @Html.DisplayFor(modelItem => item.primer_apellido) </td>
                 <td> @Html.DisplayFor(modelItem => item.segundo_apellido) </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.especialidad)
-                    @{
-                        int? especialidadId = item.especialidad;
-                        string mensaje = string.Empty;
+                    @Html.DisplayFor(modelItem => item.especialidades.NombreEspecialidad)
 
-                        if (especialidadId.HasValue)
-                        {
-                            switch (especialidadId)
-                            {
-                                case 1:
-                                    mensaje = "Accounting";
-                                    break;
-                                case 2:
-                                    mensaje = "Administración y operación aduanera";
-                                    break;
-                                case 3:
-                                    mensaje = "Contabilidad y auditoría";
-                                    break;
-                                case 4:
-                                    mensaje = "Configuración y soporte a redes";
-                                    break;
-                                case 5:
-                                    mensaje = "Contabilidad";
-                                    break;
-                                case 6:
-                                    mensaje = "Contabilidad y control interno";
-                                    break;
-                                case 7:
-                                    mensaje = "Contabilidad y finanzas";
-                                    break;
-                                case 8:
-                                    mensaje = "Ciberseguridad";
-                                    break;
-                                case 9:
-                                    mensaje = "Desarrollo Web";
-                                    break;
-                                case 10:
-                                    mensaje = "Dibujo Técnico";
-                                    break;
-                                case 11:
-                                    mensaje = "Dibujo y modelado de edificaciones";
-                                    break;
-                                case 12:
-                                    mensaje = "Ejecutivo comercial y de servicio al cliente";
-                                    break;
-                                case 13:
-                                    mensaje = "Informática de desarrollo de software";
-                                    break;
-                                case 14:
-                                    mensaje = "Inteligencia Artificial";
-                                    break;
-                                case 15:
-                                    mensaje = "Secretariado ejecutivo";
-                                    break;
-                                case 16:
-                                    mensaje = "Desarrollo de Aplicaciones Móviles";
-                                    break;
-                                default:
-                                    mensaje = "Otra especialidad";
-                                    break;
-                            }
-                        }
-                    }
-                    @if (!string.IsNullOrEmpty(mensaje))
-                    {
-                        <span> - @mensaje</span>
-                    }
-                </td>
+             
+                    </td>
                 <td> @Html.DisplayFor(modelItem => item.cedula) </td>
                 <td> @Html.DisplayFor(modelItem => item.Numero_Encargado) </td>
                 <td> @Html.DisplayFor(modelItem => item.tipoEstudiante) </td>
@@ -173,11 +110,11 @@
                     <a href="@Url.Action("Edit", new { id = item.cedula })" class="edit-link" title="Editar">
                         <img src="~/Scripts/Image/edit.png" alt="Edit" />
                     </a>
-                    
+
                     <a href="@Url.Action("Details", new { id = item.cedula })" class="details-link" title="Detalles">
                         <img src="~/Scripts/Image/info.png" alt="Details" />
                     </a>
-                    
+
                     <a href="@Url.Action("Delete", new { id = item.cedula })" class="delete-link" title="Eliminar">
                         <img src="~/Scripts/Image/delete.png" alt="Delete" />
                     </a>
@@ -205,7 +142,7 @@
 
 <!-- JavaScript para manejar el off-canvas y cookies -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         var hideOffCanvasBtn = document.getElementById("hideOffCanvasBtn");
         var offCanvas = new bootstrap.Offcanvas(document.getElementById("especialidadesOffCanvas"));
 
@@ -217,9 +154,11 @@
         }
 
         // Configurar el botón para ocultar permanentemente el off-canvas
-        hideOffCanvasBtn.addEventListener("click", function() {
-            document.cookie = "hideOffCanvas=true; path=/; max-age=" + 60*60*24*30; // Expira en 30 días
+        hideOffCanvasBtn.addEventListener("click", function () {
+            document.cookie = "hideOffCanvas=true; path=/; max-age=" + 60 * 60 * 24 * 30; // Expira en 30 días
             offCanvas.hide();
         });
     });
 </script>
+
+

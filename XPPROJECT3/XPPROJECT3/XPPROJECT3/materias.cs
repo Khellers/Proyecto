@@ -12,34 +12,25 @@ namespace XPPROJECT3
     using System;
     using System.Collections.Generic;
     
-    public partial class estudiantes
+    public partial class materias
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public estudiantes()
+        public materias()
         {
             this.Asistencia = new HashSet<Asistencia>();
-            this.Seccion = new HashSet<Seccion>();
+            this.clase = new HashSet<clase>();
         }
     
-        public string cedula { get; set; }
-        public string nombre { get; set; }
-        public string primer_apellido { get; set; }
-        public string segundo_apellido { get; set; }
-        public Nullable<int> especialidad { get; set; }
-        public string CelularE { get; set; }
-        public string CorreoE { get; set; }
-        public string Nombre_Encargado { get; set; }
-        public string Apellido_Encargado { get; set; }
-        public string Apellido2_Encargado { get; set; }
-        public string Numero_Encargado { get; set; }
-        public string Correo_Encargado { get; set; }
-        public string tipoEstudiante { get; set; }
+        public int IdMateria { get; set; }
+        public string Nombre { get; set; }
+        public Nullable<int> Departamento { get; set; }
+        public Nullable<int> Especialidad { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Asistencia> Asistencia { get; set; }
-        public virtual especialidades especialidades { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Seccion> Seccion { get; set; }
-        public int IdSeccion { get; internal set; }
+        public virtual ICollection<clase> clase { get; set; }
+        public virtual departamentos departamentos { get; set; }
+        public virtual especialidades especialidades { get; set; }
     }
 }

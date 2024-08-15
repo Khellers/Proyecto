@@ -12,15 +12,18 @@ namespace XPPROJECT3
     using System;
     using System.Collections.Generic;
     
-    public partial class Asistencia
+    public partial class Secciones
     {
-        public int IdAsistencia { get; set; }
-        public string EstudianteCedula { get; set; }
-        public Nullable<int> MaterialD { get; set; }
-        public Nullable<System.DateTime> Fecha { get; set; }
-        public string Estado { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Secciones()
+        {
+            this.Seccion1 = new HashSet<Seccion>();
+        }
     
-        public virtual estudiantes estudiantes { get; set; }
-        public virtual materias materias { get; set; }
+        public int Id { get; set; }
+        public string Seccion { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Seccion> Seccion1 { get; set; }
     }
 }

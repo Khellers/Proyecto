@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="Listas1ModelStoreContainer" CdmEntityContainer="Listas1Entities2">
+  <EntityContainerMapping StorageEntityContainer="db_aabd33_ctpmqstestModelStoreContainer" CdmEntityContainer="db_aabd33_ctpmqstestEntities">
     <EntitySetMapping Name="Asistencia">
-      <EntityTypeMapping TypeName="Listas1Model.Asistencia">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.Asistencia">
         <MappingFragment StoreEntitySet="Asistencia">
           <ScalarProperty Name="IdAsistencia" ColumnName="IdAsistencia" />
           <ScalarProperty Name="EstudianteCedula" ColumnName="EstudianteCedula" />
@@ -12,8 +12,38 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="clase">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.clase">
+        <MappingFragment StoreEntitySet="clase">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="dia" ColumnName="dia" />
+          <ScalarProperty Name="hora_inicio" ColumnName="hora_inicio" />
+          <ScalarProperty Name="hora_fin" ColumnName="hora_fin" />
+          <ScalarProperty Name="asignatura" ColumnName="asignatura" />
+          <ScalarProperty Name="aula" ColumnName="aula" />
+          <ScalarProperty Name="profesor" ColumnName="profesor" />
+          <ScalarProperty Name="seccion" ColumnName="seccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="departamentos">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.departamentos">
+        <MappingFragment StoreEntitySet="departamentos">
+          <ScalarProperty Name="IdDepartamento" ColumnName="IdDepartamento" />
+          <ScalarProperty Name="NombreDepartamento" ColumnName="NombreDepartamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="especialidades">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.especialidades">
+        <MappingFragment StoreEntitySet="especialidades">
+          <ScalarProperty Name="IdEspecialidades" ColumnName="IdEspecialidades" />
+          <ScalarProperty Name="NombreEspecialidad" ColumnName="NombreEspecialidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="estudiantes">
-      <EntityTypeMapping TypeName="Listas1Model.estudiantes">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.estudiantes">
         <MappingFragment StoreEntitySet="estudiantes">
           <ScalarProperty Name="cedula" ColumnName="cedula" />
           <ScalarProperty Name="nombre" ColumnName="nombre" />
@@ -28,6 +58,42 @@
           <ScalarProperty Name="Numero_Encargado" ColumnName="Numero_Encargado" />
           <ScalarProperty Name="Correo_Encargado" ColumnName="Correo_Encargado" />
           <ScalarProperty Name="tipoEstudiante" ColumnName="tipoEstudiante" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="materias">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.materias">
+        <MappingFragment StoreEntitySet="materias">
+          <ScalarProperty Name="IdMateria" ColumnName="IdMateria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Departamento" ColumnName="Departamento" />
+          <ScalarProperty Name="Especialidad" ColumnName="Especialidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="profesoress">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.profesoress">
+        <MappingFragment StoreEntitySet="profesoress">
+          <ScalarProperty Name="id_profesor" ColumnName="id_profesor" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seccion">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.Seccion">
+        <MappingFragment StoreEntitySet="Seccion">
+          <ScalarProperty Name="IdSeccion" ColumnName="IdSeccion" />
+          <ScalarProperty Name="cedula" ColumnName="cedula" />
+          <ScalarProperty Name="ProfesorGuia" ColumnName="ProfesorGuia" />
+          <ScalarProperty Name="año" ColumnName="año" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Secciones">
+      <EntityTypeMapping TypeName="db_aabd33_ctpmqstestModel.Secciones">
+        <MappingFragment StoreEntitySet="Secciones">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Seccion" ColumnName="Seccion" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -12,15 +12,15 @@ namespace XPPROJECT3
     using System;
     using System.Collections.Generic;
     
-    public partial class Asistencia
+    public partial class Seccion
     {
-        public int IdAsistencia { get; set; }
-        public string EstudianteCedula { get; set; }
-        public Nullable<int> MaterialD { get; set; }
-        public Nullable<System.DateTime> Fecha { get; set; }
-        public string Estado { get; set; }
+        public int IdSeccion { get; set; }
+        public string cedula { get; set; }
+        public int ProfesorGuia { get; set; }
+        public string año { get; set; }
     
         public virtual estudiantes estudiantes { get; set; }
-        public virtual materias materias { get; set; }
+        public virtual profesoress profesoress { get; set; }
+        public virtual Secciones Secciones { get; set; }
     }
 }
