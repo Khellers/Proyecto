@@ -1669,9 +1669,10 @@ INSERT INTO Seccion(IdSeccion,cedula,ProfesorGuia,año) VALUES
 (91,'120370525',126,'2024');
 
 
+-------------------------------------------
 
 --10-1
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Araya','Fonseca','Britany','120300536','86194554', 1,'D'),
 ('Castillo','Castro','Emma','119890787','83437743',1, 'D'),
 ('Calderón','Rodríguez','Kimberly','120150167','85107309', 1,'D'),
@@ -1728,7 +1729,7 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 
 --10-2
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 
 ('Segura','López','Raúl','119590925','89553742',13,'D'),
 ('Escobar','Buitrago','Jeshua','120050772','87955084',13,'D'),
@@ -1787,7 +1788,7 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 --10-3
 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Aguilar','Quesada','Sebastián','305810577','89936212',7,'D'),
 ('Badilla','Pérez','Daniel','305790602','84636190',7,'D'),
 ('Barquero','Cubillo','Kenneth','305800770','85097300',7,'D'),
@@ -1838,8 +1839,8 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 --10-4
 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
-('Barrantes','Jiménez','Ian','30580130','60123438',7,'D'),
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+('Barrantes','Jiménez','Ian','	305800130','60123438',7,'D'),
 ('Barboza','Torres','Fabián','120390211','88141478',7,'D'),
 ('Bejarano','Alpízar','Kiara','120220488','83108708 ',7,'D'),
 ('Calvo','González','Brandon','120290628','71404432 ',7,'D'),
@@ -1865,7 +1866,7 @@ Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_E
 
 --10-4
 insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
-(104,'305801300',100,'2024'),
+(104,'305800130',100,'2024'),
 (104,'120390211',100,'2024'),
 (104,'120220488',100,'2024'),
 (104,'120290628',100,'2024'),
@@ -1894,7 +1895,7 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 --10-5
 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 
 ('Abarca','Baldi','Evelyn','120120409','83858953',3,'D'),
 ('Agüero ','Ferlini','Samuel','120100143','83674727',3,'D'),
@@ -1955,7 +1956,7 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 --10-6
 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Rivas','Manzanares','Sherlyn','119320816','72403114',5,'D'),
 ('Anchía','Segura','Camila','305770436','85288453',5,'D'),
 ('Araya','Cerna','Nathaly','120050503','86692323',5,'D'),
@@ -2008,7 +2009,7 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 
 --10-7A
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 
 ('Arroliga','Bermudez','Isaac','305650595','61832358',11,'D'),
 ('Chávez','Arrieta','Matías','120290336','89955114',11,'D'),
@@ -2029,7 +2030,7 @@ Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_E
 
 --10-7B
 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Batista','Arley','José David','120130872','87420646',3,'D'),
 ('Cascante','Cedeño','Bryan','120360174','64291920',3,'D'),
 ('Cubero','Varela','Jose Gabriel','120230051','60565056',3,'D'),
@@ -2049,8 +2050,8 @@ Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_E
 
 
 --10-7
-insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
+insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 (107,'305650595',100,'2024'),
 (107,'120290336',100,'2024'),
 (107,'305790750',100,'2024'),
@@ -2064,7 +2065,6 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 (107,'3057801723',100,'2024'),
 (107,'120010530',100,'2024'),
 (107,'305730052',100,'2024'),
-(107,'85203579',100,'2024'),
 (107,'305790079',100,'2024'),
 (107,'120130872',116,'2024'),
 (107,'120360174',116,'2024'),
@@ -2086,7 +2086,7 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 
 --10-8A
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 
 ('Alvarado','Li','Yanlin','120400187','89313337',10,'D'),
 ('Barrantes','Jiménez','Meilyn','119620053','83353198',10,'D'),
@@ -2107,7 +2107,7 @@ Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_E
 
 
 --10-8B
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Alvarado','Montoya','Sebastián','305680201','84346445',4,'D'),
 ('Anderson','Solís','Evans','305760868','86958833',4,'D'),
 ('Bosch','Salazar','Sebastián','120280321','70977640',4,'D'),
@@ -2168,20 +2168,29 @@ insert into Seccion(IdSeccion,cedula,ProfesorGuia,año) values
 
 
 --10-9 A 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Arias', 'Solis', 'Tamara', '120180655', '63320441', 14, 'D'),
-('Arrollo', 'Calvo', 'Gabriel', '120080488', '83378791', 14, 'D'), ('Barboza', 'Masis', 'Abigail', '121050978', '86343695', 14, 'D'), 
-('Barquero', 'Rodríguez', 'Maria Fernanda', '305580620', '72792739', 14, 'D'), ('Brenes', 'Zúñiga', 'Genesis', '305740152', '84686317', 14, 'D'),
-('Brizuela', 'Rojas', 'Olana', '120020531', '89596270', 14, 'D'), ('Céspedes', 'Duarte', 'Kaitlyn', '120260543', '85765784', 14, 'D'), 
-('Cordero', 'Mora', 'Anyeri', '119760208', '72477764', 14, 'D'), ('Gómez', 'Rodríguez', 'Kendall', '119640891', '60353301', 14, 'D'), 
-('Guevara', 'Rojas', 'Keilyn', '305820118', '71936708', 14, 'D'), ('Hazel', 'Trigueros', 'Daphane', '120280573', '72925957', 14, 'D'), 
-('Meneses', 'Cruz', 'Elizabeth', '120150669', '60137996', 14, 'D'), ('Navarro', 'Calderón', 'Ericka', '120300795', '70259216', 14, 'D'), 
-('Quesada', 'Aguilar', 'Alondra', '120210971', '83664231', 14, 'D'), ('Reyes', 'Arrieta', 'Sofia', '120230057', '72062243', 14, 'D'), 
-('Ureña', 'Esquivel', 'Kerlyn', '120350315', '88653548', 14, 'D'), ('Vargas', 'Solano', 'Maykel', '120310208', '86253317', 14, 'D'), 
-('Vega', 'Rojas', 'Abigail', '305760180', '87954596', 14, 'D'), ('Villalta', 'Chan', 'Kaisha', '119840236', '88707172', 14, 'D'); 
+('Arrollo', 'Calvo', 'Gabriel', '120080488', '83378791', 14, 'D'),
+('Barboza', 'Masis', 'Abigail', '121050978', '86343695', 14, 'D'), 
+('Barquero', 'Rodríguez', 'Maria Fernanda', '305580620', '72792739', 14, 'D'),
+('Brenes', 'Zúñiga', 'Genesis', '305740152', '84686317', 14, 'D'),
+('Brizuela', 'Rojas', 'Olana', '120020531', '89596270', 14, 'D'), 
+('Céspedes', 'Duarte', 'Kaitlyn', '120260543', '85765784', 14, 'D'), 
+('Cordero', 'Mora', 'Anyeri', '119760208', '72477764', 14, 'D'),
+('Gómez', 'Rodríguez', 'Kendall', '119640891', '60353301', 14, 'D'), 
+('Guevara', 'Rojas', 'Keilyn', '305820118', '71936708', 14, 'D'),
+('Hazel', 'Trigueros', 'Daphane', '120280573', '72925957', 14, 'D'), 
+('Meneses', 'Cruz', 'Elizabeth', '120150669', '60137996', 14, 'D'),
+('Navarro', 'Calderón', 'Ericka', '120300795', '70259216', 14, 'D'), 
+('Quesada', 'Aguilar', 'Alondra', '120210971', '83664231', 14, 'D'),
+('Reyes', 'Arrieta', 'Sofia', '120230057', '72062243', 14, 'D'), 
+('Ureña', 'Esquivel', 'Kerlyn', '120350315', '88653548', 14, 'D'), 
+('Vargas', 'Solano', 'Maykel', '120310208', '86253317', 14, 'D'), 
+('Vega', 'Rojas', 'Abigail', '305760180', '87954596', 14, 'D'), 
+('Villalta', 'Chan', 'Kaisha', '119840236', '88707172', 14, 'D'); 
 
 --10-9 B 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Acosta', 'Mora', 'Rachel', '120380276', '89434892', 6,'D'), 
 ('Aguirre', 'Cervantes', 'Isaí', '120260199','86733511', 6,'D'),
 ('Anderson', 'Rodríguez', 'Josue', '305800480','86175898', 6,'D'), 
@@ -2242,27 +2251,27 @@ insert into Seccion (IdSeccion,cedula,ProfesorGuia,año) values
 
 --10-10A
 
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
-('BULA',	  'CALVO',	     'IVANNA',     '305790631', '89470055','2','D'),	
-('AGUILAR',   'BALLESTERO',	 'MATHIAS'	,  '119910091', '70128690','2','D'),
-('CONEJO',	  'CALVO',     	 'DAHIAN',	   '120150416', '89116846','2','D'),
-('GODINEZ',	  'DURAN',	     'SEBASTIAN',  '120250425', '88948312','2','D'),
-('GORDON',	  'ECHAVARRIA',	 'DANNARA',	   '120300242', '87310959','2','D'),
-('GUTIEREZ',  'BARQUERO',	 'JESUS',	   '305760801', '88552728','2','D'),
-('GUTIERREZ', 'OABIOAGUA',	 'JESHUE',	   '120190047', '61188758','2','D'),
-('HERNANDEZ', 'TORRES',	     'AXEL',	   '305810547', '72338856','2','D'),
-('HIDALGO',	  'SERRANO',	 'DANIELA',	   '120210780', '22535400','2','D'),
-('JARQUIN',	  'MORA',	     'NANCY',	   '305760932', '85579347','2','D'),
-('NAJERA',	  'SERRANO',	 'KEILYN',	   '120200529', '86917143','2','D'),
-('PEREZ',	  'CALVO',	     'MARIPAZ',	   '120370587', '84991675','2','D'),
-('PICADO',	  'CHAVEZ',	     'KEILYN',	   '305780265', '70659261','2','D'),
-('RODRIGUEZ', 'NIEBLES',	 'MARIANA',	   '120260238', '85952787','2','D'),
-('SEGURA',	  'CAMPOS',	     'ANDREW',	   '120150698', '85862258','2','D'),	
-('VEGA',	  'ROJAS',	     'VICTORIA',   '305460181', '87954596','2','D');
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+('BULA',	  'CALVO',	     'IVANNA',     '305790631', '89470055',2,'D'),	
+('AGUILAR',   'BALLESTERO',	 'MATHIAS'	,  '119910091', '70128690',2,'D'),
+('CONEJO',	  'CALVO',     	 'DAHIAN',	   '120150416', '89116846',2,'D'),
+('GODINEZ',	  'DURAN',	     'SEBASTIAN',  '120250425', '88948312',2,'D'),
+('GORDON',	  'ECHAVARRIA',	 'DANNARA',	   '120300242', '87310959',2,'D'),
+('GUTIEREZ',  'BARQUERO',	 'JESUS',	   '305760801', '88552728',2,'D'),
+('GUTIERREZ', 'OABIOAGUA',	 'JESHUE',	   '120190047', '61188758',2,'D'),
+('HERNANDEZ', 'TORRES',	     'AXEL',	   '305810547', '72338856',2,'D'),
+('HIDALGO',	  'SERRANO',	 'DANIELA',	   '120210780', '22535400',2,'D'),
+('JARQUIN',	  'MORA',	     'NANCY',	   '305760932', '85579347',2,'D'),
+('NAJERA',	  'SERRANO',	 'KEILYN',	   '120200529', '86917143',2,'D'),
+('PEREZ',	  'CALVO',	     'MARIPAZ',	   '120370587', '84991675',2,'D'),
+('PICADO',	  'CHAVEZ',	     'KEILYN',	   '305780265', '70659261',2,'D'),
+('RODRIGUEZ', 'NIEBLES',	 'MARIANA',	   '120260238', '85952787',2,'D'),
+('SEGURA',	  'CAMPOS',	     'ANDREW',	   '120150698', '85862258',2,'D'),	
+('VEGA',	  'ROJAS',	     'VICTORIA',   '305460181', '87954596',2,'D');
 
 
 --10-10B
-Insert into Estudiantes (nombre,primer_apellido,segundo_apellido,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
+Insert into Estudiantes (primer_apellido,segundo_apellido,nombre,cedula,Numero_Encargado,especialidad,tipoEstudiante) values
 ('Alvarado','González','Kristel','305760084','85715566',11,'D'),
 ('Brenes','Olmos','Joshua','120310753','63168301',11,'D'),
 ('Calderón','Lewis','Amanda','305800312','63815796',11,'D'),
