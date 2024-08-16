@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="Listas1Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+<Schema Namespace="db_aabd33_ctpmqstestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="Asistencia">
     <Key>
       <PropertyRef Name="IdAsistencia" />
@@ -10,6 +10,40 @@
     <Property Name="Fecha" Type="DateTime" Precision="0" />
     <Property Name="Estado" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="estudiantes" Relationship="Self.FKEstudiantesCedula" FromRole="Asistencia" ToRole="estudiantes" />
+    <NavigationProperty Name="materias" Relationship="Self.FKMateriaID" FromRole="Asistencia" ToRole="materias" />
+  </EntityType>
+  <EntityType Name="clase">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="seccion" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="dia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="hora_inicio" Type="Time" Precision="7" />
+    <Property Name="hora_fin" Type="Time" Precision="7" />
+    <Property Name="asignatura" Type="Int32" />
+    <Property Name="aula" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="profesor" Type="Int32" />
+    <Property Name="seccion" Type="String" MaxLength="6" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="materias" Relationship="Self.FK_materia" FromRole="clase" ToRole="materias" />
+    <NavigationProperty Name="profesoress" Relationship="Self.FK_profesor" FromRole="clase" ToRole="profesoress" />
+  </EntityType>
+  <EntityType Name="departamentos">
+    <Key>
+      <PropertyRef Name="IdDepartamento" />
+    </Key>
+    <Property Name="IdDepartamento" Type="Int32" Nullable="false" />
+    <Property Name="NombreDepartamento" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="materias" Relationship="Self.FK_departamento" FromRole="departamentos" ToRole="materias" />
+  </EntityType>
+  <EntityType Name="especialidades">
+    <Key>
+      <PropertyRef Name="IdEspecialidades" />
+    </Key>
+    <Property Name="IdEspecialidades" Type="Int32" Nullable="false" />
+    <Property Name="NombreEspecialidad" Type="String" MaxLength="44" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="materias" Relationship="Self.FK_especialidad" FromRole="especialidades" ToRole="materias" />
+    <NavigationProperty Name="estudiantes" Relationship="Self.FKEspecialidad" FromRole="especialidades" ToRole="estudiantes" />
   </EntityType>
   <EntityType Name="estudiantes">
     <Key>
@@ -29,6 +63,53 @@
     <Property Name="Correo_Encargado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="tipoEstudiante" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
     <NavigationProperty Name="Asistencia" Relationship="Self.FKEstudiantesCedula" FromRole="estudiantes" ToRole="Asistencia" />
+    <NavigationProperty Name="especialidades" Relationship="Self.FKEspecialidad" FromRole="estudiantes" ToRole="especialidades" />
+    <NavigationProperty Name="Seccion" Relationship="Self.FKSeccioncedula" FromRole="estudiantes" ToRole="Seccion" />
+  </EntityType>
+  <EntityType Name="materias">
+    <Key>
+      <PropertyRef Name="IdMateria" />
+    </Key>
+    <Property Name="IdMateria" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="Departamento" Type="Int32" />
+    <Property Name="Especialidad" Type="Int32" />
+    <NavigationProperty Name="Asistencia" Relationship="Self.FKMateriaID" FromRole="materias" ToRole="Asistencia" />
+    <NavigationProperty Name="clase" Relationship="Self.FK_materia" FromRole="materias" ToRole="clase" />
+    <NavigationProperty Name="departamentos" Relationship="Self.FK_departamento" FromRole="materias" ToRole="departamentos" />
+    <NavigationProperty Name="especialidades" Relationship="Self.FK_especialidad" FromRole="materias" ToRole="especialidades" />
+  </EntityType>
+  <EntityType Name="profesoress">
+    <Key>
+      <PropertyRef Name="id_profesor" />
+    </Key>
+    <Property Name="id_profesor" Type="Int32" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="clase" Relationship="Self.FK_profesor" FromRole="profesoress" ToRole="clase" />
+    <NavigationProperty Name="Seccion" Relationship="Self.FKProfguia" FromRole="profesoress" ToRole="Seccion" />
+  </EntityType>
+  <EntityType Name="Seccion">
+    <Key>
+      <PropertyRef Name="IdSeccion" />
+      <PropertyRef Name="cedula" />
+      <PropertyRef Name="ProfesorGuia" />
+      <PropertyRef Name="año" />
+    </Key>
+    <Property Name="IdSeccion" Type="Int32" Nullable="false" />
+    <Property Name="cedula" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ProfesorGuia" Type="Int32" Nullable="false" />
+    <Property Name="año" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="estudiantes" Relationship="Self.FKSeccioncedula" FromRole="Seccion" ToRole="estudiantes" />
+    <NavigationProperty Name="profesoress" Relationship="Self.FKProfguia" FromRole="Seccion" ToRole="profesoress" />
+    <NavigationProperty Name="Secciones" Relationship="Self.FKSeccion" FromRole="Seccion" ToRole="Secciones" />
+  </EntityType>
+  <EntityType Name="Secciones">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Seccion" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Seccion1" Relationship="Self.FKSeccion" FromRole="Secciones" ToRole="Seccion" />
   </EntityType>
   <Association Name="FKEstudiantesCedula">
     <End Role="estudiantes" Type="Self.estudiantes" Multiplicity="0..1" />
@@ -42,12 +123,163 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="Listas1Entities2" annotation:LazyLoadingEnabled="true">
+  <Association Name="FKMateriaID">
+    <End Role="materias" Type="Self.materias" Multiplicity="0..1" />
+    <End Role="Asistencia" Type="Self.Asistencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="materias">
+        <PropertyRef Name="IdMateria" />
+      </Principal>
+      <Dependent Role="Asistencia">
+        <PropertyRef Name="MaterialD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_materia">
+    <End Role="materias" Type="Self.materias" Multiplicity="0..1" />
+    <End Role="clase" Type="Self.clase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="materias">
+        <PropertyRef Name="IdMateria" />
+      </Principal>
+      <Dependent Role="clase">
+        <PropertyRef Name="asignatura" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_profesor">
+    <End Role="profesoress" Type="Self.profesoress" Multiplicity="0..1" />
+    <End Role="clase" Type="Self.clase" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="profesoress">
+        <PropertyRef Name="id_profesor" />
+      </Principal>
+      <Dependent Role="clase">
+        <PropertyRef Name="profesor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_departamento">
+    <End Role="departamentos" Type="Self.departamentos" Multiplicity="0..1" />
+    <End Role="materias" Type="Self.materias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="departamentos">
+        <PropertyRef Name="IdDepartamento" />
+      </Principal>
+      <Dependent Role="materias">
+        <PropertyRef Name="Departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_especialidad">
+    <End Role="especialidades" Type="Self.especialidades" Multiplicity="0..1" />
+    <End Role="materias" Type="Self.materias" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="especialidades">
+        <PropertyRef Name="IdEspecialidades" />
+      </Principal>
+      <Dependent Role="materias">
+        <PropertyRef Name="Especialidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKEspecialidad">
+    <End Role="especialidades" Type="Self.especialidades" Multiplicity="0..1" />
+    <End Role="estudiantes" Type="Self.estudiantes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="especialidades">
+        <PropertyRef Name="IdEspecialidades" />
+      </Principal>
+      <Dependent Role="estudiantes">
+        <PropertyRef Name="especialidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKSeccioncedula">
+    <End Role="estudiantes" Type="Self.estudiantes" Multiplicity="1" />
+    <End Role="Seccion" Type="Self.Seccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="estudiantes">
+        <PropertyRef Name="cedula" />
+      </Principal>
+      <Dependent Role="Seccion">
+        <PropertyRef Name="cedula" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKProfguia">
+    <End Role="profesoress" Type="Self.profesoress" Multiplicity="1" />
+    <End Role="Seccion" Type="Self.Seccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="profesoress">
+        <PropertyRef Name="id_profesor" />
+      </Principal>
+      <Dependent Role="Seccion">
+        <PropertyRef Name="ProfesorGuia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FKSeccion">
+    <End Role="Secciones" Type="Self.Secciones" Multiplicity="1" />
+    <End Role="Seccion" Type="Self.Seccion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Secciones">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Seccion">
+        <PropertyRef Name="IdSeccion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="db_aabd33_ctpmqstestEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Asistencia" EntityType="Self.Asistencia" />
+    <EntitySet Name="clase" EntityType="Self.clase" />
+    <EntitySet Name="departamentos" EntityType="Self.departamentos" />
+    <EntitySet Name="especialidades" EntityType="Self.especialidades" />
     <EntitySet Name="estudiantes" EntityType="Self.estudiantes" />
+    <EntitySet Name="materias" EntityType="Self.materias" />
+    <EntitySet Name="profesoress" EntityType="Self.profesoress" />
+    <EntitySet Name="Seccion" EntityType="Self.Seccion" />
+    <EntitySet Name="Secciones" EntityType="Self.Secciones" />
     <AssociationSet Name="FKEstudiantesCedula" Association="Self.FKEstudiantesCedula">
       <End Role="estudiantes" EntitySet="estudiantes" />
       <End Role="Asistencia" EntitySet="Asistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FKMateriaID" Association="Self.FKMateriaID">
+      <End Role="materias" EntitySet="materias" />
+      <End Role="Asistencia" EntitySet="Asistencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_materia" Association="Self.FK_materia">
+      <End Role="materias" EntitySet="materias" />
+      <End Role="clase" EntitySet="clase" />
+    </AssociationSet>
+    <AssociationSet Name="FK_profesor" Association="Self.FK_profesor">
+      <End Role="profesoress" EntitySet="profesoress" />
+      <End Role="clase" EntitySet="clase" />
+    </AssociationSet>
+    <AssociationSet Name="FK_departamento" Association="Self.FK_departamento">
+      <End Role="departamentos" EntitySet="departamentos" />
+      <End Role="materias" EntitySet="materias" />
+    </AssociationSet>
+    <AssociationSet Name="FK_especialidad" Association="Self.FK_especialidad">
+      <End Role="especialidades" EntitySet="especialidades" />
+      <End Role="materias" EntitySet="materias" />
+    </AssociationSet>
+    <AssociationSet Name="FKEspecialidad" Association="Self.FKEspecialidad">
+      <End Role="especialidades" EntitySet="especialidades" />
+      <End Role="estudiantes" EntitySet="estudiantes" />
+    </AssociationSet>
+    <AssociationSet Name="FKSeccioncedula" Association="Self.FKSeccioncedula">
+      <End Role="estudiantes" EntitySet="estudiantes" />
+      <End Role="Seccion" EntitySet="Seccion" />
+    </AssociationSet>
+    <AssociationSet Name="FKProfguia" Association="Self.FKProfguia">
+      <End Role="profesoress" EntitySet="profesoress" />
+      <End Role="Seccion" EntitySet="Seccion" />
+    </AssociationSet>
+    <AssociationSet Name="FKSeccion" Association="Self.FKSeccion">
+      <End Role="Secciones" EntitySet="Secciones" />
+      <End Role="Seccion" EntitySet="Seccion" />
     </AssociationSet>
   </EntityContainer>
 </Schema>

@@ -1,0 +1,245 @@
+﻿@model IEnumerable<XPPROJECT3.SeccionViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+<h2>Listas de clase</h2>
+
+<!-- Botón para abrir el off-canvas -->
+<button type="button" class="btn btn-outline-info" data-bs-toggle="offcanvas" data-bs-target="#especialidadesOffCanvas" aria-controls="especialidadesOffCanvas">
+    Información sobre Especialidades
+</button>
+
+<!-- Off-Canvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="especialidadesOffCanvas" aria-labelledby="especialidadesOffCanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="especialidadesOffCanvasLabel">Especialidades</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul>
+            <li>1. Accounting</li>
+            <li>2. Administración y Operación Aduanera</li>
+            <li>3. Contabilidad y Auditoría</li>
+            <li>4. Configuración y Soporte a Redes</li>
+            <li>5. Contabilidad</li>
+            <li>6. Contabilidad y Control Interno</li>
+            <li>7. Contabilidad y Finanzas</li>
+            <li>8. Ciberseguridad</li>
+            <li>9. Desarrollo Web</li>
+            <li>10. Dibujo Técnico</li>
+            <li>11. Dibujo y Modelado de Edificaciones</li>
+            <li>12. Ejecutivo Comercial y de Servicio al Cliente</li>
+            <li>13. Informática en Desarrollo de Software</li>
+            <li>14. Inteligencia Artificial</li>
+            <li>15. Secretariado Ejecutivo</li>
+            <li>16. Desarrollo de Aplicaciones Móviles</li>
+        </ul>
+        <!-- Botón para ocultar permanentemente el off-canvas -->
+        <button type="button" class="btn btn-secondary" id="hideOffCanvasBtn">No mostrar nuevamente</button>
+    </div>
+</div>
+
+<br />
+<br />
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<!-- Barra de Navegación en Card -->
+<div class="card">
+    <div class="card-header">
+        <h5 class="card-title">Filtrar por Sección</h5>
+    </div>
+    <div class="card-body">
+        <div class="btn-group flex-wrap" role="group">
+            <!-- Secciones Séptimo Grado -->
+            @for (int i = 1; i <= 7; i++)
+            {
+                <button type="button" class="btn btn-outline-primary" data-seccion="7-@i">7-@i</button>
+            }
+
+            <!-- Secciones Octavo Grado -->
+            @for (int i = 1; i <= 7; i++)
+            {
+                <button type="button" class="btn btn-outline-primary" data-seccion="8-@i">8-@i</button>
+            }
+
+            <!-- Secciones Noveno Grado -->
+            @for (int i = 1; i <= 7; i++)
+            {
+                <button type="button" class="btn btn-outline-primary" data-seccion="9-@i">9-@i</button>
+            }
+
+            <!-- Secciones Décimo Grado -->
+            @for (int i = 1; i <= 10; i++)
+            {
+                <button type="button" class="btn btn-outline-primary" data-seccion="10-@i">10-@i</button>
+            }
+
+            <!-- Secciones Undécimo Grado -->
+            @for (int i = 1; i <= 9; i++)
+            {
+                <button type="button" class="btn btn-outline-primary" data-seccion="11-@i">11-@i</button>
+            }
+
+            <!-- Secciones Duodécimo Grado -->
+            @for (int i = 1; i <= 7; i++)
+            {
+                <button type="button" class="btn btn-outline-primary" data-seccion="12-@i">12-@i</button>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Tabla de Secciones -->
+<table id="secciones-table" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.primer_apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.segundo_apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.especialidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.cedula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.Numero_Encargado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Estudiantes.First().estudiantes.tipoEstudiante)
+            </th>
+            <th>Asistencia y Lecciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var seccionGroup in Model)
+        {
+            <tr class="seccion-row" data-seccion="@seccionGroup.Seccion">
+                <td colspan="8">
+                    <h3>Sección: @seccionGroup.Seccion</h3>
+                    <table class="table">
+                        @foreach (var item in seccionGroup.Estudiantes)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.estudiantes.nombre)
+
+
+                                    <div>
+                                        <!-- Radio Buttons for Attendance -->
+                                        <label>
+                                            <input type="radio" name="attendance[@item.cedula].estado" value="Presente" /> Presente
+                                        </label><br />
+                                        <label>
+                                            <input type="radio" name="attendance[@item.cedula].estado" value="Ausente" /> Ausente
+                                        </label><br />
+                                        <label>
+                                            <input type="radio" name="attendance[@item.cedula].estado" value="Fuga" /> Fuga
+                                        </label>
+                                    </div>
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.estudiantes.primer_apellido)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.estudiantes.segundo_apellido)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.estudiantes.especialidades.NombreEspecialidad)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.estudiantes.cedula)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.estudiantes.Numero_Encargado)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.estudiantes.tipoEstudiante)
+                                </td>
+                                <td>
+                                    <input type="number" name="attendance[@item.cedula].numeroLecciones" min="0" max="12" placeholder="Número de lecciones" />
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Edit", new { id = item.cedula })" class="edit-link" title="Editar">
+                                        <img src="~/Scripts/Image/edit.png" alt="Edit" />
+                                    </a>
+
+                                    <a href="@Url.Action("Details", new { id = item.cedula })" class="details-link" title="Detalles">
+                                        <img src="~/Scripts/Image/info.png" alt="Details" />
+                                    </a>
+
+                                    <a href="@Url.Action("Delete", new { id = item.cedula })" class="delete-link" title="Eliminar">
+                                        <img src="~/Scripts/Image/delete.png" alt="Delete" />
+                                    </a>
+                                </td>
+                                <style>
+                                    .edit-link img,
+                                    .details-link img,
+                                    .delete-link img {
+                                        width: 16px;
+                                        height: 16px;
+                                        vertical-align: middle;
+                                        margin-right: 5px;
+                                    }
+
+                                    .edit-link, .details-link, .delete-link {
+                                        text-decoration: none;
+                                    }
+                                </style>
+
+                            </tr>
+                        }
+                    </table>
+                    <button type="submit" class="btn" style="background-color: #8abbc8; color: white">Guardar Cambios</button>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $('.btn-group .btn').on('click', function () {
+            var selectedSeccion = $(this).data('seccion');
+            $('.seccion-row').hide();
+            if (selectedSeccion) {
+                $('.seccion-row[data-seccion="' + selectedSeccion + '"]').show();
+            } else {
+                $('.seccion-row').show();
+            }
+        });
+
+        // Mostrar todas las secciones por defecto al cargar la página
+        $('.seccion-row').show();
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var hideOffCanvasBtn = document.getElementById("hideOffCanvasBtn");
+        var offCanvas = new bootstrap.Offcanvas(document.getElementById("especialidadesOffCanvas"));
+
+        // Chequear si la cookie 'hideOffCanvas' está establecida
+        if (document.cookie.split('; ').find(row => row.startsWith('hideOffCanvas=true'))) {
+            // No mostrar el off-canvas si la cookie está presente
+        } else {
+            offCanvas.show();
+        }
+
+        // Configurar el botón para ocultar permanentemente el off-canvas
+        hideOffCanvasBtn.addEventListener("click", function () {
+            document.cookie = "hideOffCanvas=true; path=/; max-age=" + 60 * 60 * 24 * 30; // Expira en 30 días
+            offCanvas.hide();
+        });
+    });
+</script>

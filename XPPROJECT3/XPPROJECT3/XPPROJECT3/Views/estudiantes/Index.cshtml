@@ -1,100 +1,164 @@
-﻿@model IEnumerable<XPPROJECT3.estudiantes>
+﻿
+@model IEnumerable<XPPROJECT3.estudiantes>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Listas de clase";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var searchQuery = Request.QueryString["searchQuery"];
+    var filteredModel = string.IsNullOrEmpty(searchQuery) ? Model : Model.Where(e =>
+        e.nombre.Contains(searchQuery) ||
+        e.primer_apellido.Contains(searchQuery) ||
+        e.segundo_apellido.Contains(searchQuery) ||
+        e.cedula.ToString().Contains(searchQuery)
+    );
 }
 
-<h2>Index</h2>
+<h2>Listas de clase</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.nombre)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.primer_apellido)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.segundo_apellido)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.especialidad)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CelularE)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CorreoE)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Nombre_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Apellido_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Apellido2_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Numero_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Correo_Encargado)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.tipoEstudiante)
-        </th>
-        <th></th>
-    </tr>
+<!-- Botón para abrir el off-canvas -->
+<button type="button" class="btn btn-outline-info" data-bs-toggle="offcanvas" data-bs-target="#especialidadesOffCanvas" aria-controls="especialidadesOffCanvas">
+    Información sobre Especialidades
+</button>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.nombre)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.primer_apellido)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.segundo_apellido)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.especialidad)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CelularE)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CorreoE)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nombre_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Apellido_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Apellido2_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Numero_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Correo_Encargado)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.tipoEstudiante)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.cedula }) |
-            @Html.ActionLink("Details", "Details", new { id=item.cedula }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.cedula })
-        </td>
-    </tr>
-}
+<!-- Off-Canvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="especialidadesOffCanvas" aria-labelledby="especialidadesOffCanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="especialidadesOffCanvasLabel">Especialidades</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul>
+            <li>1. Accounting</li>
+            <li>2. Administración y Operación Aduanera</li>
+            <li>3. Contabilidad y Auditoría</li>
+            <li>4. Configuración y Soporte a Redes</li>
+            <li>5. Contabilidad</li>
+            <li>6. Contabilidad y Control Interno</li>
+            <li>7. Contabilidad y Finanzas</li>
+            <li>8. Ciberseguridad</li>
+            <li>9. Desarrollo Web</li>
+            <li>10. Dibujo Técnico</li>
+            <li>11. Dibujo y Modelado de Edificaciones</li>
+            <li>12. Ejecutivo Comercial y de Servicio al Cliente</li>
+            <li>13. Informática en Desarrollo de Software</li>
+            <li>14. Inteligencia Artificial</li>
+            <li>15. Secretariado Ejecutivo</li>
+            <li>16. Desarrollo de Aplicaciones Móviles</li>
+        </ul>
+        <!-- Botón para ocultar permanentemente el off-canvas -->
+        <button type="button" class="btn btn-secondary" id="hideOffCanvasBtn">No mostrar nuevamente</button>
+    </div>
+</div>
 
-</table>
+<br />
+<br />
+
+<form method="get">
+    <input type="text" name="searchQuery" value="@searchQuery" placeholder="Buscar estudiantes..." />
+    <button type="submit" class="btn" style="background-color: #8abbc8; color: white">Buscar</button>
+</form>
+
+<form method="post">
+    <table class="table">
+        <tr>
+            <th> @Html.DisplayNameFor(model => model.nombre) </th>
+            <th> @Html.DisplayNameFor(model => model.primer_apellido) </th>
+            <th> @Html.DisplayNameFor(model => model.segundo_apellido) </th>
+            <th> @Html.DisplayNameFor(model => model.especialidad) </th>
+            <th> @Html.DisplayNameFor(model => model.cedula) </th>
+            <th> @Html.DisplayNameFor(model => model.Numero_Encargado) </th>
+            <th> @Html.DisplayNameFor(model => model.tipoEstudiante) </th>
+            <th> Asistencia y Lecciones </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in filteredModel)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre)
+                    <div>
+                        <!-- Radio Buttons for Attendance -->
+                        <label>
+                            <input type="radio" name="attendance[@item.cedula].estado" value="Presente" /> Presente
+                        </label><br />
+                        <label>
+                            <input type="radio" name="attendance[@item.cedula].estado" value="Ausente" /> Ausente
+                        </label><br />
+                        <label>
+                            <input type="radio" name="attendance[@item.cedula].estado" value="Fuga" /> Fuga
+                        </label>
+                    </div>
+                </td>
+                <td> @Html.DisplayFor(modelItem => item.primer_apellido) </td>
+                <td> @Html.DisplayFor(modelItem => item.segundo_apellido) </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.especialidades.NombreEspecialidad)
+
+             
+                    </td>
+                <td> @Html.DisplayFor(modelItem => item.cedula) </td>
+                <td> @Html.DisplayFor(modelItem => item.Numero_Encargado) </td>
+                <td> @Html.DisplayFor(modelItem => item.tipoEstudiante) </td>
+
+                <!-- Textbox for Number of Lessons -->
+                <td>
+                    <input type="number" name="attendance[@item.cedula].numeroLecciones" min="0" max="12" placeholder="Número de lecciones" />
+                </td>
+
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.cedula })" class="edit-link" title="Editar">
+                        <img src="~/Scripts/Image/edit.png" alt="Edit" />
+                    </a>
+
+                    <a href="@Url.Action("Details", new { id = item.cedula })" class="details-link" title="Detalles">
+                        <img src="~/Scripts/Image/info.png" alt="Details" />
+                    </a>
+
+                    <a href="@Url.Action("Delete", new { id = item.cedula })" class="delete-link" title="Eliminar">
+                        <img src="~/Scripts/Image/delete.png" alt="Delete" />
+                    </a>
+                </td>
+
+                <style>
+                    .edit-link img,
+                    .details-link img,
+                    .delete-link img {
+                        width: 16px;
+                        height: 16px;
+                        vertical-align: middle;
+                        margin-right: 5px;
+                    }
+
+                    .edit-link, .details-link, .delete-link {
+                        text-decoration: none;
+                    }
+                </style>
+            </tr>
+        }
+    </table>
+    <button type="submit" class="btn" style="background-color: #8abbc8; color: white">Guardar Cambios</button>
+</form>
+
+<!-- JavaScript para manejar el off-canvas y cookies -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var hideOffCanvasBtn = document.getElementById("hideOffCanvasBtn");
+        var offCanvas = new bootstrap.Offcanvas(document.getElementById("especialidadesOffCanvas"));
+
+        // Chequear si la cookie 'hideOffCanvas' está establecida
+        if (document.cookie.split('; ').find(row => row.startsWith('hideOffCanvas=true'))) {
+            // No mostrar el off-canvas si la cookie está presente
+        } else {
+            offCanvas.show();
+        }
+
+        // Configurar el botón para ocultar permanentemente el off-canvas
+        hideOffCanvasBtn.addEventListener("click", function () {
+            document.cookie = "hideOffCanvas=true; path=/; max-age=" + 60 * 60 * 24 * 30; // Expira en 30 días
+            offCanvas.hide();
+        });
+    });
+</script>
+
+

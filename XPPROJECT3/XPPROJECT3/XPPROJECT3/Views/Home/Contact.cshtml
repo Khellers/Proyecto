@@ -21,7 +21,7 @@
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasLabel">Anuncio</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            <button type="button" class="btn btn-success" onclick="hideOffcanvas()">No mostrar de nuevo</button>
+            <button type="button" class="btn" style="background-color: #8abbc8" onclick="hideOffcanvas()">No mostrar de nuevo</button>
         </div>
         <div class="offcanvas-body">
             Recuerda que acá puedes consultar con nosotro cualquiera de tus dudas sobre su hijo(a).
@@ -34,4 +34,9 @@
             document.getElementById("offcanvas").setAttribute("aria-hidden", "true");
         }
     </script>
+    <style>
+        .btn {
+            color: white;
+        }
+    </style>
 </main>

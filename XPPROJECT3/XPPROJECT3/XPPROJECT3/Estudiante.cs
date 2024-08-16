@@ -13,5 +13,7 @@ namespace XPPROJECT3
         public string SegundoApellido { get; set; }
         public string NumeroEncargado { get; set; }
         public string TipoEstudiante { get; set; }
+        public string especialidad { get; set; }
+
     }
 }

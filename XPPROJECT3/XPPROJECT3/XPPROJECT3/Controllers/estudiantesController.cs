@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -13,9 +16,10 @@ namespace XPPROJECT3.Controllers
 
     public class estudiantesController : Controller
     {
-        private Listas1Entities2 db = new Listas1Entities2();
+        private db_aabd33_ctpmqstestEntities db = new db_aabd33_ctpmqstestEntities();
 
         [HttpPost]
+
 
         public ActionResult SubmitAttendance(FormCollection collection)
         {
@@ -145,5 +149,3 @@ namespace XPPROJECT3.Controllers
 
 
 }
-
-
