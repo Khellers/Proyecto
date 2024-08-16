@@ -1,4 +1,7 @@
-﻿using System;
+﻿
+
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -10,15 +13,32 @@ using XPPROJECT3;
 
 namespace XPPROJECT3.Controllers
 {
+
     public class estudiantesController : Controller
     {
         private db_aabd33_ctpmqstestEntities db = new db_aabd33_ctpmqstestEntities();
 
+        [HttpPost]
+
+
+        public ActionResult SubmitAttendance(FormCollection collection)
+        {
+            foreach (var key in collection.AllKeys)
+            {
+                // Procesa cada clave (name) en el FormCollection
+                string value = collection[key];
+                // Lógica para guardar los datos recibidos
+            }
+
+            // Redirigir a la vista de índice o donde prefieras
+            return RedirectToAction("Index");
+        }
+
+
         // GET: estudiantes
         public ActionResult Index()
         {
-            var estudiantes = db.estudiantes.Include(e => e.especialidades);
-            return View(estudiantes.ToList());
+            return View(db.estudiantes.ToList());
         }
 
         // GET: estudiantes/Details/5
@@ -39,7 +59,6 @@ namespace XPPROJECT3.Controllers
         // GET: estudiantes/Create
         public ActionResult Create()
         {
-            ViewBag.especialidad = new SelectList(db.especialidades, "IdEspecialidades", "NombreEspecialidad");
             return View();
         }
 
@@ -57,7 +76,6 @@ namespace XPPROJECT3.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.especialidad = new SelectList(db.especialidades, "IdEspecialidades", "NombreEspecialidad", estudiantes.especialidad);
             return View(estudiantes);
         }
 
@@ -73,7 +91,6 @@ namespace XPPROJECT3.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.especialidad = new SelectList(db.especialidades, "IdEspecialidades", "NombreEspecialidad", estudiantes.especialidad);
             return View(estudiantes);
         }
 
@@ -90,7 +107,6 @@ namespace XPPROJECT3.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.especialidad = new SelectList(db.especialidades, "IdEspecialidades", "NombreEspecialidad", estudiantes.especialidad);
             return View(estudiantes);
         }
 
@@ -129,4 +145,7 @@ namespace XPPROJECT3.Controllers
             base.Dispose(disposing);
         }
     }
+
+
+
 }

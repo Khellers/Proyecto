@@ -470,6 +470,8 @@ C:\Users\PC 09\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\De
 C:\Users\PC 09\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.csproj.Up2Date
 C:\Users\PC 09\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.dll
 C:\Users\PC 09\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.pdb
+C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.csproj.AssemblyReference.cache
+C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.csproj.CoreCompileInputs.cache
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\bin\XPPROJECT3.dll.config
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\bin\XPPROJECT3.dll
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\bin\XPPROJECT3.pdb
@@ -583,8 +585,6 @@ C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPP
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
-C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.csproj.AssemblyReference.cache
-C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.csproj.CoreCompileInputs.cache
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.csproj.Up2Date
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.dll
 C:\Users\Fam. López Quesada\Documents\GitHub\Proyecto\XPPROJECT3\XPPROJECT3\XPPROJECT3\obj\Debug\XPPROJECT3.pdb
