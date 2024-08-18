@@ -1,69 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
+  "WorkspaceRootPath": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc-101\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc-101\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\fam. l\u00F3pez quesada\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\seccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\seccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\seccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\controllers\\seccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\controllers\\seccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\controllers\\seccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\fam. l\u00F3pez quesada\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\fam. l\u00F3pez quesada\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\home\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\lista.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\listaest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\listaest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\listaest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\estudiantes.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\estudiantes.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiantes.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\home\\inicio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -74,120 +78,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Seccions\\Index.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Seccions\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Seccions\\Index.cshtml*",
-              "RelativeToolTip": "XPPROJECT3\\Views\\Seccions\\Index.cshtml*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T20:32:24.476Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SeccionsController.cs",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\SeccionsController.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\SeccionsController.cs",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\SeccionsController.cs",
-              "RelativeToolTip": "XPPROJECT3\\Controllers\\SeccionsController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T20:03:33.517Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Seccion.cs",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Seccion.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Seccion.cs",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Seccion.cs",
-              "RelativeToolTip": "XPPROJECT3\\Seccion.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAgwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T22:13:46.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "XPPROJECT3\\App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T20:54:00.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Web.config",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Web.config",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Web.config",
-              "RelativeToolTip": "XPPROJECT3\\Views\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-15T20:53:21.142Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Seccions\\Index.cshtml",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Seccions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Seccions\\Index.cshtml*",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Seccions\\Index.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T19:51:25.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T20:32:24.476Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "estudiantesController.cs",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs*",
-              "RelativeToolTip": "XPPROJECT3\\Controllers\\estudiantesController.cs*",
-              "ViewState": "AQIAACwAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Title": "SeccionsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\SeccionsController.cs",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\SeccionsController.cs",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\SeccionsController.cs",
+              "RelativeToolTip": "XPPROJECT3\\Controllers\\SeccionsController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T19:50:53.575Z",
+              "WhenOpened": "2024-08-15T20:03:33.517Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Web.config",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Web.config",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Web.config",
+              "RelativeToolTip": "XPPROJECT3\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-18T18:02:44.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
+              "Title": "Seccion.cs",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Seccion.cs",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Seccion.cs",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Seccion.cs",
+              "RelativeToolTip": "XPPROJECT3\\Seccion.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T22:13:46.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "XPPROJECT3\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "XPPROJECT3\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T20:54:00.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Web.config",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Web.config",
+              "RelativeToolTip": "XPPROJECT3\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-15T20:53:21.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
+              "RelativeToolTip": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-15T19:51:25.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "estudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\estudiantesController.cs",
+              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs*",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs*",
+              "ViewState": "AQIAACwAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:50:53.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "estudiantes.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\estudiantes.edmx",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\estudiantes.edmx",
               "RelativeDocumentMoniker": "XPPROJECT3\\estudiantes.edmx",
               "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\estudiantes.edmx [Diagram1]",
-              "RelativeToolTip": "XPPROJECT3\\estudiantes.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\estudiantes.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2024-08-15T19:45:52.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "XPPROJECT3\\Views\\Shared\\_Layout.cshtml*",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-09T16:38:39.751Z",
@@ -195,37 +213,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "lista.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\lista.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\lista.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\lista.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\lista.cshtml",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\lista.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\lista.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T21:50:34.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T21:50:34.968Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T22:27:23.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T22:27:23.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ListaEst.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -233,11 +249,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Inicio.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Inicio.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\Inicio.cshtml",
               "ViewState": "AQIAAK8BAAAAAAAAAAAqwNYBAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -245,11 +261,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Contact.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\Contact.cshtml",
               "ViewState": "AQIAAAEAAAAAAAAAAAAmwCgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -257,29 +273,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "About.cshtml",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\About.cshtml",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "XPPROJECT3\\Views\\Home\\About.cshtml",
               "ViewState": "AQIAAEQCAAAAAAAAAAAAwGQCAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-08T22:27:17.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T22:27:17.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\Fam. L\u00F3pez Quesada\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiante.cs",
               "RelativeToolTip": "XPPROJECT3\\Estudiante.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAUwBEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T22:26:38.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T22:26:38.405Z"
             }
           ]
         }
