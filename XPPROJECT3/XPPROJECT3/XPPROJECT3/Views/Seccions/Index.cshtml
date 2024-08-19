@@ -170,7 +170,7 @@
                                     <input type="number" name="attendance[@item.cedula].numeroLecciones" min="0" max="12" placeholder="Número de lecciones" />
                                 </td>
                                 <td>
-                                    <a href="@Url.Action("Edit", new { id = item.cedula })" class="edit-link" title="Editar">
+                                    <a href="@Url.Action("Edit", new { id = item.estudiantes.cedula })" class="edit-link" title="Editar">
                                         <img src="~/Scripts/Image/edit.png" alt="Edit" />
                                     </a>
 
