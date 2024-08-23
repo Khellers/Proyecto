@@ -177,6 +177,7 @@
       <DependentUpon>estudiantes.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\clasesController.cs" />
     <Compile Include="Controllers\estudiantesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HorarioController.cs" />
@@ -343,6 +344,11 @@
     <Content Include="Views\Seccions\Index.cshtml" />
     <Content Include="Views\estudiantesPorSeccion.cshtml" />
     <Content Include="Views\Home\lista.cshtml" />
+    <Content Include="Views\clases\Create.cshtml" />
+    <Content Include="Views\clases\Delete.cshtml" />
+    <Content Include="Views\clases\Details.cshtml" />
+    <Content Include="Views\clases\Edit.cshtml" />
+    <Content Include="Views\clases\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
