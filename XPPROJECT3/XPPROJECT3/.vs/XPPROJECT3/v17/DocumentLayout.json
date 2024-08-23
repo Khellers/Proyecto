@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\saturno\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\estudiantes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\estudiantes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\saturno\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\estudiantes.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\estudiantes.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
@@ -66,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Index.cshtml",
@@ -80,6 +84,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Create.cshtml",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\estudiantes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Create.cshtml",
+              "RelativeToolTip": "XPPROJECT3\\Views\\estudiantes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T01:47:02.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "estudiantes.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Estudiantes.edmx",
               "RelativeDocumentMoniker": "XPPROJECT3\\Estudiantes.edmx",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "estudiantesController.cs",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\estudiantesController.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Inicio.cshtml",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Inicio.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Inicio.cshtml",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
@@ -131,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Web.config",
               "RelativeDocumentMoniker": "XPPROJECT3\\Web.config",
@@ -144,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\estudiantes\\Index.cshtml",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ListaEst.cshtml",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\ListaEst.cshtml",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\About.cshtml",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Home\\Contact.cshtml",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Horario.cs",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Models\\Horario.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Models\\Horario.cs",
@@ -204,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\HomeController.cs",
@@ -216,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\Saturno\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Content\\bootstrap.css",
               "RelativeDocumentMoniker": "XPPROJECT3\\Content\\bootstrap.css",
