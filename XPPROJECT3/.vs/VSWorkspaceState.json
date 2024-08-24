@@ -4,8 +4,9 @@
     "\\XPPROJECT3",
     "\\XPPROJECT3\\XPPROJECT3",
     "\\XPPROJECT3\\XPPROJECT3\\Views",
+    "\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes",
     "\\XPPROJECT3\\XPPROJECT3\\Views\\Shared"
   ],
-  "SelectedNode": "\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }
