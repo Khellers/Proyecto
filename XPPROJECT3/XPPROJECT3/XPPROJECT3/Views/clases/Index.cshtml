@@ -6,100 +6,169 @@
 
 <style>
     /* General Styles */
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f8f9fa;
+        body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f9fa;
+
     }
 
-    h2, h3 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: #343a40;
+        h2, h3 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #343a40;
+
     }
+
+
 
     /* Table Styles */
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 30px;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 30px;
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
     }
 
-    thead {
-        background-color: #343a40;
-        color: #ffffff;
+        thead {
+                background-color: #343a40;
+                color: #ffffff;
+
     }
 
-        thead th {
-            padding: 10px;
-            text-align: center;
-        }
+            thead th {
+                    padding: 10px;
+                    text-align: center;
 
-    tbody td {
-        padding: 10px;
-        text-align: center;
-        border: 1px solid #dee2e6;
     }
+
+        tbody td {
+                padding: 10px;
+                text-align: center;
+                border: 1px solid #dee2e6;
+
+    }
+
+
 
     /* Row Coloring */
-    tbody tr:nth-child(odd) {
-        background-color: #e9ecef;
+        tbody tr:nth-child(odd) {
+                background-color: #e9ecef;
+
     }
 
-    tbody tr:nth-child(even) {
-        background-color: #ffffff;
+        tbody tr:nth-child(even) {
+                background-color: #ffffff;
+
     }
+
+
 
     /* Highlight specific rows (like current class) */
-    .highlight-row {
-        background-color: #ffd966;
+        .highlight-row {
+                background-color: #ffd966;
+
     }
+
+
 
     /* Responsive Table */
-    .table-responsive {
-        overflow-x: auto;
+        .table-responsive {
+                overflow-x: auto;
+
     }
 
-        .table-responsive table {
-            min-width: 600px;
+                .table-responsive table {
+                        min-width: 600px;
+
         }
+
+
 
     /* Button Styles */
-    .btn {
-        border: none;
-        padding: 5px 10px;
-        border-radius: 4px;
-        text-align: center;
+        .btn {
+                border: none;
+                padding: 5px 10px;
+                border-radius: 4px;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+
+    }
+
+        .btn-warning {
+                background-color: #ffc107;
+                color: white;
+
+    }
+
+            .btn-warning:hover {
+                    background-color: #e0a800;
+
+    }
+
+        .btn-info {
+                background-color: #17a2b8;
+                color: white;
+
+    }
+
+            .btn-info:hover {
+                    background-color: #138496;
+
+    }
+
+        .btn-danger {
+                background-color: #dc3545;
+                color: white;
+
+    }
+
+            .btn-danger:hover {
+                    background-color: #c82333;
+
+    }
+
+    /* Estilos actualizados para celdas interactivas y menú desplegable */
+    .class-cell {
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        position: relative;
+        padding: 10px;
     }
 
-    .btn-warning {
-        background-color: #ffc107;
-        color: white;
-    }
-
-        .btn-warning:hover {
-            background-color: #e0a800;
+        .class-cell:hover {
+            background-color: #f0f0f0;
         }
 
-    .btn-info {
-        background-color: #17a2b8;
-        color: white;
+    .class-content {
+        pointer-events: none;
     }
 
-        .btn-info:hover {
-            background-color: #138496;
-        }
-
-    .btn-danger {
-        background-color: #dc3545;
-        color: white;
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 100%;
+        left: 0;
     }
 
-        .btn-danger:hover {
-            background-color: #c82333;
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
         }
+
+            .dropdown-menu a:hover {
+                background-color: #f1f1f1;
+            }
+
+    .show {
+        display: block;
+    }
 </style>
 
 
@@ -135,7 +204,6 @@
                     {
                         <th>@dia</th>
                     }
-                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -147,23 +215,25 @@
                         {
                             var horaInicio = TimeSpan.Parse(hora.Split('-')[0].Trim());
                             var clases = horarioProfesor.Where(c => c.Dia == dia && c.HoraInicio == horaInicio).ToList();
-                            <td>
-                                @foreach (var clase in clases)
-                                {
-                                    <div>
-                                        <strong>@clase.NombreMateria</strong><br />
-                                        @clase.Seccion - @clase.Aula
-                                    </div>
-                                }
+                            <td class="class-cell" onclick="toggleDropdown(event, this)">
+                                <div class="class-content">
+                                    @foreach (var clase in clases)
+                                    {
+                                        <div>
+                                            <strong>@clase.NombreMateria</strong><br />
+                                            @clase.Seccion - @clase.Aula
+                                        </div>
+                                    }
+                                </div>
+                                <div class="dropdown-menu">
+                                    @foreach (var clase in clases)
+                                    {
+                                        <a href="@Url.Action("Edit", new { id = clase.ClaseID, seccion = clase.Seccion })">Editar @clase.NombreMateria</a>
+                                        <a href="@Url.Action("Delete", new { id = clase.ClaseID, seccion = clase.Seccion })">Eliminar @clase.NombreMateria</a>
+                                    }
+                                </div>
                             </td>
                         }
-                        <td>
-                            @foreach (var clase in horarioProfesor.Where(c => c.HoraInicio == TimeSpan.Parse(hora.Split('-')[0].Trim())))
-                            {
-                                @Html.ActionLink("Editar", "Edit", new { id = clase.ClaseID, seccion = clase.Seccion }, new { @class = "btn btn-sm btn-warning" })
-                                @Html.ActionLink("Eliminar", "Delete", new { id = clase.ClaseID, seccion = clase.Seccion }, new { @class = "btn btn-sm btn-danger" })
-                            }
-                        </td>
                     </tr>
                 }
             </tbody>
@@ -184,7 +254,6 @@
                     {
                         <th>@dia</th>
                     }
-                    <th>Acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -196,31 +265,30 @@
                         {
                             var horaInicio = TimeSpan.Parse(hora.Split('-')[0].Trim());
                             var clase = Model.HorarioGeneral[seccion].FirstOrDefault(c => c.Dia == dia && c.HoraInicio == horaInicio);
-                            <td>
+                            <td class="class-cell" onclick="toggleDropdown(event, this)">
+                                <div class="class-content">
+                                    @if (clase != null)
+                                    {
+                                        <div>
+                                            <strong>@clase.NombreMateria</strong><br />
+                                            @clase.NombreProfesor<br />
+                                            @clase.Aula
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        @:--
+                                    }
+                                </div>
                                 @if (clase != null)
                                 {
-                                    <div>
-                                        <strong>@clase.NombreMateria</strong><br />
-                                        @clase.NombreProfesor<br />
-                                        @clase.Aula
+                                    <div class="dropdown-menu">
+                                        <a href="@Url.Action("Edit", new { id = clase.ClaseID, seccion = clase.Seccion })">Editar</a>
+                                        <a href="@Url.Action("Delete", new { id = clase.ClaseID, seccion = clase.Seccion })">Eliminar</a>
                                     </div>
-                                }
-                                else
-                                {
-                                    @:--
                                 }
                             </td>
                         }
-                        <td>
-                            @{
-                                var claseEnHora = Model.HorarioGeneral[seccion].FirstOrDefault(c => c.HoraInicio == TimeSpan.Parse(hora.Split('-')[0].Trim()));
-                                if (claseEnHora != null)
-                                {
-                                    @Html.ActionLink("Editar", "Edit", new { id = claseEnHora.ClaseID, seccion = claseEnHora.Seccion }, new { @class = "btn btn-sm btn-warning" })
-                                    @Html.ActionLink("Eliminar", "Delete", new { id = claseEnHora.ClaseID, seccion = claseEnHora.Seccion }, new { @class = "btn btn-sm btn-danger" })
-                                }
-                            }
-                        </td>
                     </tr>
                 }
             </tbody>
@@ -229,6 +297,30 @@
 }
 
 <script>
+var activeDropdown = null;
+
+function toggleDropdown(event, element) {
+    event.stopPropagation();
+    var dropdownMenu = element.querySelector('.dropdown-menu');
+
+    if (activeDropdown && activeDropdown !== dropdownMenu) {
+        activeDropdown.classList.remove('show');
+    }
+
+    if (dropdownMenu) {
+        dropdownMenu.classList.toggle('show');
+        activeDropdown = dropdownMenu.classList.contains('show') ? dropdownMenu : null;
+    }
+}
+
+// Cerrar el menú desplegable si el usuario hace clic fuera de él
+document.addEventListener('click', function(event) {
+    if (activeDropdown && !event.target.closest('.class-cell')) {
+        activeDropdown.classList.remove('show');
+        activeDropdown = null;
+    }
+});
+
 function cambiarProfesor() {
     var profesorId = document.getElementById("profesorSelect").value;
     window.location.href = '@Url.Action("Index", "Clases")' + (profesorId ? '?profesorId=' + profesorId : '');
