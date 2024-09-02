@@ -101,6 +101,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Create
+        [Authorize(Roles = "admin")]
         public ActionResult Create()
         {
             ViewBag.asignatura = new SelectList(db.materias, "IdMateria", "Nombre");
@@ -126,6 +127,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Edit/5
+        [Authorize(Roles = "admin")]
         public ActionResult Edit(int? id, string seccion)
         {
             if (id == null || string.IsNullOrEmpty(seccion))
@@ -159,6 +161,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Delete/5
+        [Authorize(Roles = "admin")]
         public ActionResult Delete(int? id, string seccion)
         {
             if (id == null || string.IsNullOrEmpty(seccion))

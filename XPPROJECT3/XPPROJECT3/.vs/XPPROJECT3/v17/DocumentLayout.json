@@ -1,54 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
+  "WorkspaceRootPath": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\amd\\documents\\tareas\\progra\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\seccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\seccions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\amd\\documents\\tareas\\progra\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\profesoresses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\profesoresses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\amd\\documents\\tareas\\progra\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\materias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\amd\\documents\\tareas\\progra\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\especialidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\especialidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\amd\\documents\\tareas\\progra\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\amd\\documents\\tareas\\progra\\proyecto\\xpproject3\\xpproject3\\xpproject3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\xpproject3\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc-101\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:XPPROJECT3\\Controllers\\estudiantesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:XPPROJECT3\\Views\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:XPPROJECT3\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:XPPROJECT3\\Views\\clases\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:XPPROJECT3\\Views\\clases\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +14,27 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Seccions\\Index.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Seccions\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Seccions\\Index.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\Seccions\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAADMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T07:45:18.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\profesoresses\\Index.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\profesoresses\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\profesoresses\\Index.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\profesoresses\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T07:45:12.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\materias\\Index.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\materias\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\materias\\Index.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\materias\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T07:44:56.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\especialidades\\Index.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\especialidades\\Index.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\especialidades\\Index.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\especialidades\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T07:42:58.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-02T07:22:25.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "clasesController.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\clasesController.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs",
-              "RelativeToolTip": "XPPROJECT3\\Controllers\\clasesController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAIBJwL8AAAANAAAA",
+              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs*",
+              "RelativeToolTip": "XPPROJECT3\\Controllers\\clasesController.cs*",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAuwKMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:16:07.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "estudiantesController.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "RelativeToolTip": "XPPROJECT3\\Controllers\\estudiantesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:16:06.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Web.config",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\Web.config",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\Web.config",
-              "RelativeToolTip": "XPPROJECT3\\Views\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-01T18:15:42.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "clase.cs",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\clase.cs",
-              "RelativeDocumentMoniker": "XPPROJECT3\\clase.cs",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\clase.cs",
-              "RelativeToolTip": "XPPROJECT3\\clase.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBcAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:13:59.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\Delete.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\clases\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\Delete.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\clases\\Delete.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAABRwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-01T18:13:34.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\Create.cshtml",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\clases\\Create.cshtml",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\Create.cshtml",
-              "RelativeToolTip": "XPPROJECT3\\Views\\clases\\Create.cshtml",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAmwFEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-31T23:17:18.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Web.config",
-              "RelativeDocumentMoniker": "XPPROJECT3\\Web.config",
-              "ToolTip": "C:\\Users\\AMD\\Documents\\Tareas\\Progra\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Web.config",
-              "RelativeToolTip": "XPPROJECT3\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-08-31T23:09:41.143Z",
+              "WhenOpened": "2024-09-02T07:58:15.82Z",
               "EditorCaption": ""
             }
           ]
