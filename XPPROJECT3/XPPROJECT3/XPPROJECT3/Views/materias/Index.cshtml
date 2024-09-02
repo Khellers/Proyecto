@@ -1,0 +1,78 @@
+﻿@model IEnumerable<XPPROJECT3.materias>
+@{
+    ViewBag.Title = "Materias";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Materias</h2>
+    <p>
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+    </p>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.departamentos.NombreDepartamento)</th>
+                <th>@Html.DisplayNameFor(model => model.especialidades.NombreEspecialidad)</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.departamentos.NombreDepartamento)</td>
+                    <td>@Html.DisplayFor(modelItem => item.especialidades.NombreEspecialidad)</td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.IdMateria }, new { @class = "btn btn-warning btn-sm" })
+                        @Html.ActionLink("Details", "Details", new { id = item.IdMateria }, new { @class = "btn btn-info btn-sm" })
+                        @Html.ActionLink("Delete", "Delete", new { id = item.IdMateria }, new { @class = "btn btn-danger btn-sm" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    body {
+        background-color: #f0f5f7;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        color: #4a6b74;
+        border-bottom: 2px solid #8abbc8;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+
+    .table {
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+        .table th {
+            background-color: #c2d9e0;
+            color: #4a6b74;
+        }
+
+    .btn-primary {
+        background-color: #8abbc8;
+        border-color: #8abbc8;
+    }
+
+        .btn-primary:hover {
+            background-color: #6d9aa7;
+            border-color: #6d9aa7;
+        }
+
+    .btn-sm {
+        margin-right: 5px;
+    }
+</style>

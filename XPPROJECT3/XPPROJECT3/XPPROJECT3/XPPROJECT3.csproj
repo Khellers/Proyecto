@@ -178,10 +178,13 @@
     </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\clasesController.cs" />
+    <Compile Include="Controllers\especialidadesController.cs" />
     <Compile Include="Controllers\estudiantesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HorarioController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\materiasController.cs" />
+    <Compile Include="Controllers\profesoressesController.cs" />
     <Compile Include="Controllers\SeccionsController.cs" />
     <Compile Include="Controllers\YourDbContext.cs" />
     <Compile Include="departamentos.cs">
@@ -349,6 +352,21 @@
     <Content Include="Views\clases\Details.cshtml" />
     <Content Include="Views\clases\Edit.cshtml" />
     <Content Include="Views\clases\Index.cshtml" />
+    <Content Include="Views\especialidades\Create.cshtml" />
+    <Content Include="Views\especialidades\Delete.cshtml" />
+    <Content Include="Views\especialidades\Details.cshtml" />
+    <Content Include="Views\especialidades\Edit.cshtml" />
+    <Content Include="Views\especialidades\Index.cshtml" />
+    <Content Include="Views\materias\Create.cshtml" />
+    <Content Include="Views\materias\Delete.cshtml" />
+    <Content Include="Views\materias\Details.cshtml" />
+    <Content Include="Views\materias\Edit.cshtml" />
+    <Content Include="Views\materias\Index.cshtml" />
+    <Content Include="Views\profesoresses\Create.cshtml" />
+    <Content Include="Views\profesoresses\Delete.cshtml" />
+    <Content Include="Views\profesoresses\Details.cshtml" />
+    <Content Include="Views\profesoresses\Edit.cshtml" />
+    <Content Include="Views\profesoresses\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
