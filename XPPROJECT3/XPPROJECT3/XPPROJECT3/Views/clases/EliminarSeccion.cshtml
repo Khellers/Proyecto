@@ -1,0 +1,46 @@
+﻿@model IEnumerable<XPPROJECT3.clase>
+@{
+    ViewBag.Title = "Eliminar Horario de Sección";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Eliminar Horario de Sección</h2>
+
+<h3>¿Está seguro de que desea eliminar todo el horario de esta sección?</h3>
+
+<div>
+    <h4>Sección: @Model.FirstOrDefault()?.seccion</h4>
+    <hr />
+
+    <table class="table">
+        <tr>
+            <th>Día</th>
+            <th>Hora Inicio</th>
+            <th>Hora Fin</th>
+            <th>Materia</th>
+            <th>Profesor</th>
+            <th>Aula</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.dia</td>
+                <td>@item.hora_inicio</td>
+                <td>@item.hora_fin</td>
+                <td>@item.materias.Nombre</td>
+                <td>@item.profesoress.nombre</td>
+                <td>@item.aula</td>
+            </tr>
+        }
+    </table>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-danger" />
+            @Html.ActionLink("Volver al listado", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }
+</div>
+

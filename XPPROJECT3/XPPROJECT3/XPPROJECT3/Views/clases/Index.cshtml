@@ -32,11 +32,11 @@
         background-color: #c2d9e0;
     }
 
-        thead th {
-            padding: 12px;
-            text-align: center;
-            color: #4a6b74;
-        }
+    thead th {
+        padding: 12px;
+        text-align: center;
+        color: #4a6b74;
+    }
 
     tbody td {
         padding: 10px;
@@ -63,9 +63,9 @@
         overflow-x: auto;
     }
 
-        .table-responsive table {
-            min-width: 600px;
-        }
+    .table-responsive table {
+        min-width: 600px;
+    }
 
     /* Button Styles */
     .btn {
@@ -85,36 +85,36 @@
         color: white;
     }
 
-        .btn-primary:hover {
-            background-color: #6d9aa7;
-        }
+    .btn-primary:hover {
+        background-color: #6d9aa7;
+    }
 
     .btn-warning {
         background-color: #ffc107;
         color: #4a6b74;
     }
 
-        .btn-warning:hover {
-            background-color: #e0a800;
-        }
+    .btn-warning:hover {
+        background-color: #e0a800;
+    }
 
     .btn-info {
         background-color: #17a2b8;
         color: white;
     }
 
-        .btn-info:hover {
-            background-color: #138496;
-        }
+    .btn-info:hover {
+        background-color: #138496;
+    }
 
     .btn-danger {
         background-color: #dc3545;
         color: white;
     }
 
-        .btn-danger:hover {
-            background-color: #c82333;
-        }
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
 
     /* Form Styles */
     .form-group {
@@ -136,9 +136,9 @@
         transition: background-color 0.3s ease;
     }
 
-        .class-cell:hover {
-            background-color: #e0eef3;
-        }
+    .class-cell:hover {
+        background-color: #e0eef3;
+    }
 
     .class-content {
         pointer-events: none;
@@ -156,23 +156,22 @@
         border-radius: 4px;
     }
 
-        .dropdown-menu a {
-            color: #4a6b74;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            transition: background-color 0.3s ease;
-        }
+    .dropdown-menu a {
+        color: #4a6b74;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: background-color 0.3s ease;
+    }
 
-            .dropdown-menu a:hover {
-                background-color: #e0eef3;
-            }
+    .dropdown-menu a:hover {
+        background-color: #e0eef3;
+    }
 
     .show {
         display: block;
     }
 </style>
-
 
 <h2>Horarios</h2>
 
@@ -246,7 +245,10 @@
 <h3>Horario General</h3>
 @foreach (var seccion in Model.HorarioGeneral.Keys)
 {
-    <h4>Sección @seccion</h4>
+    <h4>
+        Sección @seccion
+        @Html.ActionLink("Eliminar Horario", "EliminarSeccion", new { seccion = seccion }, new { @class = "btn btn-danger btn-sm", style = "margin-left: 10px;" })
+    </h4>
     <div class="table-responsive">
         <table class="table table-bordered">
             <thead>

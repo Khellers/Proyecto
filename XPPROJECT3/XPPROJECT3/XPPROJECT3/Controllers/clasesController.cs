@@ -187,6 +187,36 @@ namespace horario100.Controllers
             return RedirectToAction("Index");
         }
 
+        // GET: Clases/EliminarSeccion
+        [Authorize(Roles = "admin")]
+        public ActionResult EliminarSeccion(string seccion)
+        {
+            if (string.IsNullOrEmpty(seccion))
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var clasesEnSeccion = db.clase.Where(c => c.seccion == seccion).ToList();
+            if (clasesEnSeccion == null || !clasesEnSeccion.Any())
+            {
+                return HttpNotFound();
+            }
+            return View(clasesEnSeccion);
+        }
+
+        // POST: Clases/EliminarSeccion
+        [HttpPost, ActionName("EliminarSeccion")]
+        [ValidateAntiForgeryToken]
+        public ActionResult EliminarSeccionConfirmado(string seccion)
+        {
+            var clasesEnSeccion = db.clase.Where(c => c.seccion == seccion);
+            foreach (var clase in clasesEnSeccion)
+            {
+                db.clase.Remove(clase);
+            }
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

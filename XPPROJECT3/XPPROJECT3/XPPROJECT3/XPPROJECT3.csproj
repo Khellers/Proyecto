@@ -367,6 +367,7 @@
     <Content Include="Views\profesoresses\Details.cshtml" />
     <Content Include="Views\profesoresses\Edit.cshtml" />
     <Content Include="Views\profesoresses\Index.cshtml" />
+    <Content Include="Views\clases\EliminarSeccion.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
