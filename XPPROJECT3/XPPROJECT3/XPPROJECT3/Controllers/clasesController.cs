@@ -86,6 +86,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Details/5
+        [Authorize(Roles = "admin")]
         public ActionResult Details(int? id, string seccion)
         {
             if (id == null || string.IsNullOrEmpty(seccion))
@@ -112,6 +113,7 @@ namespace horario100.Controllers
         // POST: Clases/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public ActionResult Create([Bind(Include = "id,dia,hora_inicio,hora_fin,asignatura,aula,profesor,seccion")] clase clase)
         {
             if (ModelState.IsValid)
@@ -147,6 +149,7 @@ namespace horario100.Controllers
         // POST: Clases/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "admin")]
         public ActionResult Edit([Bind(Include = "id,dia,hora_inicio,hora_fin,asignatura,aula,profesor,seccion")] clase clase)
         {
             if (ModelState.IsValid)
@@ -177,6 +180,7 @@ namespace horario100.Controllers
         }
 
         // POST: Clases/Delete/5
+        [Authorize(Roles = "admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id, string seccion)
@@ -204,6 +208,7 @@ namespace horario100.Controllers
         }
 
         // POST: Clases/EliminarSeccion
+        [Authorize(Roles = "admin")]
         [HttpPost, ActionName("EliminarSeccion")]
         [ValidateAntiForgeryToken]
         public ActionResult EliminarSeccionConfirmado(string seccion)

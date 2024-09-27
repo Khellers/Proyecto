@@ -3,10 +3,11 @@
     "",
     "\\XPPROJECT3",
     "\\XPPROJECT3\\XPPROJECT3",
+    "\\XPPROJECT3\\XPPROJECT3\\Controllers",
     "\\XPPROJECT3\\XPPROJECT3\\Views",
     "\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes",
     "\\XPPROJECT3\\XPPROJECT3\\Views\\Shared"
   ],
-  "SelectedNode": "\\XPPROJECT3\\XPPROJECT3\\Views\\estudiantes\\Create.cshtml",
+  "SelectedNode": "\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs",
   "PreviewInSolutionExplorer": false
 }

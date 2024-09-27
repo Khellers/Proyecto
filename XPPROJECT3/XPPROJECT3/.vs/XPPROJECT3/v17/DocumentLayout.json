@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
+  "WorkspaceRootPath": "C:\\Users\\CTPMQS\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\pc-101\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\ctpmqs\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\controllers\\clasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\ctpmqs\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\views\\clases\\eliminarseccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\views\\clases\\eliminarseccion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|c:\\users\\ctpmqs\\documents\\github\\proyecto\\xpproject3\\xpproject3\\xpproject3\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{168062FD-CDE3-4457-A83E-52F7DEC6EF17}|XPPROJECT3\\XPPROJECT3.csproj|solutionrelative:xpproject3\\controllers\\horariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,25 +22,47 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EliminarSeccion.cshtml",
+              "DocumentMoniker": "C:\\Users\\CTPMQS\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\EliminarSeccion.cshtml",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Views\\clases\\EliminarSeccion.cshtml",
+              "ToolTip": "C:\\Users\\CTPMQS\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Views\\clases\\EliminarSeccion.cshtml",
+              "RelativeToolTip": "XPPROJECT3\\Views\\clases\\EliminarSeccion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T16:18:50.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HorarioController.cs",
+              "DocumentMoniker": "C:\\Users\\CTPMQS\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\HorarioController.cs",
+              "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\HorarioController.cs",
+              "ToolTip": "C:\\Users\\CTPMQS\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\HorarioController.cs",
+              "RelativeToolTip": "XPPROJECT3\\Controllers\\HorarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T16:18:14.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "clasesController.cs",
-              "DocumentMoniker": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs",
+              "DocumentMoniker": "C:\\Users\\CTPMQS\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs",
               "RelativeDocumentMoniker": "XPPROJECT3\\Controllers\\clasesController.cs",
-              "ToolTip": "C:\\Users\\PC-101\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs*",
-              "RelativeToolTip": "XPPROJECT3\\Controllers\\clasesController.cs*",
-              "ViewState": "AQIAAKoAAAAAAAAAAAAuwKMAAAAkAAAA",
+              "ToolTip": "C:\\Users\\CTPMQS\\Documents\\GitHub\\Proyecto\\XPPROJECT3\\XPPROJECT3\\XPPROJECT3\\Controllers\\clasesController.cs",
+              "RelativeToolTip": "XPPROJECT3\\Controllers\\clasesController.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAA7wLYAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T07:58:15.82Z",
               "EditorCaption": ""
