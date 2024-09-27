@@ -86,7 +86,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Details/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Details(int? id, string seccion)
         {
             if (id == null || string.IsNullOrEmpty(seccion))
@@ -102,7 +102,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Create
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             ViewBag.asignatura = new SelectList(db.materias, "IdMateria", "Nombre");
@@ -113,7 +113,7 @@ namespace horario100.Controllers
         // POST: Clases/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create([Bind(Include = "id,dia,hora_inicio,hora_fin,asignatura,aula,profesor,seccion")] clase clase)
         {
             if (ModelState.IsValid)
@@ -129,7 +129,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Edit/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int? id, string seccion)
         {
             if (id == null || string.IsNullOrEmpty(seccion))
@@ -149,7 +149,7 @@ namespace horario100.Controllers
         // POST: Clases/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit([Bind(Include = "id,dia,hora_inicio,hora_fin,asignatura,aula,profesor,seccion")] clase clase)
         {
             if (ModelState.IsValid)
@@ -164,7 +164,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/Delete/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int? id, string seccion)
         {
             if (id == null || string.IsNullOrEmpty(seccion))
@@ -180,7 +180,7 @@ namespace horario100.Controllers
         }
 
         // POST: Clases/Delete/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id, string seccion)
@@ -192,7 +192,7 @@ namespace horario100.Controllers
         }
 
         // GET: Clases/EliminarSeccion
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult EliminarSeccion(string seccion)
         {
             if (string.IsNullOrEmpty(seccion))
@@ -208,7 +208,7 @@ namespace horario100.Controllers
         }
 
         // POST: Clases/EliminarSeccion
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("EliminarSeccion")]
         [ValidateAntiForgeryToken]
         public ActionResult EliminarSeccionConfirmado(string seccion)

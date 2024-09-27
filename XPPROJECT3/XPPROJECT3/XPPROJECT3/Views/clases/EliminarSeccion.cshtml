@@ -27,8 +27,8 @@
                 <td>@item.dia</td>
                 <td>@item.hora_inicio</td>
                 <td>@item.hora_fin</td>
-                <td>@item.materias.Nombre</td>
-                <td>@item.profesoress.nombre</td>
+                <td>@item.materias?.Nombre ?? "Sin materia asignada"</td>
+                <td>@item.profesoress?.nombre ??  "Sin materia asignada"</td>
                 <td>@item.aula</td>
             </tr>
         }
